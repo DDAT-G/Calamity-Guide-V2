@@ -1,0 +1,60 @@
+{
+  "beginnerChapters": [
+    {
+      "id": 0,
+      "title": "게임 시작 전",
+      "summary": "설치, 모드 설정, 월드와 캐릭터 준비",
+      "stagePart": null,
+      "sections": []
+    },
+    {
+      "id": 1,
+      "title": "테라리아 기본 이해",
+      "summary": "조작, 인벤토리, 제작과 NPC 등 기초",
+      "stagePart": null,
+      "sections": []
+    },
+    {
+      "id": 2,
+      "title": "직업 선택",
+      "summary": "다섯 직업의 특징과 선택 기준",
+      "stagePart": null,
+      "sections": []
+    },
+    {
+      "id": 3,
+      "title": "초반 생존 및 탐험",
+      "summary": "채집, 체력, 장비와 탐험 준비",
+      "stagePart": null,
+      "sections": []
+    },
+    {
+      "id": 4,
+      "title": "하드모드 이전",
+      "summary": "초반 보스별 준비 및 상세 공략",
+      "stagePart": 1,
+      "sections": []
+    },
+    {
+      "id": 5,
+      "title": "하드모드",
+      "summary": "월드 변화와 장비 성장, 보스 공략",
+      "stagePart": 2,
+      "sections": []
+    },
+    {
+      "id": 6,
+      "title": "문 로드 이후",
+      "summary": "후반 성장 및 최종 보스 공략",
+      "stagePart": 3,
+      "sections": []
+    },
+    {
+      "id": 7,
+      "title": "최종 콘텐츠",
+      "summary": "선택 콘텐츠와 최종 장비",
+      "stagePart": null,
+      "sections": []
+    }
+  ]
+}
