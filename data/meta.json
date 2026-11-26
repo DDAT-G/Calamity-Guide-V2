@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "targetMod": "Calamity Mod",
+    "targetVersion": null,
+    "scope": [
+      "Terraria",
+      "Calamity Mod"
+    ],
+    "status": "unverified",
+    "note": "기준 버전과 게임 데이터 대조 후 등록"
+  },
+  "sources": [],
+  "updates": []
+}
