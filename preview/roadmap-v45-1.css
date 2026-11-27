@@ -1,0 +1,12 @@
+/* V45.1: isolate roadmap controls from generic text input flex rules. */
+#view-roadmap > .adventure-v45:has(.boss-line-v45){display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));column-gap:18px;row-gap:6px;align-items:stretch}
+#view-roadmap > .adventure-v45:has(.boss-line-v45)>h2{grid-column:1/-1;margin-bottom:8px}
+#view-roadmap .boss-line-v45{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:7px;padding:9px 10px;border:1px solid var(--line);border-radius:9px;background:#152232;min-width:0}
+#view-roadmap .boss-line-v45 label{display:grid;grid-template-columns:18px 38px minmax(0,1fr);align-items:center;gap:8px;min-width:0;justify-content:start}
+#view-roadmap .boss-line-v45 input[type=checkbox]{flex:none;appearance:auto;width:18px;height:18px;min-width:18px;max-width:18px;padding:0;margin:0;justify-self:start;cursor:pointer}
+#view-roadmap .boss-line-v45 label>span:last-child{min-width:0;overflow-wrap:anywhere;line-height:1.45}
+#view-roadmap .boss-line-v45 label strong{display:block;font-size:13px}
+#view-roadmap .boss-line-v45 label small{font-size:11px}
+#view-roadmap .boss-line-v45 button{white-space:nowrap;align-self:center}
+#view-roadmap .boss-line-v45:has(input:checked){border-color:#426b64;background:#192e32}
+@media(max-width:480px){#view-roadmap .boss-line-v45{grid-template-columns:minmax(0,1fr) auto auto;gap:5px;padding:8px 7px}#view-roadmap .boss-line-v45 label{grid-template-columns:18px 30px minmax(0,1fr);gap:5px}#view-roadmap .boss-line-v45 .sprite{width:30px;height:30px}#view-roadmap .boss-line-v45 button{padding:6px 7px;font-size:11px}}
