@@ -38,7 +38,7 @@ const particles=/^(?:으로부터|에게서|에서는|으로는|이라면|이라
 function boundary(text,start,end,term){
 const before=text[start-1],after=text[end];if(word(before))return false;
 if(!word(after))return true;
-return hangul(term[term.length-1])&&hangul(after)&&particles.test(text.slice(end));
+return hangul(after)&&particles.test(text.slice(end));
 }
 // Match unambiguous, sufficiently specific item names even if the author omitted a reference.
 // Common short names only match inside a section with an explicit catalog reference.
