@@ -296,7 +296,7 @@ const walkthroughModesV52 = {
      "refs": [
       [
        "items",
-       "Terraria/items/3507"
+       "Terraria/items/881"
       ],
       [
        "items",
@@ -424,7 +424,7 @@ const walkthroughModesV52 = {
       },
       {
        "label": "방어구",
-       "text": "로그 스텔스를 지원하는 방어구를 착용해야 스텔스 공격을 활용할 수 있습니다. 예를 들어 사막 방랑자(Desert Prowler) 방어구의 제작 조건을 확인해 보세요."
+       "text": "로그 스텔스를 지원하는 방어구를 착용해야 스텔스 공격을 활용할 수 있습니다. 사막 방랑자(Desert Prowler) 방어구는 스톰라이언 턱과 비단으로 제작하는 후보입니다. 거미줄을 모아 베틀에서 비단을 만들고 정확한 수량과 제작대를 도감에서 확인하세요."
       },
       {
        "label": "사용",
