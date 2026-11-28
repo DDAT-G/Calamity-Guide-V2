@@ -1,0 +1,294 @@
+{
+  "version": 94,
+  "base": "V93",
+  "scope": "longest full names, duplicate translations, typography and partial-word boundaries",
+  "tests": [
+    {
+      "s": "중심으로 진행",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "이동 속도를 높입니다",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "생명 수정에는",
+      "refs": [],
+      "actual": [
+        [
+          "생명 수정",
+          "life"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Night's Edge",
+      "refs": [],
+      "actual": [
+        [
+          "Night's Edge",
+          "nightedge"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Night’s Edge",
+      "refs": [],
+      "actual": [
+        [
+          "Night’s Edge",
+          "nightedge"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Night's Unknown",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "Other-Edge",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "Dimension‑Tearing Disk",
+      "refs": [],
+      "actual": [
+        [
+          "Dimension‑Tearing Disk",
+          "disk"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Dimension-Tearing Disk",
+      "refs": [],
+      "actual": [
+        [
+          "Dimension-Tearing Disk",
+          "disk"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "실험 검",
+      "refs": [],
+      "actual": [
+        [
+          "실험 검",
+          "same1",
+          "same2"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "실험 검",
+      "refs": [
+        [
+          "items",
+          "same1"
+        ]
+      ],
+      "actual": [
+        [
+          "실험 검",
+          "same1",
+          "same2"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Test Blade",
+      "refs": [
+        [
+          "items",
+          "alias"
+        ]
+      ],
+      "actual": [
+        [
+          "Test Blade",
+          "same1"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Victide armor",
+      "refs": [
+        [
+          "items",
+          "armor1"
+        ]
+      ],
+      "actual": [
+        [
+          "Victide armor",
+          "armor1",
+          "armor2"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 처치 이후",
+      "refs": [
+        [
+          "items",
+          "lore"
+        ]
+      ],
+      "actual": [
+        [
+          "크툴루의 눈",
+          "Terraria/npcs/4"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 트로피",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "문 로드를 처치",
+      "refs": [],
+      "actual": [
+        [
+          "문 로드",
+          "Terraria/npcs/396"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "철피부·재생·신속 물약",
+      "refs": [],
+      "actual": [
+        [
+          "철피부",
+          "iron"
+        ],
+        [
+          "재생",
+          "regen"
+        ],
+        [
+          "신속 물약",
+          "swift"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "금/백금 활과",
+      "refs": [],
+      "actual": [
+        [
+          "금",
+          "gold"
+        ],
+        [
+          "백금 활",
+          "plat"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "금/백금 활짝",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "빛/밤의 영혼",
+      "refs": [],
+      "actual": [
+        [
+          "빛",
+          "light"
+        ],
+        [
+          "밤의 영혼",
+          "night"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "돌 20개",
+      "refs": [],
+      "actual": [
+        [
+          "돌",
+          "stone"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "나무 밑동",
+      "refs": [],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "Celestial Tracers",
+      "refs": [],
+      "actual": [
+        [
+          "Celestial Tracers",
+          "moonwalk"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "밤의 칼날",
+      "refs": [],
+      "actual": [
+        [
+          "밤의 칼날",
+          "nightedge"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "생명 수정과 마나 수정",
+      "refs": [],
+      "actual": [
+        [
+          "생명 수정",
+          "life"
+        ],
+        [
+          "마나 수정",
+          "mana"
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Actual matcher executed with fixture catalog; no full catalog or browser test.",
+    "Conservative suppression may leave some genuine names unlinked; direct reference buttons remain unchanged."
+  ]
+}
