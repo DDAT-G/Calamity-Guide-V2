@@ -1,0 +1,82 @@
+{
+  "version": 101,
+  "scope": "early Hardmode conditions across three reading modes",
+  "changes": [
+    {
+      "location": "beginner/3/9/2",
+      "old": "첫 기계 보스 이후 유황 불길 지역의 Infernal Suevite를 채광력 150% 이상(미스릴·오리칼쿰 곡괭이 등)으로 캘 수 있습니다. Unholy Core는 광석 3개와 지옥석 2개를 사용합니다.",
+      "next": "Infernal Suevite는 월드 생성 때 유황 불길 지역에 생깁니다. 채광에는 150% 이상 곡괭이가 필요합니다. 초기 하드모드 개편 ON의 일반 진행에서는 첫 기계 보스 이후 미스릴·오리칼쿰 곡괭이로 조건을 충족합니다. OFF에서 이미 조건을 갖췄다면 첫 기계 보스를 기다릴 필요는 없습니다. Unholy Core는 광석 3개와 지옥석 2개를 사용합니다."
+    },
+    {
+      "location": "beginner/3/12/0",
+      "old": "유황 불길 지역에서 Charred Idol을 사용합니다. 2.2.2부터 Unholy Core가 5개 필요하며 밤의 영혼 등 나머지 재료도 확인하세요. 첫 기계 보스 이후 Infernal Suevite를 채광할 수 있습니다.",
+      "next": "유황 불길 지역에서 Charred Idol을 사용합니다. 2.2.2부터 Unholy Core가 5개 필요하며 밤의 영혼 등 나머지 재료도 확인하세요. Infernal Suevite는 150% 이상 곡괭이로 채광합니다. 개편 ON의 일반 진행에서는 첫 기계 보스 이후 이 도구를 마련합니다."
+    },
+    {
+      "location": "beginner/3/12/2",
+      "old": "Rose Stone과 유황 계열 무기를 확인합니다. 유황 광석은 이 보스의 처치가 아니라 첫 기계 보스 이후 채광 단계라는 점을 기억하세요.",
+      "next": "Rose Stone과 유황 계열 무기를 확인합니다. 유황 광석은 이 보스의 처치 보상이 아니며, 월드 생성 때 존재하고 150% 이상 채광 도구가 필요합니다."
+    },
+    {
+      "location": "beginner/3/4/3",
+      "old": "대마법사 NPC와 냉동석 생성 조건이 열립니다. 냉동석은 아다만타이트 또는 티타늄 곡괭이를 얻기 전에는 캘 수 없으므로 지금은 위치만 기억하고 기계 보스를 진행하세요.",
+      "next": "대마법사 NPC의 등장 조건과 냉동석 생성 조건이 열립니다. 냉동석 채광에는 180% 이상 곡괭이가 필요합니다. 개편 ON의 일반 진행에서는 두 종류의 기계 보스 처치 후 조건을 충족하며, OFF에서 이미 적절한 도구가 있다면 바로 채광할 수 있습니다."
+    },
+    {
+      "location": "normal/3/1/0",
+      "old": "첫 기계 보스 → 미스릴/오리칼쿰 모루·곡괭이(150% 이상으로 Infernal Suevite) → 수중의 무법자와 산성비 2단계는 필요한 경우 → 다른 기계 보스 처치.",
+      "next": "개편 ON: 첫 기계 보스 → 미스릴/오리칼쿰 모루·곡괭이(150% 이상으로 Infernal Suevite) → 수중의 무법자와 산성비 2단계는 필요한 경우 → 다른 기계 보스 처치. Infernal Suevite 자체는 월드 생성 때 존재하므로 OFF에서 도구를 갖췄다면 조기 채광 가능."
+    },
+    {
+      "location": "extra/beginner/3/12/2",
+      "old": "Rose Stone이나 직업별 드롭이 필요한지 확인합니다. Infernal Suevite는 유황 정령 처치 보상이 아니라 첫 기계 보스 이후 채광할 수 있는 광석입니다. 목표 장비가 없다면 이 전투를 생략해도 됩니다.",
+      "next": "Rose Stone이나 직업별 드롭이 필요한지 확인합니다. Infernal Suevite는 유황 정령 처치 보상이 아니라 월드 생성 때 존재하는 광석입니다. 150% 이상 곡괭이가 필요하며 개편 ON의 일반 진행에서는 첫 기계 보스 이후 도구를 마련합니다. 목표 장비가 없다면 이 전투를 생략해도 됩니다."
+    },
+    {
+      "location": "advanced/3/0/1",
+      "old": "크라이오젠 후 Ice Star",
+      "next": "Ice Star는 크라이오젠 처치 후 대마법사 상점에서 구매; 냉동석 불필요"
+    },
+    {
+      "location": "advanced/3/1/1",
+      "old": "크라이오젠 및 냉동석 조건",
+      "next": "Ice Star: 크라이오젠 후 대마법사 상점; Daedalus: 냉동석 별도 조건"
+    },
+    {
+      "location": "advanced/3/2/1",
+      "old": "Mangrove는 Perennial Bar 10개 등",
+      "next": "Ice Star는 대마법사 상점; Mangrove는 Perennial Bar 10개 등"
+    },
+    {
+      "location": "normal/3/3/1/note",
+      "old": "Infernal Suevite의 기계 보스 1종 행은 초기 하드모드 개편 ON의 정상 채광 진행 기준입니다. 광석은 월드 생성 때 존재하며 채광력 150% 조건을 별도로 확인하세요.",
+      "next": "Infernal Suevite는 월드 생성 때 존재하며 채광력 150%가 필요합니다. 기계 보스 1종은 초기 하드모드 개편 ON의 일반적인 도구 확보 시점이지 광석 자체의 생성 조건이 아닙니다. OFF에서 도구를 먼저 확보했다면 채광할 수 있습니다."
+    },
+    {
+      "location": "normal/3/3/1/table",
+      "old": "기계 보스 1종",
+      "next": "월드 생성 시 존재 · 개편 ON 일반 도구 확보: 기계 보스 1종"
+    }
+  ],
+  "sources": [
+    "https://calamitymod.wiki.gg/wiki/Infernal_Suevite",
+    "https://calamitymod.wiki.gg/wiki/Cryonic_Ore",
+    "https://calamitymod.wiki.gg/wiki/Ice_Star",
+    "https://calamitymod.wiki.gg/wiki/Archmage",
+    "https://calamitymod.wiki.gg/wiki/Mod_progression",
+    "https://calamitymod.wiki.gg/wiki/Configuration_option",
+    "https://calamitymod.wiki.gg/wiki/Plantera",
+    "https://calamitymod.wiki.gg/wiki/Hallowed_Ore"
+  ],
+  "validated": [
+    "walkthrough step titles, line labels and catalog refs unchanged",
+    "structured page keys and reference anchors unchanged",
+    "extra content keys unchanged",
+    "JavaScript syntax"
+  ],
+  "limitations": [
+    "Official wiki indexed excerpts reviewed; direct full-page requests returned HTTP 403 for several pages.",
+    "No game execution or full catalog audit; other chapters and unreviewed gear remain pending.",
+    "No new boss combat tab implemented."
+  ]
+}
