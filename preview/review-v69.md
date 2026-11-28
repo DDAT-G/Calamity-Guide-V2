@@ -1,0 +1,2 @@
+# V69 읽기 형식 개선
+1장 뉴비 8개, 일반 1개, 심화 1개 페이지에 구조화된 내용 적용. 다른 페이지는 기존 표시 유지. 표, 키캡, 번호 목록, 주의 문단 지원. 난이도 활성화 조건: https://calamitymod.wiki.gg/wiki/2.1.0 ; https://calamitymod.wiki.gg/wiki/Difficulty ; https://terraria.wiki.gg/wiki/Difficulty ; https://terraria.wiki.gg/wiki/World. PC 키: https://terraria.wiki.gg/wiki/Game_controls ; https://calamitymod.wiki.gg/wiki/Game_controls. 아드레날린과 빠른 버프 키 중복 가능성 명시. 신규 실제 스크린샷 없음. 실제 브라우저 검증 미실시. 4장 내용 개편은 별도 진행.
