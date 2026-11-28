@@ -1,0 +1,202 @@
+{
+  "version": 92,
+  "base": "V91",
+  "scope": "conservative automatic item-name linking in prose",
+  "confidenceTests": [
+    {
+      "s": "보스 해금과 직업별 장비 전환을 중심으로 하드모드까지 압축합니다.",
+      "term": "중심",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "필요한 재료 중심으로 분리.",
+      "term": "중심",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "중심을 확보합니다.",
+      "term": "중심",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "아이템 '중심'을 제작합니다.",
+      "term": "중심",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "아이템 '중심'을 제작합니다.",
+      "term": "중심",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "도끼로 나무 밑동을 베세요.",
+      "term": "나무",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "나무 4개로 화로를 제작합니다.",
+      "term": "나무",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "돌 계열 5개",
+      "term": "돌",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "돌 20개",
+      "term": "돌",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "소용돌이 기둥 파편",
+      "term": "소용돌이",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "목표를 확인합니다.",
+      "term": "목표",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "해금 중심 루트",
+      "term": "중심",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "분노를 관리합니다.",
+      "term": "분노",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "생명 수정 1개",
+      "term": "생명 수정",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "철 모루에서 제작",
+      "term": "철 모루",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "모루를 제작합니다",
+      "term": "모루",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "젤을 얻습니다",
+      "term": "젤",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "울프럼 나이프",
+      "term": "울프럼 나이프",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "Moon Walkers",
+      "term": "Moon Walkers",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "개편 ON에서는",
+      "term": "ON",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "Victide armor",
+      "term": "Victide armor",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "스켈레트론을 처치합니다",
+      "term": "스켈레트론",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "진홍지대에서 벌집과 지렁이를 상대합니다",
+      "term": "벌집",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "Unknown을 제작합니다",
+      "term": "Unknown",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "희망을 잃지 마세요",
+      "term": "희망",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "초기 장비 전환",
+      "term": "장비 전환",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "s": "비단 10개",
+      "term": "비단",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "파괴자 소환",
+      "term": "파괴자",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "신비품을 제작합니다",
+      "term": "신비품",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "s": "신비품을 제작합니다",
+      "term": "신비품",
+      "expected": false,
+      "actual": false
+    }
+  ],
+  "corpusStrings": 5814,
+  "centerOccurrences": 6,
+  "centerResults": [
+    "보스 해금과 직업별 장비 전환을 중심으로 하드모드까지 압축합니다.",
+    "후반 구간을 네 개의 장비·제작 게이트 중심으로 압축합니다. 각 단계는 추천 후보, 선행 조건과 선택 파밍 판단을 제공합니다.",
+    "Ascendant Spirit Essence 제작대와 이를 사용하는 장비 제작대를 구분합니다. 세 이벤트를 필요한 재료 중심으로 분리.",
+    "주변 Dark Energy를 공격할 때 중심으로 무리하게 진입하지 마세요. 여러 개가 겹치면 바깥쪽에서 공격할 수 있는 무기를 사용하고 통로를 확보합니다.",
+    "던전 내부의 넓은 방을 중심으로 발판과 이동 통로를 연결하세요. 너무 좁으면 도주 중 벽에 막히고, 지형을 무분별하게 없애면 던전 판정에 문제가 생길 수 있습니다.",
+    "해금 중심 루트"
+  ],
+  "limitations": [
+    "Tests exercise actual confidence function with fixture catalog entries, not complete catalog data or DOM.",
+    "Conservative policy can intentionally leave uncommon bare Korean item names unlinked without explicit evidence; explicit reference buttons remain unchanged.",
+    "Browser audit available via guideLinkAuditV92(); not executed in this environment."
+  ]
+}
