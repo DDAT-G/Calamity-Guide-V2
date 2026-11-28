@@ -1,0 +1,100 @@
+{
+  "version": 104,
+  "base": 103,
+  "scope": "post-Moon Lord to Yharon, recipe chronology and acquisition details",
+  "changes": [
+    {
+      "location": "beginner/4/17/1",
+      "old": "Cosmic Anvil의 등록 제작법은 하드모드 모루 1개, Cosmilite Bar 10개, 루미나이트 주괴 10개, Exodium Cluster 20개이며 고대의 매니퓰레이터에서 제작합니다. 위키 변경 기록에는 천체 파편 4종과 Meld Blob 각 12개가 추가되어 있으므로 실제 제작 목록을 확인하세요.",
+      "next": "Cosmic Anvil은 하드모드 모루 1개, Cosmilite Bar 10개, 루미나이트 주괴 10개, Exodium Cluster 20개를 고대의 매니퓰레이터에서 조합합니다. 2.2.0에서 추가된 천체 파편 4종과 Meld Blob 각 12개는 2.2.2에서 삭제되었습니다. 2.2.4 등록 제작법과 공식 변경 기록이 일치하므로 추가 파편 파밍은 필요하지 않습니다."
+    },
+    {
+      "location": "normal/4/3/0",
+      "old": "Cosmic Anvil 등록법: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20, 고대의 매니퓰레이터. 위키 기록의 파편 4종·Meld Blob 각 12는 등록 자료와 차이가 있어 게임에서 확인. Ascendant Spirit Essence 1개는 Necroplasm 2·Nightmare Fuel 5·Endothermic Energy 5·Darksun Fragment 2, 하드모드 모루.",
+      "next": "Cosmic Anvil: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20, 고대의 매니퓰레이터. 2.2.2에서 파편 4종·Meld Blob 각 12개 요구량 삭제. Ascendant Spirit Essence 1개는 Necroplasm 2·Nightmare Fuel 5·Endothermic Energy 5·Darksun Fragment 2, 하드모드 모루."
+    },
+    {
+      "location": "extra/normal/4/3/0",
+      "old": "Ascendant Spirit Essence 10개는 재료 20·50·50·20개. 등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요.",
+      "next": "Ascendant Spirit Essence 10개는 재료 20·50·50·20개. Cosmic Anvil 자체는 하드모드 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20을 고대의 매니퓰레이터에서 조합합니다. 2.2.2부터 천체 파편과 Meld Blob은 이 제작법에 필요하지 않습니다."
+    },
+    {
+      "location": "structured/beginner/4/17/1",
+      "old": "등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요.",
+      "next": "2.2.0에서 추가되었던 천체 파편 4종과 Meld Blob 각 12개는 2.2.2에서 삭제되었습니다. 2.2.4 등록 도감의 네 가지 재료가 공식 패치 기록과 일치합니다. Cosmic Anvil 제작만을 위한 추가 파편 파밍은 필요하지 않습니다."
+    },
+    {
+      "location": "structured/advanced/4/3/0",
+      "old": "등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요.",
+      "next": "2.2.0에서 추가되었던 천체 파편 4종과 Meld Blob 각 12개는 2.2.2에서 삭제되었습니다. 2.2.4 등록 도감의 네 가지 재료가 공식 패치 기록과 일치합니다. Cosmic Anvil 제작만을 위한 추가 파편 파밍은 필요하지 않습니다."
+    },
+    {
+      "location": "structured/advanced/4/3/0/table",
+      "old": "등록법 기준, 위키 차이 확인",
+      "next": "2.2.2 이후 등록법 일치"
+    },
+    {
+      "location": "structured/advanced/4/3/0/note-title",
+      "old": "제작법 불일치",
+      "next": "2.2.2 제작법 변경"
+    },
+    {
+      "location": "beginner/4/16/1",
+      "old": "머리와 꼬리가 중요한 공격 목표입니다. 몸체 전체에 대한 피해 효율은 무기별·버전별로 달라질 수 있으므로 실제 전투에서 확인하세요.",
+      "next": "신들의 포식자 몸통은 피해 감소율이 매우 높습니다. 머리와 꼬리가 주요 공격 대상이므로 몸통에 많은 타격을 넣는 것보다 안전하게 머리·꼬리를 맞힐 기회를 우선하세요. 무기의 명중 방식에 따라 실제 효율은 달라질 수 있습니다."
+    },
+    {
+      "location": "structured/advanced/4/2/2",
+      "next": "신들의 포식자 몸통은 피해 감소가 매우 높으므로 머리와 꼬리를 주요 공격 대상으로 삼습니다. 관통 무기라는 이유만으로 몸통 명중을 최우선으로 평가하지 않고, 실제 약점 명중과 생존을 함께 비교합니다."
+    },
+    {
+      "location": "beginner/4/13/0",
+      "old": "Bloodflare armor는 Bloodstone·Blood Orb·Ruinous Soul을 사용합니다. Bloodstone은 프로비던스 처치 뒤 유황 불길 지역 적과 강화된 래비저에서 미리 확보할 수 있고, Ruinous Soul은 폴터가스트 처치 보상입니다. 2.2.2 이후 삭제된 Bloodstone Core 제작법을 따라가지 마세요.",
+      "next": "Bloodflare armor는 Bloodstone·Blood Orb·Ruinous Soul을 사용합니다. Bloodstone은 프로비던스 처치 뒤 유황 불길 지역 적 또는 강화된 래비저의 Necromantic Geode 개봉으로 미리 확보할 수 있고, Ruinous Soul은 폴터가스트 처치 보상입니다. 2.2.2 이후 삭제된 Bloodstone Core 제작법을 따라가지 마세요."
+    },
+    {
+      "location": "beginner/4/4/2",
+      "old": "Effulgent Feather와 직업별 드롭을 확인합니다. 야론 소환용 깃털 15개를 보관하세요. 문 로드 이후 지상 정글 Draconic Swarmer도 깃털을 드롭하므로 드래곤폴리 처치는 필수가 아닙니다.",
+      "next": "Effulgent Feather와 직업별 드롭을 확인합니다. 야론 소환용 깃털 15개를 보관하세요. 문 로드 이후 지상 정글 Draconic Swarmer도 깃털을 드롭하므로 드래곤폴리 처치는 필수가 아닙니다. Draconic Swarmer는 한 마리당 깃털 5~7개를 드롭하므로 15개 목표라면 3마리 처치로 수량을 확보할 수 있습니다."
+    },
+    {
+      "location": "structured/beginner/4/19/0",
+      "old": "Dragonfolly 또는 문 로드 이후 지상 정글 Draconic Swarmer",
+      "next": "Dragonfolly 또는 문 로드 이후 정글 Draconic Swarmer(5~7개씩)"
+    }
+  ],
+  "verifiedExisting": [
+    "Exodium Cluster 225% pickaxe and post-Moon Lord planetoids",
+    "Profaned Shard 25 Unholy Essence + 5 Luminite Bars",
+    "Providence manual enrage above 95% health instead of nighttime since 2.1.0",
+    "Blossom Pickaxe Uelibloom Bar cost 18",
+    "Phantom Spirit 30 kills for first Polterghast",
+    "Bloodstone unlock after Providence",
+    "Bloodflare no Bloodstone Core since 2.2.2",
+    "Draconic Swarmer feather drop 5–7 after Moon Lord"
+  ],
+  "sources": [
+    "https://calamitymod.wiki.gg/wiki/2.2.2",
+    "https://calamitymod.wiki.gg/wiki/2.2",
+    "https://calamitymod.wiki.gg/wiki/Cosmic_Anvil",
+    "https://calamitymod.wiki.gg/wiki/The_Devourer_of_Gods",
+    "https://calamitymod.wiki.gg/wiki/Ravager",
+    "https://calamitymod.wiki.gg/wiki/Draconic_Swarmer",
+    "https://calamitymod.wiki.gg/wiki/Exodium_Cluster",
+    "https://calamitymod.wiki.gg/wiki/Profaned_Shard",
+    "https://calamitymod.wiki.gg/wiki/Providence",
+    "https://calamitymod.wiki.gg/wiki/Blossom_Pickaxe",
+    "https://calamitymod.wiki.gg/wiki/Phantom_Spirit"
+  ],
+  "validated": [
+    "unchanged walkthrough step titles, labels and refs",
+    "unchanged existing structured table/list anchors; unreferenced note title updated",
+    "unchanged extra keys",
+    "JavaScript syntax"
+  ],
+  "limitations": [
+    "Compared indexed wiki excerpts and explicit version history, not a full game execution.",
+    "Some wiki pages not pinned to 2.2.4; no exhaustive weapon or catalog data verification.",
+    "No new boss combat tab."
+  ]
+}
