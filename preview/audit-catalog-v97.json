@@ -1,0 +1,11 @@
+{
+  "version": 97,
+  "base": "V96",
+  "scope": "catalog rendering guards, missing recipe and decraft evidence, station references, drop formatting, NPC references",
+  "tests": 13,
+  "limitations": [
+    "Helper and station render tests use fixtures and a minimal node stub, not complete catalog or browser.",
+    "No catalog source data was changed or full-data audit performed; missing-data guards do not establish that records are actually missing.",
+    "Actual rendering and deployed page require browser verification."
+  ]
+}
