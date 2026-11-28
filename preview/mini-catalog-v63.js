@@ -34,7 +34,7 @@ const extra={
 const fold=s=>s.toLocaleLowerCase('en-US');
 const word=c=>!!c&&/[\p{L}\p{N}_]/u.test(c);
 const hangul=c=>!!c&&/[가-힣]/.test(c);
-const particles=/^(?:으로부터|에서부터|에게서는|에게서|에서는|으로는|으로도|으로만|이라면|이라도|이라서|이라고|이라든지|이라는|이라며|이라고도|이라|로부터|으로써|으로서|으로|에서|에게|한테|까지|부터|처럼|보다|하고|이나|라도|이며|이다|입니다|용으로|용도|용|은|는|이|가|을|를|의|에|와|과|도|만|로)(?![가-힣])/;
+const particles=/^(?:으로부터|에서부터|에게서는|에게서|에서는|으로는|으로도|으로만|이라면|이라도|이라서|이라고|이라든지|이라는|이라며|이라고도|이라|로부터|으로써|으로서|으로|에서|에게|한테|까지|부터|처럼|보다|하고|이나|이랑|랑|나|라도|이며|이고|인|이다|입니다|용으로|용도|용|은|는|이|가|을|를|의|에|와|과|도|만|로)(?![가-힣])/;
 function boundary(text,start,end){
 if(word(text[start-1]))return false;
 return !word(text[end])||(hangul(text[end])&&particles.test(text.slice(end)));
@@ -84,6 +84,7 @@ for(const suffix of ['Ore','Bar','Pickaxe','Anvil','Forge'])for(const id of enIn
 }
 const armorSets=[['Victide','빅타이드'],['Aerospec','창공석'],['Wulfrum','울프럼'],['Statigel','스태티젤'],['Desert Prowler','사막 방랑자'],['Daedalus','다이달로스'],['Reaver','리버'],['Crystal Assassin','크리스탈 암살자'],['Spider','거미'],['Bee','벌'],['Beetle','딱정벌레'],['Spectre','스펙터'],['Shroomite','쉬루마이트'],['Tiki','티키'],['Spooky','으스스'],['Hallowed','신성'],['Astral','아스트랄'],['Empyrean','엠피리언'],['Solar Flare','태양 플레어'],['Vortex','볼텍스'],['Nebula','성운'],['Stardust','스타더스트']];
 for(const [en,ko] of armorSets){const prefix=fold(en)+' ';for(const [id,x] of allItems){if(!Array.isArray(x.categories)||!x.categories.includes('armor')||!fold(x.en||'').startsWith(prefix))continue;for(const a of [en+' armor',en+' 방어구',ko+' 방어구',en+' 세트',ko+' 세트'])addAlias(id,a)}}
+for(const [en,ko] of [['Solar','태양'],['Vortex','볼텍스'],['Nebula','성운'],['Stardust','스타더스트']])for(const id of enIndex.get(fold(en+' Fragment'))||[]){addAlias(id,en+' 파편');addAlias(id,ko+' 파편')}
 const single=new Set(['젤','돌']);
 const generic=new Set(['무기','방어구','장신구','재료','광석','주괴','도구','아이템','보스','몬스터','이벤트','물약','날개','곡괭이','도끼','검','활','화살','총','지팡이','탄약','머리','몸통','다리','손','눈','벽','문','의자','공격','회복','마법','소환','근접','원거리','로그','강화','정리','제작','탐험','선택','조건','사용','지상','지하','물','불','밤','낮','별']);
 function names(t,id){const x=D[t]?.[id];if(!x)return[];const all=[...aliases(x),...(extra[id]||[]),...(t==='items'?[...(added.get(id)||[])]:[])];const out=new Set();for(const a of all){if(!a||!a.trim())continue;out.add(a.trim());if(/[가-힣]/.test(a)&&/ /.test(a)&&!/[A-Za-z]/.test(a))out.add(a.replace(/\s+/g,''))}return [...out]}
@@ -93,10 +94,19 @@ for(const [id] of allItems)for(const a of names('items',id)){const k=fold(a);if(
 function buckets(map){const b=new Map();for(const v of map.values()){const c=v.k[0];if(!b.has(c))b.set(c,[]);b.get(c).push(v)}for(const list of b.values())list.sort((a,b)=>b.k.length-a.k.length);return b}
 const byFirst=buckets(globalNames);
 function localNames(refs){const map=new Map();for(const [t,id] of refs){if(!allowed(t,id))continue;for(const a of names(t,id)){const k=fold(a);if(k.length<2&&!single.has(a)||generic.has(a))continue;insert(map,k,t,id,a)}}return buckets(map)}
-function matches(text,local){const lower=fold(text),out=[];for(let i=0;i<text.length;){if(i>0&&word(text[i-1])){i++;continue}
+/* Shared suffix shorthand: e.g. 철피부·재생·신속 물약 or 금/백금 활.
+   Link each displayed term only if every expanded name resolves in the catalog. */
+function sharedNames(text,local){
+const out=new Map();
+const re=/(?<![\p{L}\p{N}_])((?:[가-힣A-Za-z]+(?:\s*[·/]\s*|\s+또는\s+|\s+및\s+)){1,6}[가-힣A-Za-z]+)\s+(물약|광석|주괴|곡괭이|브로드소드|활|왕관|파편)(?![A-Za-z0-9_])/gu;
+for(const m of text.matchAll(re)){const parts=[...m[1].matchAll(/[가-힣A-Za-z]+/g)].filter(x=>!['또는','및'].includes(x[0]));const resolved=parts.map(x=>{const k=fold(x[0]+' '+m[2]);return (local.get(k[0])||[]).find(v=>v.k===k)||globalNames.get(k)});if(resolved.some(x=>!x))continue;
+for(let j=0;j<parts.length;j++){const p=parts[j],start=m.index+p.index,end=j===parts.length-1?m.index+m[0].length:start+p[0].length;if(!boundary(text,start,end))continue;out.set(start,{start,end,entries:resolved[j].entries})}
+}return out
+}
+function matches(text,local){const lower=fold(text),out=[],shared=sharedNames(text,local);for(let i=0;i<text.length;){if(shared.has(i)){const h=shared.get(i);out.push(h);i=h.end;continue}if(i>0&&word(text[i-1])){i++;continue}
 let hit=null;
 for(const v of local.get(lower[i])||[]){if(lower.startsWith(v.k,i)&&boundary(text,i,i+v.k.length)){hit=v;break}}
-for(const v of byFirst.get(lower[i])||[]){if(hit&&v.k.length<=hit.k.length)break;if(lower.startsWith(v.k,i)&&boundary(text,i,i+v.k.length)){hit=v;break}}
+for(const v of byFirst.get(lower[i])||[]){if(hit&&v.k.length<=hit.k.length){if(v.k===hit.k&&/(?: armor| 방어구| 세트)$/i.test(v.a)&&v.entries.length>hit.entries.length)hit=v;break}if(lower.startsWith(v.k,i)&&boundary(text,i,i+v.k.length)){hit=v;break}}
 if(hit){out.push({start:i,end:i+hit.k.length,entries:hit.entries});i+=hit.k.length}else i++}
 return out}
 function trigger(b,t,id){b.type='button';b.dataset.miniTable=t;b.dataset.miniId=id;b.setAttribute('aria-haspopup','dialog');b.setAttribute('aria-controls',pop.id);b.setAttribute('aria-expanded','false');b.title='미니 도감 · '+name(D[t][id]);b.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();if(anchor===b&&!pop.hidden){close(true);return}open(b,t,id)});return b}
