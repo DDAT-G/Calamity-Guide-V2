@@ -1,0 +1,4 @@
+# V82 5장 상세 보강
+- 뉴비 67개, 일반 9개 미보강 주제에 개별 행동·실패 대처·투자 판단 작성. 이 중 4개 구조화 페이지로 전환, 나머지 72개 별도 상세. 기존 구조·STEP 순서 및 참조 유지.
+- 본문 3개 보완: 수호자 치유→방어→지휘관 순서, 깃털 대체 획득 및 일반 야론 경로. 확인 근거: https://calamitymod.wiki.gg/wiki/Profaned_Guardians ; https://calamitymod.wiki.gg/wiki/Draconic_Swarmer ; https://calamitymod.wiki.gg/wiki/Blessed_Phoenix_Egg ; https://calamitymod.wiki.gg/wiki/Providence ; https://calamitymod.wiki.gg/wiki/2.2.0 ; https://calamitymod.wiki.gg/wiki/Phantom_Spirit ; https://calamitymod.wiki.gg/wiki/Polterghast ; https://calamitymod.wiki.gg/wiki/Ascendant_Spirit_Essence ; https://calamitymod.wiki.gg/wiki/Cosmic_Worm ; https://calamitymod.wiki.gg/wiki/Guide:Mod_progression. 검색 색인 및 기존 등록 출처 대조; 모든 레시피나 패턴의 사실 검증을 완료한 것은 아님.
+- JSON 파싱, 모든 주제별 보강 여부, 표 열 개수 및 모든 미니 공략 앵커/원본 대상 정적 검사 통과. 실제 카탈로그 실행, JS 런타임·브라우저·게임 검증 미실시. 6장 미보강 54개 후속 대상. 신규 이미지 없음. 정식 배포본 및 도감 원본 미변경.
