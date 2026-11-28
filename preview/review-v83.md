@@ -1,0 +1,4 @@
+# V83 6장 상세 보강
+- 뉴비 46개, 일반 8개 미보강 주제에 개별 행동·실패 대처·전환 판단 작성. 이 중 6개 구조화 페이지, 48개 추가 설명. 모든 454개 본문 주제에 상세 또는 구조화 페이지 있음(형식 커버리지, 사실 검증 완료 아님).
+- 기존 본문 3개 수정: Codebreaker 컴퓨터 전선 및 발견 조건, Calamitas Clone 재료 출처, Chaos State 부여 장비 주의. 해독 수량/슬롯, 엑소 그룹 및 단계 전환, 고룡 소환과 보상은 공식 위키 검색 색인에서 대조. 근거: https://calamitymod.wiki.gg/wiki/Schematics ; https://calamitymod.wiki.gg/wiki/Guide:Assembling_the_Codebreaker ; https://calamitymod.wiki.gg/wiki/Guide:Mod_progression ; https://calamitymod.wiki.gg/wiki/Exo_Mechs ; https://calamitymod.wiki.gg/wiki/Altar_of_the_Accursed ; https://calamitymod.wiki.gg/wiki/Ashes_of_Calamity ; https://calamitymod.wiki.gg/wiki/Primordial_Wyrm ; https://calamitymod.wiki.gg/wiki/Chaos_State ; https://calamitymod.wiki.gg/wiki/Sacred_Strawberry. 기타 기존 레시피 및 전략은 전체 원문·실제 게임과 대조하지 않았음. 오래된 전략 가이드의 최적 성능 주장 사용하지 않음.
+- JSON 파싱, 전체 주제별 상세 커버리지, 표 열 개수 및 215앵커/277원본 대상 정적 검사 통과. JS 런타임, 실제 카탈로그, 브라우저 및 게임 검증 미실시. 도감 원본 및 정식 배포본 미변경. 이후 전 챕터 교차 검증 및 실제 UI/참조 검사.
