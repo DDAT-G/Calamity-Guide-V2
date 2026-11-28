@@ -1,0 +1,12 @@
+{
+  "version": 95,
+  "base": "V94",
+  "scope": "mini-catalog navigation stack and viewport positioning",
+  "geometryCases": 63,
+  "intersectionTests": 2,
+  "trailTests": 5,
+  "limitations": [
+    "Geometry and navigation functions executed directly in JS with synthetic viewport rectangles and item ids.",
+    "Live browser focus, resize, modal nesting, scrolling, and deployment not tested. CSS/browser behavior still requires manual verification."
+  ]
+}
