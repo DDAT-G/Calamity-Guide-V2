@@ -1,0 +1,12 @@
+{
+  "version": 96,
+  "base": "V95",
+  "scope": "browser history capture and stored state validation",
+  "navigationCases": 13,
+  "libraryCases": 3,
+  "eventCases": 2,
+  "limitations": [
+    "Actual helper functions tested with fixture catalog and simulated microtask queue; not a browser.",
+    "Native back/forward, reload, storage denial and DOM event integration not manually exercised."
+  ]
+}
