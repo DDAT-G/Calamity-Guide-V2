@@ -1,0 +1,109 @@
+{
+  "version": 105,
+  "base": 104,
+  "scope": "Yharon to endgame: encounter transitions and acquisition",
+  "changes": [
+    {
+      "location": "beginner/5/5/2",
+      "old": "아레나에서 준비를 끝낸 뒤 통신 버튼을 누르고 드레이돈이 제시하는 첫 전투 상대를 선택합니다. 필요한 장비와 회복 수단을 미리 챙기세요.",
+      "next": "아레나에서 준비를 끝낸 뒤 통신 버튼을 누르고 드레이돈이 제시하는 첫 전투 상대를 선택합니다. 필요한 장비와 회복 수단을 미리 챙기세요. 첫 상대를 20초 안에 선택하지 않으면 드레이돈이 무작위 그룹을 소환하므로 통신 전에 준비를 끝냅니다."
+    },
+    {
+      "location": "beginner/5/8/0",
+      "old": "엑소 메카 전투는 7단계로 진행됩니다. 처음 고른 그룹이 70%에 도달하면 다른 두 그룹이 등장하는 전환이 시작됩니다. 여러 기체가 참여하는 단계에서 한 그룹이 40%에 도달하면 강화 상태가 되며 마지막 남은 그룹도 강화됩니다. 고정된 한 대상만 추격하지 말고 활성 대상을 확인하세요.",
+      "next": "엑소 메카 전투는 7단계로 진행됩니다. 첫 그룹의 체력이 70%가 되면 해당 그룹은 잠시 퇴장하고 나머지 두 그룹이 등장합니다. 그중 하나가 70%에 도달하면 첫 그룹도 복귀합니다. 세 그룹이 활동하는 단계에서 하나가 40%에 도달하면 강화되고 단독 전투로 전환됩니다. 마지막 남은 그룹도 체력과 관계없이 강화되므로 현재 활성 대상과 체력 표시를 확인하세요."
+    },
+    {
+      "location": "normal/5/2/0",
+      "old": "넓은 아레나. Ares 레이저 예고, Artemis/Apollo 돌진, Thanatos 장갑이 열리는 구간. 70%·40% 전환과 활성 대상 확인.",
+      "next": "넓은 아레나. Ares 레이저 예고, Artemis/Apollo 돌진, Thanatos 장갑이 열리는 구간. 첫 그룹 70%에서 퇴장 → 나머지 두 그룹 중 하나 70%에서 첫 그룹 복귀 → 40% 강화·단독 전투. 마지막 그룹은 체력과 무관하게 강화."
+    },
+    {
+      "location": "extra/beginner/5/5/2",
+      "old": "전투 장비와 버프를 준비하고 코드브레이커와 상호작용합니다. 통신 버튼을 누른 뒤 드레이돈이 제시하는 기체 그룹 중 하나를 선택하세요. 선택은 첫 상대를 정하는 것이며 나머지 두 그룹도 처치해야 합니다.",
+      "next": "전투 장비와 버프를 준비하고 코드브레이커와 상호작용합니다. 통신 버튼을 누른 뒤 드레이돈이 제시하는 기체 그룹 중 하나를 선택하세요. 선택은 첫 상대를 정하는 것이며 나머지 두 그룹도 처치해야 합니다. 20초 안에 선택하지 않으면 무작위 기체 그룹이 등장합니다."
+    },
+    {
+      "location": "extra/beginner/5/8/0",
+      "old": "처음 상대가 잠시 사라지면 패배하거나 전투가 끝난 것이 아닙니다. 다른 두 그룹이 등장하므로 새 위치를 확인하고 공격 가능한 대상에 집중하세요. 40% 강화 구간과 마지막 그룹에서는 공격이 거세지므로 회피할 공간을 먼저 확보합니다.",
+      "next": "첫 상대가 70%에서 잠시 퇴장하면 다른 두 그룹이 등장합니다. 그중 하나가 70%가 되면 처음 상대도 돌아옵니다. 세 그룹 중 하나가 40%에 도달하면 해당 그룹이 강화된 단독 전투를 시작합니다. 마지막 그룹은 남은 체력과 관계없이 강화되므로 회피 공간을 먼저 확보합니다."
+    },
+    {
+      "location": "structured/advanced/5/1/2/70%",
+      "old": "다른 두 그룹의 위치와 활성 상태 확인",
+      "next": "첫 그룹 퇴장, 나머지 두 그룹 등장; 그중 하나가 70%이면 첫 그룹 복귀"
+    },
+    {
+      "location": "structured/advanced/5/1/2",
+      "next": "통신 후 20초 이내 첫 상대를 선택하지 않으면 무작위 기체 그룹이 등장합니다. 소환 준비는 통신 전에 끝내세요."
+    },
+    {
+      "location": "beginner/5/9/3",
+      "old": "소환하면 사각형 탄막 아레나가 만들어집니다. 외곽으로 도망치는 전략은 피하고 발판 배치가 좁은 회피를 방해하지 않는지 확인하세요.",
+      "next": "2.1.0부터 실제 Arena Block을 생성하는 대신 사각형의 인공 전투 경계가 플레이어의 외부 이동을 제한합니다. 경계 안에서 회피하고 너무 촘촘한 발판은 피하세요."
+    },
+    {
+      "location": "extra/beginner/5/9/3",
+      "old": "생성되는 사각형 전투 영역의 안쪽을 기준으로 이동하세요. 발판이 너무 촘촘하면 수직 회피가 불편할 수 있으므로 필요한 착지 위치만 남깁니다.",
+      "next": "2.1.0 이후 실제 블록 대신 인공 경계가 생성되어 밖으로 나가는 이동을 막습니다. 경계 안쪽에서 싸우고 수직 회피를 방해하지 않는 착지용 발판을 배치하세요."
+    },
+    {
+      "location": "structured/advanced/5/2/0",
+      "next": "2.1.0에서 Arena Block은 제거되었으며 실제 타일과 유사하게 이동을 제한하는 인공 아레나 시스템으로 대체되었습니다. 블록을 캐거나 제거해 경계를 해제하는 방식으로 접근하지 않습니다."
+    },
+    {
+      "location": "beginner/5/13/3",
+      "old": "거대한 몸체와 투사체, 소환된 부하를 피하면서 수중 이동을 유지하세요. 고유 보상인 Halibut Cannon을 얻는 선택 목표입니다. 심연 밖으로 끌고 나가 격노시키는 방식은 권장하지 않습니다.",
+      "next": "태고의 고룡은 머리만 피해를 받으며 몸통과 꼬리는 공격해도 피해를 받지 않고 접촉 피해도 주지 않습니다. 머리와 투사체를 집중적으로 피하고 머리에 명중하는 무기를 사용하세요. 고유 보상은 Halibut Cannon입니다. 처치 후에도 Chaos State가 남아 있으면 즉시 재소환될 수 있으므로 상태를 확인하세요."
+    },
+    {
+      "location": "normal/5/4/1",
+      "old": "심연 4층에서 Chaos State로 Primordial Wyrm 도전(다른 층 격노) → Halibut Cannon. Terminus로 Boss Rush 시작/취소, 완주 The Rock. 러시 내 처치는 2.1.0부터 일반 진행 해금에 반영되지 않음.",
+      "next": "심연 4층에서 Chaos State로 Primordial Wyrm 도전(다른 층 격노). 머리만 피해를 받으며 몸통·꼬리는 접촉 피해도 없음. 처치 후 Chaos State가 남으면 즉시 재소환 가능 → Halibut Cannon. Terminus로 Boss Rush 시작/취소, 완주 The Rock. 러시 내 처치는 2.1.0부터 일반 진행 해금에 반영되지 않음."
+    },
+    {
+      "location": "structured/advanced/5/3/2",
+      "next": "몸통과 꼬리는 피해를 받지 않으며 접촉 피해도 없습니다. 머리 명중과 투사체 회피를 우선하고 처치 후에도 Chaos State가 남아 있으면 재소환될 수 있다는 점을 고려하세요."
+    },
+    {
+      "location": "beginner/5/14/0",
+      "old": "Terminus는 심연 4층 성소에서만 얻을 수 있습니다. 두 최종 보스 처치는 아이템 획득 자체의 필수 조건이 아니라 권장 도전 시점입니다. 심연 진입 전 Chaos State가 남아 있지 않은지 확인하고 호흡·귀환 수단을 준비하세요.",
+      "next": "Terminus는 심연 4층 바닥의 성소에 있는 Void Chest에서 얻습니다. 두 최종 보스 처치는 아이템 획득 자체의 필수 조건이 아니라 권장 도전 시점입니다. 심연 진입 전 Chaos State가 남아 있지 않은지 확인하고 호흡·귀환 수단을 준비하세요."
+    }
+  ],
+  "verifiedExisting": [
+    "Auric Ore 50 for 5 Auric Bars at Hardmode Forge",
+    "Codebreaker Underworld 1750 and Ice 5000 power cells",
+    "Auric Quantum Cooling Cell Essence of Eleum 6",
+    "Draedon's Forge Ascendant Spirit Essence 15",
+    "Miracle Matter after Exo Mechs",
+    "Ceremonial Urn after Supreme Witch",
+    "Celestial Onion Master conditional slot",
+    "Boss Rush first kills do not count since 2.1.0"
+  ],
+  "sources": [
+    "https://calamitymod.wiki.gg/wiki/Exo_Mechs",
+    "https://calamitymod.wiki.gg/wiki/2.1.0",
+    "https://calamitymod.wiki.gg/wiki/Primordial_Wyrm",
+    "https://calamitymod.wiki.gg/wiki/Abyss",
+    "https://calamitymod.wiki.gg/wiki/Auric_Bar",
+    "https://calamitymod.wiki.gg/wiki/Schematics",
+    "https://calamitymod.wiki.gg/wiki/The_Codebreaker",
+    "https://calamitymod.wiki.gg/wiki/Draedon%27s_Forge",
+    "https://calamitymod.wiki.gg/wiki/Miracle_Matter",
+    "https://calamitymod.wiki.gg/wiki/Ceremonial_Urn",
+    "https://calamitymod.wiki.gg/wiki/Celestial_Onion",
+    "https://calamitymod.wiki.gg/wiki/History:Boss_Rush"
+  ],
+  "validated": [
+    "unchanged walkthrough titles, labels, refs",
+    "existing structured anchors preserved",
+    "extra keys unchanged",
+    "JS syntax"
+  ],
+  "limitations": [
+    "Official wiki indexed excerpts compared; not all pages pinned to 2.2.4, no actual gameplay or browser verification.",
+    "Not every individual weapon or recipe audited.",
+    "No new boss combat tab."
+  ]
+}
