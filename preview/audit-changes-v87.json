@@ -1,0 +1,295 @@
+{
+  "scope": "chapter 5",
+  "evidence": [
+    "https://calamitymod.wiki.gg/wiki/Uelibloom_Bar",
+    "https://calamitymod.wiki.gg/wiki/Recipes/Hardmode_Forge",
+    "https://calamitymod.wiki.gg/wiki/Blossom_Pickaxe",
+    "https://calamitymod.wiki.gg/wiki/2.2.2",
+    "https://calamitymod.wiki.gg/wiki/Bloodflare_armor",
+    "https://calamitymod.wiki.gg/wiki/Bloodstone_Core",
+    "https://calamitymod.wiki.gg/wiki/Bosses",
+    "https://calamitymod.wiki.gg/wiki/Status_messages",
+    "https://calamitymod.wiki.gg/wiki/Polterghast",
+    "https://calamitymod.wiki.gg/wiki/2.1.0",
+    "https://calamitymod.wiki.gg/wiki/Ascendant_Spirit_Essence",
+    "https://calamitymod.wiki.gg/wiki/Recipes/Hardmode_Anvil",
+    "https://calamitymod.wiki.gg/wiki/Crafting_materials",
+    "https://calamitymod.wiki.gg/wiki/Cosmic_Worm",
+    "https://calamitymod.wiki.gg/wiki/Draconic_Swarmer",
+    "https://calamitymod.wiki.gg/wiki/Profaned_Guardians",
+    "https://calamitymod.wiki.gg/wiki/Providence",
+    "https://calamitymod.wiki.gg/wiki/2.2.0"
+  ],
+  "edits": [
+    {
+      "type": "body",
+      "key": "beginner/4/7/0",
+      "before": "프로비던스 처치 후 지하 정글 및 동굴의 진흙에 Uelibloom Ore가 생성됩니다. 225% 이상 곡괭이로 채광하세요. 이후 Auric Ore를 캘 수 있도록 Blossom Pickaxe(250%) 제작도 계획합니다.",
+      "after": "프로비던스 이후 지하 정글·동굴의 진흙에 생성된 Uelibloom Ore를 225% 이상 곡괭이로 캡니다. 광석 4개로 하드모드 제련로에서 주괴 1개를 제작합니다. 2.2.2부터 Blossom Pickaxe는 유리블룸 주괴 18개(광석 72개)를 요구하므로 방어구 재료와 별도로 확보하세요."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/4/7/0",
+      "before": [
+        "채광 · 실전 진행",
+        "지하 정글에서 진흙이 넓은 구간을 찾아 채광하세요. 채광력이 부족하면 이전 단계의 곡괭이를 바꾸고, 방어구용과 Blossom Pickaxe 제작용 재료를 구분합니다."
+      ],
+      "after": [
+        "다음 채광 도구 비용",
+        "Blossom Pickaxe의 유리블룸 주괴 18개를 위해 광석 72개를 따로 모으세요. 다른 제작 재료는 미니 도감의 전체 레시피를 확인합니다. 방어구, 무기, 체력 강화용 주괴까지 전부 곡괭이에 소비하지 않도록 용도를 구분합니다. 250% 곡괭이는 야론 이후 오릭 광석 채광에 필요합니다."
+      ]
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/4/1/0",
+      "after": {
+        "type": "note",
+        "title": "유리블룸 제련과 도구 예산",
+        "text": "광석 4개 → 주괴 1개, 하드모드 제련로. 2.2.2 이후 Blossom Pickaxe에 주괴 18개가 필요하므로 광석 72개를 도구 제작용으로 남겨 두세요. 나머지 제작 재료 별도."
+      }
+    },
+    {
+      "type": "structured",
+      "key": "beginner/4/6/3|파밍 판단",
+      "before": {
+        "type": "note",
+        "title": "파밍 판단",
+        "text": "날개와 방패 때문에 다른 지역에서 한 번 더 잡을 필요는 없습니다. 목표 무기나 재료가 부족한 경우에만 재도전하세요."
+      },
+      "after": {
+        "type": "note",
+        "title": "파밍 판단",
+        "text": "날개와 방패 때문에 다른 지역에서 반복 처치할 필요는 없습니다. 프로비던스 처치 직후 유황 불길 지역 적과 강화된 래비저에게서 Bloodstone도 얻을 수 있으므로 이후 Bloodflare 제작을 계획한다면 필요한 양을 보관합니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/4/12/0",
+      "before": "문 로드 이후 던전의 Phantom Spirit 관련 재료로 Necroplasmic Beacon을 준비하세요. 최초 처치 전 던전의 Phantom Spirit 30마리를 처치하면 자연 등장하므로 파밍 전 전투 공간을 점검합니다.",
+      "after": "문 로드 이후 던전에서 Phantom Spirit을 잡아 Necroplasmic Beacon을 준비하거나, 최초 처치 전 Phantom Spirit 30마리 처치로 자연 소환할 수 있습니다. 2.1.0부터 자연 소환용 처치 수는 월드를 나가면 초기화됩니다. 프로비던스나 센티널 처치는 소환 필수 조건이 아닙니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/4/12/0",
+      "before": [
+        "소환 · 실전 진행",
+        "던전에서 일반 적을 잡다가 Phantom Spirit이 등장하면 Necroplasm을 모으세요. 첫 처치 전에는 30번째 유령에서 보스가 등장하므로 준비되지 않았다면 사냥을 중단합니다."
+      ],
+      "after": [
+        "자연 소환과 직접 소환",
+        "Phantom Spirit을 사냥하기 전에 던전 아레나를 마련하세요. 30번째 처치에서 자연 소환되며 최초 처치 전 월드를 나가면 처치 수가 초기화됩니다. Necroplasmic Beacon을 던전에서 사용하면 직접 소환할 수 있으므로 30마리를 다시 모을 필요는 없습니다. 초회 공략은 센티널 이후 장비를 갖춘 경로를 권장합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/4/13/0",
+      "before": "Bloodstone, Blood Orb, Ruinous Soul로 Bloodflare armor 제작법을 확인합니다. Tarragon과 비교해 현재 직업의 생존 및 공격 효과에 맞는 세트를 선택하세요.",
+      "after": "Bloodflare armor는 Bloodstone·Blood Orb·Ruinous Soul을 사용합니다. Bloodstone은 프로비던스 처치 뒤 유황 불길 지역 적과 강화된 래비저에서 미리 확보할 수 있고, Ruinous Soul은 폴터가스트 처치 보상입니다. 2.2.2 이후 삭제된 Bloodstone Core 제작법을 따라가지 마세요."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/4/13/0",
+      "before": [
+        "방어구 · 실전 진행",
+        "Bloodflare의 머리 부위·세트 효과와 기존 Tarragon의 효과를 비교하세요. 필요한 Bloodstone 계열 재료와 Ruinous Soul을 확인한 뒤 자기 직업의 세트만 만듭니다."
+      ],
+      "after": [
+        "세 재료의 선행 조건",
+        "프로비던스 이후 유황 불길 지역에서 Bloodstone을 확보하거나 강화된 래비저를 선택 도전합니다. Blood Orb는 크툴루의 눈 이후 블러드 문 적에서 파밍할 수 있습니다. 폴터가스트의 Ruinous Soul까지 확보한 뒤 직업에 맞는 세트를 선택하고, 구버전 Bloodstone Core 대신 현재 등록 재료를 확인하세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/4/17/5",
+      "before": "Necroplasm, Nightmare Fuel, Endothermic Energy, Darksun Fragment로 Ascendant Spirit Essence를 제작합니다. 이 재료 자체는 미스릴/오리칼쿰 모루에서 제작 가능하며 이를 사용하는 상위 장비의 제작대는 별도로 확인하세요.",
+      "after": "Ascendant Spirit Essence 1개는 Necroplasm 2개·Nightmare Fuel 5개·Endothermic Energy 5개·Darksun Fragment 2개를 미스릴/오리칼쿰 모루에서 조합합니다. Cosmic Anvil은 상위 장비 제작용으로 별도 확보하세요."
+    },
+    {
+      "type": "structured",
+      "key": "beginner/4/17/5|제작대와 수량",
+      "before": {
+        "type": "note",
+        "title": "제작대와 수량",
+        "text": "미스릴/오리칼쿰 모루. 정확한 수량과 목표 제작 개수는 등록 레시피에서 확인하고, 상위 장비용 Cosmic Anvil과 구분하세요."
+      },
+      "after": {
+        "type": "note",
+        "title": "제작대와 수량",
+        "text": "미스릴/오리칼쿰 모루에서 합성합니다. 1개 기준 Necroplasm 2, Nightmare Fuel 5, Endothermic Energy 5, Darksun Fragment 2. 예를 들어 10개 제작 시 20·50·50·20개가 필요합니다. 상위 장비용 Cosmic Anvil과 구분하세요."
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/4/17/1",
+      "after": {
+        "type": "note",
+        "title": "제작대",
+        "text": "고대의 매니퓰레이터에서 Cosmic Anvil을 제작합니다. 이 표의 재료는 모루 자체 제작 비용이며 Ascendant Spirit Essence의 합성 비용과는 별개입니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/4/20/0",
+      "before": "Yharon Soul Fragment를 보관하세요. 야론 처치 후 동굴층에 생성되는 Auric Ore는 채광력 250% 이상인 Blossom Pickaxe 등으로 채광합니다. Auric Bar 제작법을 확인한 뒤 필요한 수량을 확보하세요.",
+      "after": "Yharon Soul Fragment를 보관하세요. 야론 처치 후 동굴층에 생성되는 Auric Ore는 250% 이상인 Blossom Pickaxe 등으로 채광합니다. Blossom Pickaxe의 유리블룸 주괴 18개 비용을 확인하고 6장의 오릭 주괴 제작법에 맞춰 채광량을 정하세요."
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/4/20/0",
+      "after": {
+        "type": "note",
+        "title": "제련 예산",
+        "text": "6장과 동일하게 광석 50개와 Yharon Soul Fragment 1개로 Auric Bar 5개를 하드모드 제련로에서 제작하는 경로를 사용합니다. 필요한 주괴 수에 따라 광석을 계산하고 나머지 야론 조각도 체력 강화용으로 보존하세요."
+      }
+    },
+    {
+      "type": "body",
+      "key": "normal/4/0/2",
+      "before": "Divine Geode + Uelibloom Ore(225%) → Tarragon 및 필요 무기. Elysian Wings/Aegis를 활용하고 Blossom Pickaxe(250%) 제작을 계획.",
+      "after": "Divine Geode + Uelibloom Ore(225%, 광석 4→주괴 1) → Tarragon 및 필요 무기. Elysian Wings/Aegis 활용. Blossom Pickaxe(250%)는 주괴 18개, 광석 72개 및 나머지 재료 별도. Bloodstone은 프로비던스 이후부터 확보 가능."
+    },
+    {
+      "type": "detail",
+      "key": "normal/4/0/2",
+      "before": [
+        "성장 · 전환 판단",
+        "유리블룸은 방어구와 250% 곡괭이 제작에 배분합니다. 기존 무기로 센티널 전투가 충분하면 새 무기 파밍을 건너뛰고 이동 장비를 보완하세요."
+      ],
+      "after": [
+        "원정 종료점",
+        "유리블룸 주괴 18개를 다음 곡괭이용으로 예약하세요. Tarragon 교체나 Tainted Cloudberry의 주괴 10개는 필요한 경우 별도로 계산합니다. Bloodstone이 필요한 장비를 계획하면 프로비던스 이후 유황 불길 지역 파밍을 함께 고려합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "normal/4/1/0",
+      "before": "프로비던스 드롭 Mark of Providence로 우주 Storm Weaver, 던전 Ceaseless Void, 지하세계 Signus 소환. 각 재료를 확보하되 순서는 자유.",
+      "after": "Mark of Providence로 우주 Storm Weaver, 던전 Ceaseless Void, 지하세계 Signus 소환. 순서 자유. 폴터가스트는 문 로드 이후 직접·자연 소환 가능하며 센티널 처치는 권장 경로이지 필수 소환 조건이 아닙니다."
+    },
+    {
+      "type": "detail",
+      "key": "normal/4/1/0",
+      "before": [
+        "루트 · 전환 판단",
+        "세 센티널의 소환 도구는 하나이므로 장소만 바꿔 순회합니다. 이동이 편한 지역부터 처리하고 다음 합성 비용에 필요한 각 재료를 계산하세요. 폴터가스트는 선행 처치가 절대 조건은 아니지만 권장 순서입니다."
+      ],
+      "after": [
+        "소환 조건과 성장 루트",
+        "Mark 하나로 세 장소를 순회하고 Void Striders 등 목표 제작 비용을 확보합니다. 폴터가스트 자연 소환용 Phantom Spirit 처치 수는 월드를 나가면 초기화되므로 원정 중단 후에는 Beacon 직접 소환 경로도 고려하세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "normal/4/3/0",
+      "before": "Cosmic Anvil: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20·네 종류 천체 파편 및 Meld Blob 각 12, 고대의 매니퓰레이터. Ascendant Spirit Essence 자체는 하드모드 모루에서 제작.",
+      "after": "Cosmic Anvil: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20·네 천체 파편 및 Meld Blob 각 12, 고대의 매니퓰레이터. Ascendant Spirit Essence 1개는 Necroplasm 2·Nightmare Fuel 5·Endothermic Energy 5·Darksun Fragment 2, 하드모드 모루."
+    },
+    {
+      "type": "detail",
+      "key": "normal/4/3/0",
+      "before": [
+        "제작대 · 전환 판단",
+        "제작대용 재료는 장비 제작에 소비하기 전에 확보하세요. Cosmic Anvil에는 네 파편 및 Meld Blob이 각각 12개 필요합니다. Ascendant Spirit Essence는 하드모드 모루로 만들 수 있으므로 제작대 해금과 재료 합성을 분리합니다."
+      ],
+      "after": [
+        "제작 예산 분리",
+        "Ascendant Spirit Essence 10개를 목표로 하면 재료를 20·50·50·20개 준비합니다. Cosmic Anvil 제작용 파편·Meld Blob 각 12개는 이 합성의 비용이 아니므로 따로 확보합니다."
+      ]
+    },
+    {
+      "type": "structured",
+      "key": "normal/4/3/1|제작 계획",
+      "before": {
+        "type": "note",
+        "title": "제작 계획",
+        "text": "Ascendant Spirit Essence 자체는 하드모드 모루에서 제작합니다. 장비 제작에 필요한 Cosmic Anvil은 별도로 확보하세요."
+      },
+      "after": {
+        "type": "note",
+        "title": "제작 계획",
+        "text": "Ascendant Spirit Essence 1개: Necroplasm 2, Nightmare Fuel 5, Endothermic Energy 5, Darksun Fragment 2. 하드모드 모루에서 합성하며 Cosmic Anvil 제작 비용은 별도입니다."
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/4/1/2",
+      "after": {
+        "type": "table",
+        "title": "유리블룸 주괴 투자 예산",
+        "columns": [
+          "제작 목표",
+          "주괴",
+          "광석(4:1)"
+        ],
+        "rows": [
+          [
+            "Blossom Pickaxe",
+            "18",
+            "72"
+          ],
+          [
+            "Tainted Cloudberry",
+            "10",
+            "40"
+          ],
+          [
+            "둘 다",
+            "28",
+            "112"
+          ],
+          [
+            "Tarragon",
+            "부위별 별도",
+            "등록 레시피 확인"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/4/2/0",
+      "after": {
+        "type": "note",
+        "title": "선행 조건과 파밍 순서",
+        "text": "폴터가스트는 문 로드 이후 소환할 수 있으며 센티널 처치는 필수가 아닙니다. Bloodstone은 프로비던스 이후부터 확보 가능하지만 Bloodflare의 Ruinous Soul은 폴터가스트 보상입니다. 먼저 처치하는 경로의 장비 부족과 후속 파밍 비용을 구분하세요."
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/4/3/2",
+      "after": {
+        "type": "table",
+        "title": "Ascendant Spirit Essence 제작 예산",
+        "columns": [
+          "재료",
+          "1개 제작",
+          "10개 제작"
+        ],
+        "rows": [
+          [
+            "Necroplasm",
+            "2",
+            "20"
+          ],
+          [
+            "Nightmare Fuel",
+            "5",
+            "50"
+          ],
+          [
+            "Endothermic Energy",
+            "5",
+            "50"
+          ],
+          [
+            "Darksun Fragment",
+            "2",
+            "20"
+          ]
+        ],
+        "links": true
+      }
+    }
+  ]
+}
