@@ -1,0 +1,556 @@
+{
+  "scope": "chapter 4",
+  "evidence": [
+    "https://calamitymod.wiki.gg/wiki/Guide:Mod_progression",
+    "https://calamitymod.wiki.gg/wiki/Configuration_options",
+    "https://calamitymod.wiki.gg/wiki/Vanilla_changes",
+    "https://calamitymod.wiki.gg/wiki/Hallowed_Ore",
+    "https://calamitymod.wiki.gg/wiki/Recipes/Hardmode_Forge",
+    "https://calamitymod.wiki.gg/wiki/Plantera",
+    "https://calamitymod.wiki.gg/wiki/Wall_of_Flesh",
+    "https://calamitymod.wiki.gg/wiki/Perennial_Bar",
+    "https://calamitymod.wiki.gg/wiki/Core_of_Calamity",
+    "https://calamitymod.wiki.gg/wiki/2.2.2",
+    "https://calamitymod.wiki.gg/wiki/Scoria_Ore",
+    "https://calamitymod.wiki.gg/wiki/Golem",
+    "https://calamitymod.wiki.gg/wiki/Astral_Ore",
+    "https://calamitymod.wiki.gg/wiki/Astrum_Deus",
+    "https://calamitymod.wiki.gg/wiki/Moon_Lord",
+    "https://calamitymod.wiki.gg/wiki/Ores"
+  ],
+  "edits": [
+    {
+      "type": "structured",
+      "key": "beginner/3/0/1|광석 해금표",
+      "before": {
+        "type": "table",
+        "title": "광석 해금표",
+        "columns": [
+          "처치 조건",
+          "새 광석",
+          "채광 도구"
+        ],
+        "rows": [
+          [
+            "월 오브 플레시",
+            "코발트·팔라듐",
+            "지옥석 곡괭이"
+          ],
+          [
+            "기계 보스 첫 종류",
+            "미스릴·오리칼쿰",
+            "코발트/팔라듐 곡괭이"
+          ],
+          [
+            "기계 보스 두 번째 종류",
+            "아다만타이트·티타늄",
+            "미스릴/오리칼쿰 곡괭이"
+          ],
+          [
+            "기계 보스 세 종류",
+            "신성한 광석, 신성한 주괴 드롭",
+            "해금 후 채광력 확인"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "광석 해금표",
+        "columns": [
+          "처치 조건",
+          "새 광석",
+          "채광 도구"
+        ],
+        "rows": [
+          [
+            "월 오브 플레시",
+            "코발트·팔라듐",
+            "지옥석 곡괭이"
+          ],
+          [
+            "기계 보스 첫 종류",
+            "미스릴·오리칼쿰",
+            "코발트/팔라듐 곡괭이"
+          ],
+          [
+            "기계 보스 두 번째 종류",
+            "아다만타이트·티타늄",
+            "미스릴/오리칼쿰 곡괭이"
+          ],
+          [
+            "기계 보스 세 종류",
+            "신성한 광석, 신성한 주괴 드롭",
+            "180% 이상(아다만타이트/티타늄 곡괭이 등)"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/3/0/1",
+      "after": {
+        "type": "note",
+        "title": "해금표 적용 범위",
+        "text": "초기 하드모드 개편 ON 전용 광석 생성 순서입니다. OFF에서는 제단과 바닐라 광석 경로를 따릅니다. 생명 열매와 플랜테라 구근은 칼라미티의 별도 변경으로 하드모드 시작부터 자랄 수 있습니다."
+      }
+    },
+    {
+      "type": "structured",
+      "key": "normal/3/0/0|해금 순서",
+      "before": {
+        "type": "table",
+        "title": "해금 순서",
+        "columns": [
+          "처치 조건",
+          "새 광석",
+          "채광 도구"
+        ],
+        "rows": [
+          [
+            "월 오브 플레시",
+            "코발트·팔라듐",
+            "지옥석 곡괭이"
+          ],
+          [
+            "기계 보스 첫 종류",
+            "미스릴·오리칼쿰",
+            "코발트/팔라듐 곡괭이"
+          ],
+          [
+            "기계 보스 두 번째 종류",
+            "아다만타이트·티타늄",
+            "미스릴/오리칼쿰 곡괭이"
+          ],
+          [
+            "기계 보스 세 종류",
+            "신성한 광석, 신성한 주괴 드롭",
+            "해금 후 채광력 확인"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "해금 순서",
+        "columns": [
+          "처치 조건",
+          "새 광석",
+          "채광 도구"
+        ],
+        "rows": [
+          [
+            "월 오브 플레시",
+            "코발트·팔라듐",
+            "지옥석 곡괭이"
+          ],
+          [
+            "기계 보스 첫 종류",
+            "미스릴·오리칼쿰",
+            "코발트/팔라듐 곡괭이"
+          ],
+          [
+            "기계 보스 두 번째 종류",
+            "아다만타이트·티타늄",
+            "미스릴/오리칼쿰 곡괭이"
+          ],
+          [
+            "기계 보스 세 종류",
+            "신성한 광석, 신성한 주괴 드롭",
+            "180% 이상(아다만타이트/티타늄 곡괭이 등)"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "normal/3/0/0",
+      "after": {
+        "type": "note",
+        "title": "해금표 적용 범위",
+        "text": "초기 하드모드 개편 ON 전용 광석 생성 순서입니다. OFF에서는 제단과 바닐라 광석 경로를 따릅니다. 생명 열매와 플랜테라 구근은 칼라미티의 별도 변경으로 하드모드 시작부터 자랄 수 있습니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/5/2",
+      "before": "첫 처치한 기계 보스의 종류와 상관없이 미스릴·오리칼쿰이 생성됩니다. 같은 보스를 반복해 잡아도 두 번째 등급은 열리지 않습니다.",
+      "after": "개편 ON에서 첫 처치한 기계 보스의 종류와 상관없이 미스릴·오리칼쿰이 생성됩니다. 같은 종류 반복 처치로 다음 등급은 열리지 않습니다. OFF에서는 기계 보스 처치가 일반 광석 등급 해금 조건이 아닙니다."
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/11/0",
+      "before": "다른 기계 보스 한 종류를 더 처치하면 아다만타이트·티타늄이 생성됩니다. 미스릴·오리칼쿰 곡괭이로 채광하고 지옥 화로를 이용한 상위 제련로를 준비하세요.",
+      "after": "개편 ON에서 아직 처치하지 않은 다른 기계 보스 한 종류를 잡으면 아다만타이트·티타늄이 생성됩니다. 미스릴·오리칼쿰 곡괭이로 채광하고 지옥 화로를 이용한 상위 제련로를 준비하세요. OFF에서는 이미 확보한 광석과 제작대를 사용합니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/11/0",
+      "before": [
+        "직접 진행할 때",
+        "미스릴 또는 오리칼쿰 곡괭이로 아다만타이트·티타늄 광석을 찾습니다. 지옥 화로와 광석을 이용해 해당 상위 제련로를 만들고 새 곡괭이를 먼저 제작하세요. 냉동석과 상위 장비 제작비는 그다음 계산합니다."
+      ],
+      "after": [
+        "제련로와 곡괭이 우선",
+        "미스릴 또는 오리칼쿰 곡괭이로 아다만타이트·티타늄을 캐고 지옥 화로와 해당 광석을 사용해 상위 제련로를 제작합니다. 180% 이상 곡괭이를 먼저 확보해 냉동석까지 준비하세요. 개편 OFF에서 이미 도구가 있다면 반복 제작하지 않습니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/13/0",
+      "before": "개편 ON에서 세 종류를 모두 처치하면 지하 신성지대에 신성한 광석이 생성되고 이후 기계 보스에서 신성한 주괴도 얻을 수 있습니다. 녹조류 채광에는 200% 곡괭이가 필요하므로 Pickaxe Axe 또는 Drax를 확보하세요.",
+      "after": "개편 ON에서 기계 보스 세 종류를 모두 잡으면 지하 신성지대에 신성한 광석이 생성되고 이후 기계 보스도 신성한 주괴를 드롭합니다. 신성한 광석은 180% 이상으로 채광하며, 녹조류에는 200% 이상인 Pickaxe Axe 또는 Drax 등이 필요합니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/13/0",
+      "before": [
+        "직접 진행할 때",
+        "개편 ON에서 세 종류 처치 후 신성한 광석을 지하 신성지대에서 찾습니다. 녹조류는 지하 정글에서 200% 이상 채광력으로 캡니다. Pickaxe Axe 또는 Drax를 만들 수 있는 재료를 확인한 후 원정을 떠나세요."
+      ],
+      "after": [
+        "두 광석의 채광력과 제련 구분",
+        "신성한 광석은 180% 이상 곡괭이로 캐고 4개를 하드모드 제련로에서 주괴 1개로 제련할 수 있습니다. 녹조류는 200% 이상이 필요하므로 신성한 주괴와 세 기계 보스의 영혼으로 Pickaxe Axe 또는 Drax 제작을 확인하세요. 개편 OFF에서는 신성한 주괴의 일반 드롭 경로를 활용합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/15/0",
+      "before": "첫 플랜테라 도전은 지하 정글의 분홍색 구근 또는 Vernal Pass의 거대 구근을 파괴하는 경로를 추천합니다. 2.2.0부터 Portabulb에는 Living Shard 3개가 필요하므로 첫 처치 전 기본 소환 수단으로 삼지 않습니다.",
+      "after": "칼라미티에서는 하드모드 시작부터 플랜테라 구근이 자라므로 기계 보스 3종 처치가 소환 자체의 필수 조건은 아닙니다. 첫 플레이는 세 기계 보스 이후 지하 정글의 구근 또는 Vernal Pass 거대 구근을 권장합니다. Portabulb는 2.2.0부터 Living Shard 3개를 요구합니다."
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/3/15/0",
+      "after": {
+        "type": "note",
+        "title": "권장 순서와 실제 조건",
+        "text": "칼라미티에서는 하드모드 시작부터 구근이 생성됩니다. 기계 보스 3종 처치 후 도전하는 순서는 장비와 채광 도구를 안정적으로 갖추기 위한 권장 경로이지 소환의 필수 조건이 아닙니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/16/0",
+      "before": "플랜테라 처치 후 Perennial Ore를 채광력 200% 이상으로 캐고 하드모드 제련로에서 가공합니다. Core of Calamity는 Ashes of Calamity·Ectoplasm·Essence of Sunlight/Havoc/Eleum으로 상위 모루에서 제작합니다.",
+      "after": "플랜테라 처치 후 동굴층의 Perennial Ore를 200% 이상 곡괭이로 채광합니다. 광석 4개를 하드모드 제련로에서 주괴 1개로 가공합니다. Core of Calamity는 별도로 클론의 재·Ectoplasm·세 종류 Essence를 상위 모루에서 조합합니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/16/0",
+      "before": [
+        "직접 진행할 때",
+        "200% 이상 곡괭이로 동굴의 Perennial Ore를 캔 뒤 상위 제련로에서 가공합니다. Core of Calamity의 재료는 별도 경로이므로 Living Shard와 혼동하지 마세요. 제작에 필요한 주괴를 미리 계산합니다."
+      ],
+      "after": [
+        "광석 예산과 코어 제작 분리",
+        "Mangrove Chakram의 Perennial Bar 10개가 목표라면 광석 40개가 필요합니다. 다른 재료는 별도입니다. Core of Calamity는 2.2.2부터 Ectoplasm 1개를 사용하므로 예전 3개 레시피를 적용하지 않습니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/16/2",
+      "before": "새로 등장하는 하드모드 던전 적을 잡아 Ectoplasm 등 재료를 확보합니다. 전투가 어려우면 먼저 방어구를 보완하고 귀환 물약을 챙기세요.",
+      "after": "플랜테라 후 던전의 적을 사냥하면 등장하는 Dungeon Spirit을 처치해 Ectoplasm을 모읍니다. 2.2.2부터 여러 강화 던전 적의 직접 Ectoplasm 드롭이 삭제되었으므로 일반 적 자체에서 직접 떨어질 것이라고 가정하지 마세요."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/16/2",
+      "before": [
+        "직접 진행할 때",
+        "던전의 기존 적보다 강한 새 적이 등장하므로 입구 가까운 구역부터 탐험합니다. Ectoplasm을 얻으면 Core of Calamity 및 직업 장비 재료로 분리해 보관하세요. 막다른 방으로 깊게 들어가기 전 귀환 수단을 확인합니다."
+      ],
+      "after": [
+        "엑토플라즘 파밍 대상",
+        "입구 가까운 곳에서 강화 던전 적을 사냥하면서 나타나는 Dungeon Spirit을 확인하고 처치하세요. 재료는 코어와 직업 장비에 필요한 만큼 보관합니다. 던전 상자 낚시를 Ectoplasm의 기본 경로로 삼지 않습니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/14/2",
+      "before": "Ashes of Calamity를 보관하세요. 플랜테라 이후 던전의 Ectoplasm 및 세 종류 Essence와 함께 Core of Calamity 제작에 사용합니다. Living Shard는 별도 제작 재료입니다.",
+      "after": "Ashes of Calamity를 보관하세요. 플랜테라 이후 던전의 Ectoplasm 및 세 종류 Essence와 함께 Core of Calamity 제작에 사용합니다. 2.2.2부터 코어 레시피의 Ectoplasm 비용은 1개입니다. Living Shard는 별도 재료입니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/14/2",
+      "before": [
+        "직접 진행할 때",
+        "Ashes of Calamity를 별도 상자에 보관하세요. Core of Calamity에 들어가는 Ectoplasm은 플랜테라 이후 강화 던전에서 확보하며, 세 Essence도 필요합니다. 나중에 슈프림 칼라미타스 소환에도 잿가루를 쓰므로 모두 소진하지 않습니다."
+      ],
+      "after": [
+        "재료 배분",
+        "클론의 재는 Core of Calamity 제작과 나중에 슈프림 칼라미타스를 처음 소환할 때 모두 필요할 수 있습니다. 전부 코어로 만들지 말고 소환용 재를 따로 보관하세요. Ectoplasm은 플랜테라 후 Dungeon Spirit을 사냥해 확보합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/21/0",
+      "before": "심연의 Scoria Ore는 210% 이상 채광력이 필요하며 보스 처치 자체가 별도의 채광 제한은 아닙니다. 정상 진행에서는 골렘 첫 처치의 픽소우를 이용하세요. 수중 호흡 장비와 귀환 수단을 챙깁니다.",
+      "after": "심연 Scoria Ore는 210% 이상 채광력이 필요하며 골렘 처치 자체는 별도 채광 제한이 아닙니다. 정상 진행에서는 골렘 첫 처치 픽소우를 이용하고, 골렘 이후에는 Devil Fish와 Chaotic Puffer의 스코리아 드롭도 활용할 수 있습니다."
+    },
+    {
+      "type": "structured",
+      "key": "beginner/3/21/0|심연 원정 준비",
+      "before": {
+        "type": "table",
+        "title": "심연 원정 준비",
+        "columns": [
+          "항목",
+          "조건"
+        ],
+        "rows": [
+          [
+            "채광력",
+            "210% 이상"
+          ],
+          [
+            "정상 진행 도구",
+            "골렘 첫 처치의 픽소우"
+          ],
+          [
+            "추가 획득",
+            "골렘 이후 일부 심연 적 드롭"
+          ],
+          [
+            "안전",
+            "호흡 장비·귀환 포션"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "심연 원정 준비",
+        "columns": [
+          "항목",
+          "조건"
+        ],
+        "rows": [
+          [
+            "채광력",
+            "210% 이상"
+          ],
+          [
+            "정상 진행 도구",
+            "골렘 첫 처치의 픽소우"
+          ],
+          [
+            "추가 획득",
+            "골렘 이후 Devil Fish / Chaotic Puffer 드롭"
+          ],
+          [
+            "안전",
+            "호흡 장비·귀환 포션"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured",
+      "key": "beginner/3/21/0|주의",
+      "before": {
+        "type": "note",
+        "title": "주의",
+        "text": "채광력이 부족하면 곡괭이부터 교체합니다. 심연에 무리하게 오래 머물지 마세요."
+      },
+      "after": {
+        "type": "note",
+        "title": "주의",
+        "text": "Scoria Bar 1개는 광석 4개를 하드모드 제련로에서 가공합니다. 채광력과 수중 생존을 먼저 점검하고 목표 수량만 확보하세요."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/27/2",
+      "before": "아스트럼 데우스 처치 후 아스트랄 광석을 실제로 획득할 수 있습니다. 210% 이상 채광력의 픽소우 등으로 캐고 Astral Bar 제작을 확인하세요. 로그는 데우스 드롭 Regulus Riot도 후보입니다.",
+      "after": "아스트럼 데우스 처치 이후 아스트랄 광석을 실제로 획득할 수 있습니다. 이전에는 광석을 캐도 Starblight Soot만 떨어집니다. 데우스 처치 후 210% 이상 채광력의 픽소우 등으로 채광하세요. 로그는 Regulus Riot도 후보입니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/27/2",
+      "before": [
+        "직접 진행할 때",
+        "데우스 처치 후 210% 이상 곡괭이로 아스트랄 광석을 채굴하세요. Astral Bar 제작분을 계산하고 로그는 Regulus Riot 드롭을 비교합니다. 이미 천체 무기가 충분하면 아스트랄 장비 전체 제작은 생략 가능합니다."
+      ],
+      "after": [
+        "광석 드롭 판정",
+        "데우스 전에 210% 곡괭이를 갖췄더라도 아스트랄 광석 자체를 얻지 못합니다. 재가 떨어지는 것은 곡괭이 문제만은 아닙니다. 데우스 처치 후 Astral Bar 제작용 광석을 확보하고 필요할 때만 장비를 갱신하세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/3/28/2",
+      "before": "노출된 핵을 공격해 처치합니다. 루미나이트를 얻으면 Ancient Manipulator에서 주괴와 직업별 후반 장비를 확인하세요. 재도전에는 Celestial Sigil을 사용할 수 있습니다.",
+      "after": "노출된 핵을 공격해 처치합니다. 루미나이트를 얻으면 Ancient Manipulator에서 주괴와 후반 장비를 제작합니다. Celestial Sigil은 골렘 처치 이후 사용할 수 있는 문 로드 소환 수단으로, 재도전 때에도 활용합니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/3/28/2",
+      "before": [
+        "직접 진행할 때",
+        "핵이 노출되면 이동하며 공격합니다. 처치 후 루미나이트와 무기 드롭을 회수하고 고대의 매니퓰레이터에 접근하세요. 재도전용 Celestial Sigil은 천체 파편으로 제작하는 경로를 확인합니다."
+      ],
+      "after": [
+        "소환 수단 구분",
+        "문 로드의 핵을 공격해 처치하고 보상을 회수합니다. 마지막 천체 기둥 파괴는 전투를 이어 가는 경로이고, Celestial Sigil은 골렘 처치 조건을 충족한 뒤 별도로 사용할 수 있습니다. 첫 문 로드 처치 자체가 Sigil 사용의 선행 조건인 것은 아닙니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "normal/3/2/0",
+      "before": "유황 정령은 필요 시(Charred Idol의 Unholy Core 5개) → 마지막 기계 보스 → 200% 채광 도구·장비 → 칼라미타스 클론 → 플랜테라 구근. Portabulb는 Living Shard 3개를 요구하므로 첫 도전은 구근 우선.",
+      "after": "유황 정령은 필요 시 → 마지막 기계 보스 → 200% 채광 도구·장비 → 클론 → 플랜테라 구근 권장. 구근은 하드모드 시작부터 생성되며 기계 보스 3종은 소환 필수 조건이 아님. Portabulb는 Living Shard 3개 필요."
+    },
+    {
+      "type": "detail",
+      "key": "normal/3/2/0",
+      "before": [
+        "전환 판단",
+        "마지막 종류 처치 후 200% 채광 도구를 우선 확보합니다. 클론의 잿가루를 보관하고 첫 플랜테라는 구근으로 소환하세요. Portabulb에 필요한 Living Shard는 처치 이후 확보하는 것이 기본 경로입니다."
+      ],
+      "after": [
+        "필수와 권장 구분",
+        "세 기계 보스 이후의 도구·장비가 안정적인 기본 루트입니다. 플랜테라 조기 도전은 가능하지만 Perennial Ore 채광력과 장비 성능을 별도로 확보해야 합니다. 클론의 재는 코어와 후반 소환용으로 배분합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "normal/3/2/2",
+      "before": "클론 Ashes of Calamity + Ectoplasm + 세 종류 Essence → Core of Calamity. 플랜테라 후 Perennial Ore(200%)와 Living Shard는 별도 제작 재료.",
+      "after": "클론 Ashes of Calamity + Ectoplasm(2.2.2부터 1개) + 세 Essence → Core of Calamity. 플랜테라 이후 Dungeon Spirit에서 Ectoplasm 확보, Perennial Ore 4→주괴 1(200%, 하드모드 제련로). Living Shard는 별도."
+    },
+    {
+      "type": "detail",
+      "key": "normal/3/2/2",
+      "before": [
+        "전환 판단",
+        "클론 처치→잿가루, 플랜테라 처치→강화 던전 Ectoplasm 및 Perennial Ore. Core of Calamity에는 세 종류 Essence도 필요하며 Living Shard와 별도입니다. 재료가 필요한 장비를 먼저 정합니다."
+      ],
+      "after": [
+        "재료 원정 및 종료점",
+        "코어 수량을 먼저 계산하고 던전 유령을 사냥하세요. 2.2.2에서 여러 던전 적의 직접 드롭이 삭제됐습니다. Perennial은 Mangrove Chakram의 주괴 10개 기준 광석 40개이며 나머지 제작 재료는 별도입니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "normal/3/3/1",
+      "before": "사원 열쇠 → 골렘 첫 처치 픽소우(210%) → 심연 Scoria Ore 채광 및 Life Alloy 재료 확보. 골렘 처치 자체가 스코리아 채광의 독립 조건은 아닙니다.",
+      "after": "권장 주요 경로: 사원 열쇠 → 골렘 첫 처치 픽소우(210%). 스코리아와 Life Alloy는 목표 장비가 요구할 때 선택 파밍. 골렘 처치 자체는 스코리아 채광의 독립 조건이 아니며 처치 후 적 드롭도 해금."
+    },
+    {
+      "type": "structured",
+      "key": "normal/3/3/1|원정 판단",
+      "before": {
+        "type": "note",
+        "title": "원정 판단",
+        "text": "골렘 첫 처치의 픽소우로 스코리아와 이후 아스트랄 광석 채광에 대비합니다. 스코리아 채광에 별도의 골렘 처치 제한은 없습니다."
+      },
+      "after": {
+        "type": "note",
+        "title": "원정 판단",
+        "text": "골렘 첫 처치 픽소우는 스코리아·아스트랄 채광 도구 후보입니다. 스코리아는 목표 장비가 없으면 원정을 생략할 수 있고, 골렘 이후 Devil Fish·Chaotic Puffer 드롭도 가능합니다. 데우스는 아스트랄 광석 자체를 얻기 위한 별도 조건입니다."
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "normal/3/3/1",
+      "after": {
+        "type": "note",
+        "title": "표의 기계 보스 조건",
+        "text": "Infernal Suevite의 기계 보스 1종 행은 초기 하드모드 개편 ON의 정상 채광 진행 기준입니다. 광석은 월드 생성 때 존재하며 채광력 150% 조건을 별도로 확인하세요."
+      }
+    },
+    {
+      "type": "body",
+      "key": "normal/3/5/0",
+      "before": "직업별 천체 무기·날개·대시·회복. 마지막 천체 기둥 또는 Celestial Sigil.",
+      "after": "직업별 천체 무기·날개·대시·회복. 마지막 천체 기둥 파괴 또는 골렘 처치 이후 Celestial Sigil 사용. 첫 문 로드 처치가 Sigil 사용 조건은 아님."
+    },
+    {
+      "type": "detail",
+      "key": "normal/3/5/0",
+      "before": [
+        "전환 판단",
+        "천체 무기가 완성되면 현재 날개와 대시로 지상 아레나를 왕복합니다. 마지막 기둥으로 바로 소환되므로 회복과 버프를 먼저 챙기고, 실패 후에는 Celestial Sigil 제작 경로를 사용하세요."
+      ],
+      "after": [
+        "천체 이벤트 종료 판단",
+        "필요 직업 파편을 확보한 후 장비를 제작하고 마지막 기둥 파괴 전에 전투 준비를 끝냅니다. 재도전에는 골렘 이후 사용 가능한 Celestial Sigil을 비교해 기둥 반복 비용을 줄일 수 있습니다."
+      ]
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/3/2/0",
+      "after": {
+        "type": "note",
+        "title": "조기 플랜테라의 손익",
+        "text": "하드모드 시작부터 구근이 생성되므로 기계 보스 3종은 소환 필수 조건이 아닙니다. 그러나 조기 처치만으로 200% 곡괭이를 얻는 것은 아니므로 Perennial 채광·장비 비용과 전투 부담을 따로 평가합니다."
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/3/2/2",
+      "after": {
+        "type": "table",
+        "title": "플랜테라 이후 재료 투자",
+        "columns": [
+          "목표",
+          "최소 확인 조건",
+          "투자 기준"
+        ],
+        "rows": [
+          [
+            "Perennial Bar 10개",
+            "플랜테라 + 200% 채광력, 광석 40개",
+            "Mangrove Chakram 등 목표 장비에 배분"
+          ],
+          [
+            "Core of Calamity",
+            "클론 재 + Ectoplasm 1 + 세 Essence 등",
+            "2.2.2 변경 반영; 후반 소환용 재 보존"
+          ],
+          [
+            "Ectoplasm",
+            "플랜테라 후 Dungeon Spirit",
+            "강화 던전 일반 적 직접 드롭 삭제 반영"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/3/3/2",
+      "after": {
+        "type": "table",
+        "title": "문 로드 전 선택 원정 비교",
+        "columns": [
+          "목표",
+          "선행 조건",
+          "생략 기준"
+        ],
+        "rows": [
+          [
+            "Scoria Bar",
+            "210% 곡괭이 또는 골렘 이후 적 드롭",
+            "Life Alloy·목표 장비 필요 없으면 생략"
+          ],
+          [
+            "Astral Bar",
+            "데우스 처치 + 210% 곡괭이",
+            "천체 무기로 충분하면 생략"
+          ],
+          [
+            "문 로드 소환",
+            "마지막 기둥 또는 골렘 이후 Celestial Sigil",
+            "첫 처치 이전에도 Sigil 조건 확인"
+          ]
+        ],
+        "links": true
+      }
+    }
+  ]
+}
