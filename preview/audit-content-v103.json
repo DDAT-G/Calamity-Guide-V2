@@ -1,0 +1,103 @@
+{
+  "version": 103,
+  "base": 102,
+  "scope": "mid/late Hardmode acquisition and version-specific progression",
+  "changes": [
+    {
+      "location": "beginner/3/27/2",
+      "old": "아스트럼 데우스 처치 이후 아스트랄 광석을 실제로 획득할 수 있습니다. 이전에는 광석을 캐도 Starblight Soot만 떨어집니다. 데우스 처치 후 210% 이상 채광력의 픽소우 등으로 채광하세요. 로그는 Regulus Riot도 후보입니다.",
+      "next": "2.2.2부터 아스트럼 데우스 처치 전에는 아스트랄 광석 블록 자체를 파괴할 수 없으며 Starblight Soot도 채광으로 얻을 수 없습니다. 데우스 처치 후 210% 이상 채광력의 픽소우 등으로 광석을 캡니다. Astral Bar 한 개에는 광석 2개와 Starblight Soot 3개가 필요하므로 재는 아스트랄 지역 적 또는 보스 드롭으로 별도 확보하세요. 로그는 Regulus Riot도 후보입니다."
+    },
+    {
+      "location": "extra/beginner/3/27/2",
+      "old": "데우스 전에 210% 곡괭이를 갖췄더라도 아스트랄 광석 자체를 얻지 못합니다. 재가 떨어지는 것은 곡괭이 문제만은 아닙니다. 데우스 처치 후 Astral Bar 제작용 광석을 확보하고 필요할 때만 장비를 갱신하세요.",
+      "next": "데우스 전에 210% 곡괭이를 갖췄더라도 아스트랄 광석은 파괴할 수 없습니다. 2.2.2 이전의 채광 시 재 드롭 설명은 현재 버전에 적용하지 마세요. 데우스 처치 후 광석을 캐고, 별도로 확보한 Starblight Soot와 함께 주괴 제작법을 확인합니다."
+    },
+    {
+      "location": "beginner/3/19/2",
+      "old": "Aureus Cell 및 아스트랄 계열 장비를 확인합니다. 이 보스는 아스트랄 광석의 획득 제한을 해제하는 보스가 아닙니다. 그 조건은 아스트럼 데우스 처치입니다.",
+      "next": "Aureus Cell과 Starblight Soot, 직업별 드롭을 확인합니다. 아우레우스는 아스트랄 광석 채광 제한을 해제하지 않습니다. 2.2.2 이후에는 데우스 처치 전 아스트랄 광석을 파괴할 수 없으므로 아우레우스 보상과 데우스 이후 제작 장비를 구분하세요."
+    },
+    {
+      "location": "normal/3/5/1",
+      "old": "루미나이트와 보상 무기 확보 → 5장. 아스트랄 광석은 데우스를 잡았을 때만 실제 획득 가능.",
+      "next": "루미나이트와 보상 무기 확보 → 5장. 아스트랄 광석은 데우스 처치 후 210% 이상 도구로 채광합니다. 2.2.2부터 처치 전 파괴 및 채광을 통한 Starblight Soot 획득이 불가능합니다."
+    },
+    {
+      "location": "beginner/3/27/0",
+      "old": "아스트랄 감염 지역에서 Atlas 등을 잡아 Titan Heart를 얻고 밤에 Astral Beacon과 상호작용합니다. Starcore는 최초 데우스 처치 후 제작 가능하며 2.2.2부터 Astral Bar 8개가 필요합니다.",
+      "next": "아스트랄 감염 지역의 Atlas 등에서 Titan Heart를 얻고 밤에 Astral Beacon과 상호작용합니다. 첫 소환은 Titan Heart 1개를 소비합니다. 재사용 가능한 Starcore는 최초 데우스 처치 후 제작 가능하며 2.2.2부터 Astral Bar 8개가 필요합니다."
+    },
+    {
+      "location": "beginner/3/18/2",
+      "old": "공중 설계도를 코드브레이커의 아래 슬롯에, 전력 셀 500개를 위 슬롯에 넣어 해독합니다. Astral Chunk 및 Long Ranged Sensor Array 제작이 열립니다. 골리앗까지 도전할 계획이면 센서 설치 후 정글 설계도를 전력 셀 950개로 추가 해독하세요.",
+      "next": "공중 설계도를 코드브레이커의 아래 슬롯에, 전력 셀 500개를 위 슬롯에 넣어 해독합니다. Astral Chunk 및 Long Ranged Sensor Array 제작이 열립니다. 골리앗까지 도전할 계획이면 센서 설치 후 정글 설계도를 전력 셀 950개로 추가 해독하세요. 두 설계도의 해독에는 총 1,450셀이 필요하며, 코드브레이커 부품 자체의 제작 재료는 별도입니다."
+    },
+    {
+      "location": "beginner/3/21/0",
+      "old": "심연 Scoria Ore는 210% 이상 채광력이 필요하며 골렘 처치 자체는 별도 채광 제한이 아닙니다. 정상 진행에서는 골렘 첫 처치 픽소우를 이용하고, 골렘 이후에는 Devil Fish와 Chaotic Puffer의 스코리아 드롭도 활용할 수 있습니다.",
+      "next": "심연 Scoria Ore는 210% 이상 채광력이 필요하며 골렘 처치 자체는 별도 채광 제한이 아닙니다. 정상 진행에서는 골렘 첫 처치 픽소우를 이용하고, 골렘 이후에는 Devil Fish와 Chaotic Puffer의 스코리아 드롭도 활용할 수 있습니다. 심연 2층부터 광석을 찾을 수 있으므로 필요한 양만 채광하고 더 위험한 심층 원정을 강제하지 않습니다."
+    },
+    {
+      "location": "structured/normal/3/3/1/astral",
+      "old": "아스트럼 데우스 처치",
+      "next": "아스트럼 데우스 처치 · 처치 전 파괴 불가(2.2.2+)"
+    },
+    {
+      "location": "structured/advanced/3/3/0/deus",
+      "old": "Titan Heart + 밤의 Astral Beacon",
+      "next": "Titan Heart 1개 소비 + 밤의 Astral Beacon; Starcore는 처치 후"
+    },
+    {
+      "location": "structured/advanced/3/3/2/astral",
+      "old": "데우스 처치 + 210% 곡괭이",
+      "next": "데우스 처치 + 210% 곡괭이; 주괴당 광석 2·Starblight Soot 3"
+    },
+    {
+      "location": "structured/advanced/3/3/2",
+      "next": "2.2.2부터 데우스 처치 전 광석 블록은 파괴할 수 없습니다. 과거의 Starblight Soot 채광 드롭은 삭제되었으며 재는 적이나 보스 드롭으로 확보합니다."
+    },
+    {
+      "location": "structured/beginner/3/21/0",
+      "old": "Scoria Bar 1개는 광석 4개를 하드모드 제련로에서 가공합니다. 채광력과 수중 생존을 먼저 점검하고 목표 수량만 확보하세요.",
+      "next": "Scoria Bar 1개는 광석 4개를 하드모드 제련로에서 가공합니다. 채광력과 수중 생존을 먼저 점검하고 목표 수량만 확보하세요. 스코리아는 심연 2층에서도 찾을 수 있습니다. 목표 수량에 맞추어 더 깊은 층은 생략하세요."
+    }
+  ],
+  "verifiedExisting": [
+    "Leviathan and Anahita unlock Depth Cells and Lumenyl drops",
+    "Planetoid 500 and Jungle 950 Power Cells",
+    "Astral Chunk and Abombination schematic gates",
+    "Scoria Ore 210% and post-Golem enemy drops",
+    "Starcore 8 Astral Bars after 2.2.2",
+    "Apollyon and Fallen Paladin's Hammer 2.2.2 ingredient changes",
+    "Prismatic Lacewing early Hardmode",
+    "Soaring Insignia no infinite flight",
+    "Ectoplasm direct dungeon enemy drops removed in 2.2.2"
+  ],
+  "sources": [
+    "https://calamitymod.wiki.gg/wiki/2.2.2",
+    "https://calamitymod.wiki.gg/wiki/2.2.4",
+    "https://calamitymod.wiki.gg/wiki/History:Astral_Ore",
+    "https://calamitymod.wiki.gg/wiki/Astral_Bar",
+    "https://calamitymod.wiki.gg/wiki/Astral_Beacon",
+    "https://calamitymod.wiki.gg/wiki/Starcore",
+    "https://calamitymod.wiki.gg/wiki/Guide:Assembling_the_Codebreaker",
+    "https://calamitymod.wiki.gg/wiki/Scoria_Ore",
+    "https://calamitymod.wiki.gg/wiki/Abyss",
+    "https://calamitymod.wiki.gg/wiki/Leviathan_and_Anahita",
+    "https://calamitymod.wiki.gg/wiki/Vanilla_changes",
+    "https://calamitymod.wiki.gg/wiki/History:Vanilla_changes"
+  ],
+  "validated": [
+    "unchanged walkthrough titles, labels and refs",
+    "unchanged existing structured anchors",
+    "unchanged extra keys",
+    "JavaScript syntax"
+  ],
+  "limitations": [
+    "Indexed official wiki and version changelog compared, not actual game runtime.",
+    "Wiki progression guide still contains conflicting older Astral Ore description; 2.2.2 explicit changelog preferred.",
+    "Full catalog editorial content and live browser not verified; no claim of exhaustive weapon review.",
+    "No new combat tab."
+  ]
+}
