@@ -1,0 +1,1584 @@
+{
+  "version": "2.2.4",
+  "tml": "tModLoader v2026.9.3.1",
+  "blob": "133c3d5265dbfaa9ee47c74261bbb2546e332e57",
+  "items": 8126,
+  "npcs": 1058,
+  "recipes": 4960,
+  "catalogBytes": 18074128,
+  "missingRecipeLinks": 0,
+  "missingIngredients": 0,
+  "missingNpcGroupParts": 0,
+  "missingLootSources": 0,
+  "steps": 143,
+  "topics": 454,
+  "explicitReferences": 762,
+  "missingCatalog": [],
+  "invalidGuideRefs": [],
+  "anchors": 215,
+  "targets": 277,
+  "aliasChecks": [
+    {
+      "text": "Moon Walkers",
+      "matches": [
+        {
+          "text": "Moon Walkers",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/MoonWalkers",
+              "en": "Moon Walkers",
+              "ko": "문 워커"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Celestial Tracers",
+      "matches": [
+        {
+          "text": "Celestial Tracers",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/MoonWalkers",
+              "en": "Moon Walkers",
+              "ko": "문 워커"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Void Striders",
+      "matches": [
+        {
+          "text": "Void Striders",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/VoidStriders",
+              "en": "Void Striders",
+              "ko": "공허의 발길"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Elysian Tracers",
+      "matches": [
+        {
+          "text": "Elysian Tracers",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/VoidStriders",
+              "en": "Void Striders",
+              "ko": "공허의 발길"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dimension-Tearing Disk",
+      "matches": [
+        {
+          "text": "Dimension-Tearing Disk",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/DimensionTearingDisk",
+              "en": "Dimension-Tearing Disk",
+              "ko": "차원 절단 원반"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Eradicator",
+      "matches": [
+        {
+          "text": "Eradicator",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/DimensionTearingDisk",
+              "en": "Dimension-Tearing Disk",
+              "ko": "차원 절단 원반"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Sacred Strawberry",
+      "matches": [
+        {
+          "text": "Sacred Strawberry",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/SacredStrawberry",
+              "en": "Sacred Strawberry",
+              "ko": "신성한 딸기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dragonfruit",
+      "matches": [
+        {
+          "text": "Dragonfruit",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/SacredStrawberry",
+              "en": "Sacred Strawberry",
+              "ko": "신성한 딸기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Tainted Cloudberry",
+      "matches": [
+        {
+          "text": "Tainted Cloudberry",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/TaintedCloudberry",
+              "en": "Tainted Cloudberry",
+              "ko": "오염된 클라우드베리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Elderberry",
+      "matches": [
+        {
+          "text": "Elderberry",
+          "entries": [
+            {
+              "t": "items",
+              "id": "Terraria/items/4289",
+              "en": "Elderberry",
+              "ko": "엘더베리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "구 Elderberry",
+      "matches": [
+        {
+          "text": "Elderberry",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/TaintedCloudberry",
+              "en": "Tainted Cloudberry",
+              "ko": "오염된 클라우드베리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Void Eater Marionette",
+      "matches": [
+        {
+          "text": "Void Eater Marionette",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/VoidEaterMarionette",
+              "en": "Void Eater Marionette",
+              "ko": "공허 포식자의 마리오네트"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Staff of the Mechworm",
+      "matches": [
+        {
+          "text": "Staff of the Mechworm",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/VoidEaterMarionette",
+              "en": "Void Eater Marionette",
+              "ko": "공허 포식자의 마리오네트"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Thread of Eradication",
+      "matches": [
+        {
+          "text": "Thread of Eradication",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/ThreadOfEradication",
+              "en": "Thread of Eradication",
+              "ko": "말살의 타래"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Deathwind",
+      "matches": [
+        {
+          "text": "Deathwind",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/ThreadOfEradication",
+              "en": "Thread of Eradication",
+              "ko": "말살의 타래"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Wulfrum Screwdriver",
+      "matches": [
+        {
+          "text": "Wulfrum Screwdriver",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/WulfrumScrewdriver",
+              "en": "Wulfrum Screwdriver",
+              "ko": "울프럼 스크류 드라이버"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Wulfrum Blade",
+      "matches": [
+        {
+          "text": "Wulfrum Blade",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/WulfrumScrewdriver",
+              "en": "Wulfrum Screwdriver",
+              "ko": "울프럼 스크류 드라이버"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mark of Providence",
+      "matches": [
+        {
+          "text": "Mark of Providence",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/MarkofProvidence",
+              "en": "Mark of Providence",
+              "ko": "프로비던스의 표식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rune of Kos",
+      "matches": [
+        {
+          "text": "Rune of Kos",
+          "entries": [
+            {
+              "t": "items",
+              "id": "CalamityMod/MarkofProvidence",
+              "en": "Mark of Providence",
+              "ko": "프로비던스의 표식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "사신의 곡괭이",
+      "matches": [
+        {
+          "text": "사신의 곡괭이",
+          "entries": [
+            {
+              "t": "items",
+              "id": "Terraria/items/798",
+              "en": "Deathbringer Pickaxe",
+              "ko": "죽음의 인도자 곡괭이"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambiguousNames": [
+    {
+      "location": "beginner/0/3/2",
+      "text": "모루",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/35",
+          "en": "Iron Anvil",
+          "ko": "철 모루"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/716",
+          "en": "Lead Anvil",
+          "ko": "납 모루"
+        }
+      ]
+    },
+    {
+      "location": "beginner/0/3/2/detail",
+      "text": "돌",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/Rock",
+          "en": "Rock",
+          "ko": "돌"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/3",
+          "en": "Stone Block",
+          "ko": "돌 블록"
+        }
+      ]
+    },
+    {
+      "location": "beginner/1/0/1",
+      "text": "황금 상자",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/306",
+          "en": "Gold Chest",
+          "ko": "금 상자"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/3885",
+          "en": "Golden Chest",
+          "ko": "황금 상자"
+        }
+      ]
+    },
+    {
+      "location": "beginner/1/0/1",
+      "text": "설원 상자",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1532",
+          "en": "Ice Chest",
+          "ko": "설원 상자"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/681",
+          "en": "Frozen Chest",
+          "ko": "얼어붙은 상자"
+        }
+      ]
+    },
+    {
+      "location": "beginner/1/1/2",
+      "text": "울프럼 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumHat",
+          "en": "Wulfrum Hat & Goggles",
+          "ko": "울프럼 모자 & 고글"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumJacket",
+          "en": "Wulfrum Jacket",
+          "ko": "울프럼 재킷"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumOveralls",
+          "en": "Wulfrum Overalls",
+          "ko": "울프럼 멜빵바지"
+        }
+      ]
+    },
+    {
+      "location": "beginner/1/1/2",
+      "text": "울프럼 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumHat",
+          "en": "Wulfrum Hat & Goggles",
+          "ko": "울프럼 모자 & 고글"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumJacket",
+          "en": "Wulfrum Jacket",
+          "ko": "울프럼 재킷"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/WulfrumOveralls",
+          "en": "Wulfrum Overalls",
+          "ko": "울프럼 멜빵바지"
+        }
+      ]
+    },
+    {
+      "location": "beginner/1/6/1",
+      "text": "사막 방랑자 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerHat",
+          "en": "Desert Prowler Hat",
+          "ko": "사막의 파수꾼 모자"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerPants",
+          "en": "Desert Prowler Pants",
+          "ko": "사막의 파수꾼 바지"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerShirt",
+          "en": "Desert Prowler Shirt",
+          "ko": "사막의 파수꾼 셔츠"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/1/2/detail",
+      "text": "스태티젤 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelArmor",
+          "en": "Statigel Armor",
+          "ko": "스태티젤 갑옷"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelGreaves",
+          "en": "Statigel Greaves",
+          "ko": "스태티젤 각반"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelHeadMagic",
+          "en": "Statigel Cap",
+          "ko": "스태티젤 모자"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelHeadMelee",
+          "en": "Statigel Helm",
+          "ko": "스태티젤 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelHeadRanged",
+          "en": "Statigel Headgear",
+          "ko": "스태티젤 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelHeadRogue",
+          "en": "Statigel Mask",
+          "ko": "스태티젤 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/StatigelHeadSummon",
+          "en": "Statigel Hood",
+          "ko": "스태티젤 후드"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/3/1",
+      "text": "Victide 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideBreastplate",
+          "en": "Victide Breastplate",
+          "ko": "빅타이드 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideGreaves",
+          "en": "Victide Greaves",
+          "ko": "빅타이드 각반"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadMagic",
+          "en": "Victide Hermit Helmet",
+          "ko": "빅타이드 은둔자 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadMelee",
+          "en": "Victide Shellmet",
+          "ko": "빅타이드 셸멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadRanged",
+          "en": "Victide Coral Turban",
+          "ko": "빅타이드 산호 터번"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadRogue",
+          "en": "Victide Headcrab",
+          "ko": "빅타이드 헤드크랩"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadSummon",
+          "en": "Victide Mask",
+          "ko": "빅타이드 마스크"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/3/2",
+      "text": "사막의 무법자",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/LoreDesertScourge",
+          "en": "Desert Scourge",
+          "ko": "사막의 무법자"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/ScourgeoftheDesert",
+          "en": "Scourge of the Desert",
+          "ko": "사막의 무법자"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/5/1",
+      "text": "크툴루의 눈",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/LoreEyeofCthulhu",
+          "en": "The Eye of Cthulhu",
+          "ko": "크툴루의 눈"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/3292",
+          "en": "The Eye of Cthulhu",
+          "ko": "크툴루의 눈"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/9/2",
+      "text": "벌집",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1124",
+          "en": "Hive",
+          "ko": "벌집"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/5066",
+          "en": "Bee Hive",
+          "ko": "벌집"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/10/1",
+      "text": "Aerospec 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecBreastplate",
+          "en": "Aerospec Breastplate",
+          "ko": "에어로스펙 갑주"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecHeadMagic",
+          "en": "Aerospec Hat",
+          "ko": "에어로스펙 모자"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecHeadMelee",
+          "en": "Aerospec Helm",
+          "ko": "에어로스펙 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecHeadRanged",
+          "en": "Aerospec Hood",
+          "ko": "에어로스펙 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecHeadRogue",
+          "en": "Aerospec Headgear",
+          "ko": "에어로스펙 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecHeadSummon",
+          "en": "Aerospec Helmet",
+          "ko": "에어로스펙 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AerospecLeggings",
+          "en": "Aerospec Leggings",
+          "ko": "에어로스펙 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/2/11/2",
+      "text": "벌 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/2361",
+          "en": "Bee Headgear",
+          "ko": "벌 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2362",
+          "en": "Bee Breastplate",
+          "ko": "벌 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2363",
+          "en": "Bee Greaves",
+          "ko": "벌 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "미스릴",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/365",
+          "en": "Mythril Ore",
+          "ko": "미스릴 광석"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/382",
+          "en": "Mythril Bar",
+          "ko": "미스릴 주괴"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "오리칼쿰",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1105",
+          "en": "Orichalcum Ore",
+          "ko": "오리칼쿰 광석"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1191",
+          "en": "Orichalcum Bar",
+          "ko": "오리칼쿰 주괴"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "아다만타이트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/366",
+          "en": "Adamantite Ore",
+          "ko": "아다만타이트 광석"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/391",
+          "en": "Adamantite Bar",
+          "ko": "아다만타이트 주괴"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "티타늄",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1106",
+          "en": "Titanium Ore",
+          "ko": "티타늄 광석"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1198",
+          "en": "Titanium Bar",
+          "ko": "티타늄 주괴"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/1/3",
+      "text": "Spider armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/2370",
+          "en": "Spider Mask",
+          "ko": "거미 마스크"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2371",
+          "en": "Spider Breastplate",
+          "ko": "거미 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2372",
+          "en": "Spider Greaves",
+          "ko": "거미 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/1/4",
+      "text": "Titan Heart 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartBoots",
+          "en": "Titan Heart Boots",
+          "ko": "거인의 심장 부츠"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartMantle",
+          "en": "Titan Heart Mantle",
+          "ko": "거인의 심장 망토"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartMask",
+          "en": "Titan Heart Mask",
+          "ko": "거인의 심장 마스크"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/9/1",
+      "text": "파괴자",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/LoreDestroyer",
+          "en": "The Destroyer",
+          "ko": "파괴자"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1435",
+          "en": "The Destroyer",
+          "ko": "파괴자"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/11/2",
+      "text": "Daedalus 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusBreastplate",
+          "en": "Daedalus Breastplate",
+          "ko": "다이달로스 갑주"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadMagic",
+          "en": "Daedalus Hood",
+          "ko": "다이달로스 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadMelee",
+          "en": "Daedalus Helm",
+          "ko": "다이달로스 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadRanged",
+          "en": "Daedalus Headgear",
+          "ko": "다이달로스 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadRogue",
+          "en": "Daedalus Facemask",
+          "ko": "다이달로스 면갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadSummon",
+          "en": "Daedalus Mask",
+          "ko": "다이달로스 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusLeggings",
+          "en": "Daedalus Leggings",
+          "ko": "다이달로스 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/13/1",
+      "text": "신성 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/4873",
+          "en": "Hallowed Hood",
+          "ko": "신성한 모자"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/551",
+          "en": "Hallowed Plate Mail",
+          "ko": "신성한 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/552",
+          "en": "Hallowed Greaves",
+          "ko": "신성한 각반"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/553",
+          "en": "Hallowed Helmet",
+          "ko": "신성한 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/558",
+          "en": "Hallowed Headgear",
+          "ko": "신성한 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/559",
+          "en": "Hallowed Mask",
+          "ko": "신성한 마스크"
+        }
+      ]
+    },
+    {
+      "location": "beginner/3/16/1",
+      "text": "Reaver armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/ReaverCuisses",
+          "en": "Reaver Cuisses",
+          "ko": "강탈자 퀴이스"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/ReaverHeadExplore",
+          "en": "Reaver Headgear",
+          "ko": "강탈자 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/ReaverHeadMobility",
+          "en": "Reaver Visage",
+          "ko": "강탈자 비사지"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/ReaverHeadTank",
+          "en": "Reaver Helm",
+          "ko": "강탈자 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/ReaverScaleMail",
+          "en": "Reaver Scale Mail",
+          "ko": "강탈자 비늘갑옷"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/0/1",
+      "text": "Stardust 방어구",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/3381",
+          "en": "Stardust Helmet",
+          "ko": "소성단 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/3382",
+          "en": "Stardust Plate",
+          "ko": "소성단 판금갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/3383",
+          "en": "Stardust Leggings",
+          "ko": "소성단 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/0/1",
+      "text": "Empyrean 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/EmpyreanCloak",
+          "en": "Empyrean Cloak",
+          "ko": "최고천의 망토"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/EmpyreanCuisses",
+          "en": "Empyrean Cuisses",
+          "ko": "최고천의 퀴이스"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/EmpyreanMask",
+          "en": "Empyrean Mask",
+          "ko": "최고천의 마스크"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/7/1",
+      "text": "Tarragon armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonBreastplate",
+          "en": "Tarragon Breastplate",
+          "ko": "타라곤 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonHeadMagic",
+          "en": "Tarragon Mask",
+          "ko": "타라곤 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonHeadMelee",
+          "en": "Tarragon Helm",
+          "ko": "타라곤 투구"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonHeadRanged",
+          "en": "Tarragon Visage",
+          "ko": "타라곤 비사지"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonHeadRogue",
+          "en": "Tarragon Helmet",
+          "ko": "타라곤 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonHeadSummon",
+          "en": "Tarragon Horned Helm",
+          "ko": "타라곤 뿔달린 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TarragonLeggings",
+          "en": "Tarragon Leggings",
+          "ko": "타라곤 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/13/0",
+      "text": "Bloodflare armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareBodyArmor",
+          "en": "Bloodflare Body Armor",
+          "ko": "선혈불 방어복"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareCuisses",
+          "en": "Bloodflare Cuisses",
+          "ko": "선혈불 퀴이스"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareHeadMagic",
+          "en": "Bloodflare Hydra Hood",
+          "ko": "선혈불 히드라 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareHeadMelee",
+          "en": "Bloodflare Ram Mask",
+          "ko": "선혈불 숫양 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareHeadRanged",
+          "en": "Bloodflare Demon Helm",
+          "ko": "선혈불 뿔달린 헬름(Bloodflare Horned Helm)"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareHeadRogue",
+          "en": "Bloodflare Imp Mask",
+          "ko": "선혈불 임프 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/BloodflareHeadSummon",
+          "en": "Bloodflare Wyvern Helm",
+          "ko": "선혈불 와이번 헬름"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/17/0",
+      "text": "God Slayer armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/GodSlayerChestplate",
+          "en": "God Slayer Chestplate",
+          "ko": "신살자 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GodSlayerHeadMelee",
+          "en": "God Slayer Horned Greathelm",
+          "ko": "신살자 뿔달린 면갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GodSlayerHeadRanged",
+          "en": "God Slayer Helmet",
+          "ko": "신살자 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GodSlayerHeadRogue",
+          "en": "God Slayer Mask",
+          "ko": "신살자 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GodSlayerLeggings",
+          "en": "God Slayer Leggings",
+          "ko": "신살자 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/4/17/0",
+      "text": "Silva armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaArmor",
+          "en": "Silva Armor",
+          "ko": "실바 아머"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaHeadMagic",
+          "en": "Silva Masked Cap",
+          "ko": "실바 면갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaHeadSummon",
+          "en": "Silva Horned Hood",
+          "ko": "실바 뿔달린 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaLeggings",
+          "en": "Silva Leggings",
+          "ko": "실바 각반"
+        }
+      ]
+    },
+    {
+      "location": "beginner/5/12/2",
+      "text": "Demonshade armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/DemonshadeBreastplate",
+          "en": "Demonshade Breastplate",
+          "ko": "데몬셰이드 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DemonshadeGreaves",
+          "en": "Demonshade Greaves",
+          "ko": "데몬셰이드 각반"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DemonshadeHelm",
+          "en": "Demonshade Helm",
+          "ko": "데몬셰이드 헬름"
+        }
+      ]
+    },
+    {
+      "location": "normal/1/1/4",
+      "text": "사막 방랑자 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerHat",
+          "en": "Desert Prowler Hat",
+          "ko": "사막의 파수꾼 모자"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerPants",
+          "en": "Desert Prowler Pants",
+          "ko": "사막의 파수꾼 바지"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DesertProwlerShirt",
+          "en": "Desert Prowler Shirt",
+          "ko": "사막의 파수꾼 셔츠"
+        }
+      ]
+    },
+    {
+      "location": "normal/2/0/1/detail",
+      "text": "Victide 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideBreastplate",
+          "en": "Victide Breastplate",
+          "ko": "빅타이드 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideGreaves",
+          "en": "Victide Greaves",
+          "ko": "빅타이드 각반"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadMagic",
+          "en": "Victide Hermit Helmet",
+          "ko": "빅타이드 은둔자 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadMelee",
+          "en": "Victide Shellmet",
+          "ko": "빅타이드 셸멧"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadRanged",
+          "en": "Victide Coral Turban",
+          "ko": "빅타이드 산호 터번"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadRogue",
+          "en": "Victide Headcrab",
+          "ko": "빅타이드 헤드크랩"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/VictideHeadSummon",
+          "en": "Victide Mask",
+          "ko": "빅타이드 마스크"
+        }
+      ]
+    },
+    {
+      "location": "normal/3/0/0",
+      "text": "팔라듐",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1104",
+          "en": "Palladium Ore",
+          "ko": "팔라듐 광석"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1184",
+          "en": "Palladium Bar",
+          "ko": "팔라듐 주괴"
+        }
+      ]
+    },
+    {
+      "location": "normal/3/2/1",
+      "text": "Daedalus 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusBreastplate",
+          "en": "Daedalus Breastplate",
+          "ko": "다이달로스 갑주"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadMagic",
+          "en": "Daedalus Hood",
+          "ko": "다이달로스 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadMelee",
+          "en": "Daedalus Helm",
+          "ko": "다이달로스 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadRanged",
+          "en": "Daedalus Headgear",
+          "ko": "다이달로스 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadRogue",
+          "en": "Daedalus Facemask",
+          "ko": "다이달로스 면갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusHeadSummon",
+          "en": "Daedalus Mask",
+          "ko": "다이달로스 마스크"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/DaedalusLeggings",
+          "en": "Daedalus Leggings",
+          "ko": "다이달로스 각반"
+        }
+      ]
+    },
+    {
+      "location": "normal/4/3/2",
+      "text": "Silva 세트",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaArmor",
+          "en": "Silva Armor",
+          "ko": "실바 아머"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaHeadMagic",
+          "en": "Silva Masked Cap",
+          "ko": "실바 면갑"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaHeadSummon",
+          "en": "Silva Horned Hood",
+          "ko": "실바 뿔달린 후드"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/SilvaLeggings",
+          "en": "Silva Leggings",
+          "ko": "실바 각반"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/0/1",
+      "text": "Titan Heart armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartBoots",
+          "en": "Titan Heart Boots",
+          "ko": "거인의 심장 부츠"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartMantle",
+          "en": "Titan Heart Mantle",
+          "ko": "거인의 심장 망토"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TitanHeartMask",
+          "en": "Titan Heart Mask",
+          "ko": "거인의 심장 마스크"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Beetle armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/2199",
+          "en": "Beetle Helmet",
+          "ko": "딱정벌레 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2200",
+          "en": "Beetle Scale Mail",
+          "ko": "딱정벌레 미늘갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2201",
+          "en": "Beetle Shell",
+          "ko": "딱정벌레 등껍질"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2202",
+          "en": "Beetle Leggings",
+          "ko": "딱정벌레 각반"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Shroomite armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1546",
+          "en": "Shroomite Headgear",
+          "ko": "쉬루마이트 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1547",
+          "en": "Shroomite Mask",
+          "ko": "쉬루마이트 마스크"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1548",
+          "en": "Shroomite Helmet",
+          "ko": "쉬루마이트 헬멧"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1549",
+          "en": "Shroomite Breastplate",
+          "ko": "쉬루마이트 흉갑"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1550",
+          "en": "Shroomite Leggings",
+          "ko": "쉬루마이트 각반"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "소용돌이",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/SubsumingVortex",
+          "en": "Subsuming Vortex",
+          "ko": "소용돌이"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/TheMaelstrom",
+          "en": "The Maelstrom",
+          "ko": "소용돌이"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Spectre armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "Terraria/items/1503",
+          "en": "Spectre Hood",
+          "ko": "유령 후드"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1504",
+          "en": "Spectre Robe",
+          "ko": "유령 로브"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/1505",
+          "en": "Spectre Pants",
+          "ko": "유령 바지"
+        },
+        {
+          "t": "items",
+          "id": "Terraria/items/2189",
+          "en": "Spectre Mask",
+          "ko": "유령 마스크"
+        }
+      ]
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Astral armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/AstralBreastplate",
+          "en": "Astral Breastplate",
+          "ko": "아스트랄 갑주"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AstralHelm",
+          "en": "Astral Helm",
+          "ko": "아스트랄 헬름"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/AstralLeggings",
+          "en": "Astral Leggings",
+          "ko": "아스트랄 각반"
+        }
+      ]
+    },
+    {
+      "location": "advanced/5/3/1",
+      "text": "Gem Tech armor",
+      "entries": [
+        {
+          "t": "items",
+          "id": "CalamityMod/GemTechBodyArmor",
+          "en": "Gem Tech Body Armor",
+          "ko": "젬 테크 방어복"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GemTechHeadgear",
+          "en": "Gem Tech Headgear",
+          "ko": "젬 테크 헤드기어"
+        },
+        {
+          "t": "items",
+          "id": "CalamityMod/GemTechSchynbaulds",
+          "en": "Gem Tech Schynbaulds",
+          "ko": "젬 테크 정강이 보호대"
+        }
+      ]
+    }
+  ],
+  "logicTests": {
+    "resolved": 277,
+    "jumps": 277,
+    "nav": 601,
+    "totalPages": 601
+  },
+  "structural": {
+    "topics": 454,
+    "structured": 143,
+    "extras": 311,
+    "missing": 0,
+    "tables": 180
+  },
+  "syntax": {
+    "previousLoaderScripts": 20,
+    "changedScripts": 8
+  },
+  "browser": "not run: container DNS failure and preview URL inaccessible",
+  "notes": [
+    "UI logic tested from actual function bodies with minimal stub, not browser DOM",
+    "Cosmic Anvil registered recipe differs from previous wiki change note"
+  ]
+}

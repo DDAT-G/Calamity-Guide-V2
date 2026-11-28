@@ -1,0 +1,510 @@
+[
+  {
+    "location": "beginner/4/17/1",
+    "before": "Cosmic Anvil을 먼저 제작하세요. 하드모드 모루 1개, Cosmilite Bar 10개, 루미나이트 주괴 10개, Exodium Cluster 20개에 더해 2.2.0부터 네 종류 천체 파편 및 Meld Blob 각각 12개가 필요합니다. 고대의 매니퓰레이터에서 제작합니다.",
+    "after": "Cosmic Anvil의 등록 제작법은 하드모드 모루 1개, Cosmilite Bar 10개, 루미나이트 주괴 10개, Exodium Cluster 20개이며 고대의 매니퓰레이터에서 제작합니다. 위키 변경 기록에는 천체 파편 4종과 Meld Blob 각 12개가 추가되어 있으므로 실제 제작 목록을 확인하세요."
+  },
+  {
+    "location": "beginner/4/17/1|제작 재료",
+    "before": {
+      "type": "table",
+      "title": "제작 재료",
+      "columns": [
+        "재료",
+        "수량"
+      ],
+      "rows": [
+        [
+          "하드모드 모루",
+          "1"
+        ],
+        [
+          "Cosmilite Bar",
+          "10"
+        ],
+        [
+          "루미나이트 주괴",
+          "10"
+        ],
+        [
+          "Exodium Cluster",
+          "20"
+        ],
+        [
+          "Solar Fragment",
+          "12"
+        ],
+        [
+          "Vortex Fragment",
+          "12"
+        ],
+        [
+          "Nebula Fragment",
+          "12"
+        ],
+        [
+          "Stardust Fragment",
+          "12"
+        ],
+        [
+          "Meld Blob",
+          "12"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "제작 재료",
+      "columns": [
+        "재료",
+        "수량"
+      ],
+      "rows": [
+        [
+          "하드모드 모루",
+          "1"
+        ],
+        [
+          "Cosmilite Bar",
+          "10"
+        ],
+        [
+          "루미나이트 주괴",
+          "10"
+        ],
+        [
+          "Exodium Cluster",
+          "20"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "beginner/4/17/1|재료 확보",
+    "before": {
+      "type": "note",
+      "title": "재료 확보",
+      "text": "천체 파편과 Meld Blob은 이전 버전 공략에서 누락되기 쉬운 재료입니다. 모루를 만들기 전에 수량을 확인하세요."
+    },
+    "after": {
+      "type": "note",
+      "title": "재료 확보",
+      "text": "등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요."
+    }
+  },
+  {
+    "location": "normal/4/3/0",
+    "before": "Cosmic Anvil: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20·네 천체 파편 및 Meld Blob 각 12, 고대의 매니퓰레이터. Ascendant Spirit Essence 1개는 Necroplasm 2·Nightmare Fuel 5·Endothermic Energy 5·Darksun Fragment 2, 하드모드 모루.",
+    "after": "Cosmic Anvil 등록법: 하드모드 모루 1·Cosmilite 10·루미나이트 10·Exodium 20, 고대의 매니퓰레이터. 위키 기록의 파편 4종·Meld Blob 각 12는 등록 자료와 차이가 있어 게임에서 확인. Ascendant Spirit Essence 1개는 Necroplasm 2·Nightmare Fuel 5·Endothermic Energy 5·Darksun Fragment 2, 하드모드 모루."
+  },
+  {
+    "location": "normal/4/3/0/detail",
+    "before": [
+      "제작 예산 분리",
+      "Ascendant Spirit Essence 10개를 목표로 하면 재료를 20·50·50·20개 준비합니다. Cosmic Anvil 제작용 파편·Meld Blob 각 12개는 이 합성의 비용이 아니므로 따로 확보합니다."
+    ],
+    "after": [
+      "제작 예산 분리",
+      "Ascendant Spirit Essence 10개는 재료 20·50·50·20개. 등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요."
+    ]
+  },
+  {
+    "location": "advanced/4/3/0|준비 물품 및 선행 조건",
+    "before": {
+      "type": "table",
+      "title": "준비 물품 및 선행 조건",
+      "columns": [
+        "항목",
+        "확보 기준",
+        "우선도"
+      ],
+      "rows": [
+        [
+          "제작대",
+          "Cosmic Anvil: 추가 파편·Meld Blob 각 12",
+          "2.2.0 반영"
+        ],
+        [
+          "합성",
+          "Ascendant Spirit Essence",
+          "하드모드 모루"
+        ],
+        [
+          "소환",
+          "Life Alloy 10·Effulgent Feather 15",
+          "Blessed Phoenix Egg"
+        ],
+        [
+          "채광",
+          "Blossom Pickaxe 250%",
+          "야론 이후 대비"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "준비 물품 및 선행 조건",
+      "columns": [
+        "항목",
+        "확보 기준",
+        "우선도"
+      ],
+      "rows": [
+        [
+          "제작대",
+          "Cosmic Anvil: 모루 1·Cosmilite 10·루미나이트 10·Exodium 20",
+          "등록법 기준, 위키 차이 확인"
+        ],
+        [
+          "합성",
+          "Ascendant Spirit Essence",
+          "하드모드 모루"
+        ],
+        [
+          "소환",
+          "Life Alloy 10·Effulgent Feather 15",
+          "Blessed Phoenix Egg"
+        ],
+        [
+          "채광",
+          "Blossom Pickaxe 250%",
+          "야론 이후 대비"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "advanced/4/3/0",
+    "after": {
+      "type": "note",
+      "title": "제작법 불일치",
+      "text": "등록 도감(2.2.4)에는 모루 1·Cosmilite 10·루미나이트 주괴 10·Exodium 20만 등록되어 있습니다. 이전 공식 위키 변경 기록의 천체 파편 4종·Meld Blob 각 12개와 차이가 있으므로 게임의 가이드 제작 메뉴에서 현재 적용된 추가 재료를 확인하세요."
+    }
+  },
+  {
+    "location": "beginner/4/2/1",
+    "before": "Unholy Essence 등으로 Profaned Shard를 제작하고 낮에 신성지대 또는 지하세계에서 사용합니다. 정확한 재료 수량과 제작대는 미니 도감의 등록 제작법을 확인하세요.",
+    "after": "루미나이트 주괴 5개와 Unholy Essence 25개로 미스릴/오리칼쿰 모루에서 Profaned Shard를 제작합니다. 낮에 신성지대 또는 지하세계에서 사용하세요."
+  },
+  {
+    "location": "beginner/4/2/1/detail",
+    "before": [
+      "소환 · 실전 진행",
+      "Profaned Shard의 제작법에 표시된 주괴와 정수, 제작대를 확인해 하나를 준비하세요. 낮과 지형 조건을 확인하고 아레나에 도착한 뒤 사용합니다."
+    ],
+    "after": [
+      "소환 재료와 제작대",
+      "루미나이트 주괴 5개와 Unholy Essence 25개를 준비해 하드모드 모루에서 Profaned Shard를 제작합니다. 소환 도구를 확보한 뒤 낮에 지정 지형으로 이동하세요."
+    ]
+  },
+  {
+    "location": "beginner/4/15/0",
+    "before": "Cosmic Worm은 센티널 재료를 사용하는 제작 경로 외에도 대체 경로가 있습니다. 2.2.0부터 대체 레시피에는 네 종류의 천체 파편과 Meld Blob이 각각 10개씩 필요합니다. 나머지 재료는 도감에서 확인하세요. 소환 자체는 문 로드 이후 가능하지만 첫 플레이는 센티널과 폴터가스트 이후를 권장합니다.",
+    "after": "Cosmic Worm은 하드모드 모루에서 Armored Shell·Twisting Nether·Dark Plasma 각 1개로 제작합니다. 대체 등록법은 루미나이트 주괴 40개, 네 천체 파편·Meld Blob 각 10개, Necroplasm 40개입니다. 문 로드 이후 소환 가능하지만 첫 플레이는 센티널·폴터가스트 이후를 권장합니다."
+  },
+  {
+    "location": "beginner/4/15/0/detail",
+    "before": [
+      "소환 · 실전 진행",
+      "센티널 재료를 보유한 경우 기본 제작 경로를, 부족한 경우 대체 경로를 도감에서 비교합니다. 천체 파편은 네 종류 모두 필요하며 Meld Blob도 포함됩니다. 소환 가능 여부와 권장 진행 순서는 별개입니다."
+    ],
+    "after": [
+      "소환 비용 비교",
+      "센티널 재료를 한 개씩 사용하거나 루미나이트 주괴 40개, 네 파편·Meld Blob 각 10개, Necroplasm 40개로 대체합니다. Void Striders에 필요한 센티널 재료 각 3개와 비교해 실제 보유 재료가 충분한 경로를 선택하세요."
+    ]
+  },
+  {
+    "location": "normal/4/2/1",
+    "before": "Cosmic Worm은 센티널 드롭 경로 또는 천체 파편·Meld Blob을 포함한 대체 경로. 선행 처치를 생략할 수 있지만 폴터가스트 이후 세팅을 권장. 대시·날개와 머리/꼬리 명중을 점검.",
+    "after": "Cosmic Worm: 센티널 재료 각 1개 또는 루미나이트 주괴 40·네 파편/Meld Blob 각 10·Necroplasm 40. 하드모드 모루. 센티널·폴터가스트 처치는 권장 경로이지 소환 필수 조건 아님."
+  },
+  {
+    "location": "normal/4/2/1/detail",
+    "before": [
+      "준비 · 전환 판단",
+      "기존 센티널 재료를 소비하는 경로와 천체 재료를 소비하는 경로의 비용을 비교하세요. Void Striders 등 이동 장비에 쓸 재료를 먼저 예약하고 부족하면 대체 소환법을 택합니다."
+    ],
+    "after": [
+      "경로별 비용",
+      "Void Striders까지 목표라면 센티널 재료 각 4개가 필요합니다(소환 1 + 부츠 3). 대체 레시피는 주괴와 파편 및 Necroplasm 보유량을 보고 선택합니다."
+    ]
+  },
+  {
+    "location": "advanced/4/2/2",
+    "after": {
+      "type": "table",
+      "title": "Cosmic Worm 등록 제작 비용",
+      "columns": [
+        "경로",
+        "재료",
+        "투자 판단"
+      ],
+      "rows": [
+        [
+          "센티널",
+          "Armored Shell·Twisting Nether·Dark Plasma 각 1",
+          "Void Striders용 각 3개는 별도"
+        ],
+        [
+          "대체",
+          "루미나이트 주괴 40·천체 파편 4종/Meld Blob 각 10·Necroplasm 40",
+          "센티널 생략 가능하나 자원 비용 비교"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "beginner/5/9/0",
+    "before": "Altar of the Accursed는 Auric Bar 5개와 Core of Calamity 1개를 미스릴/오리칼쿰 모루에서 제작합니다. Cosmic Anvil이 제단 제작의 필수 조건은 아닙니다. 소환용 Ashes of Calamity는 별도로 보관하세요.",
+    "after": "Altar of the Accursed는 Brimstone Slag 30개, Auric Bar 5개, Core of Calamity 1개를 미스릴/오리칼쿰 모루에서 제작합니다. Cosmic Anvil은 필요하지 않습니다. 소환용 Ashes of Calamity는 별도입니다."
+  },
+  {
+    "location": "beginner/5/9/0|altar",
+    "before": {
+      "type": "table",
+      "title": "Altar of the Accursed",
+      "columns": [
+        "재료",
+        "수량"
+      ],
+      "rows": [
+        [
+          "Auric Bar",
+          "5"
+        ],
+        [
+          "Core of Calamity",
+          "1"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "Altar of the Accursed",
+      "columns": [
+        "재료",
+        "수량"
+      ],
+      "rows": [
+        [
+          "Brimstone Slag",
+          "30"
+        ],
+        [
+          "Auric Bar",
+          "5"
+        ],
+        [
+          "Core of Calamity",
+          "1"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "normal/5/3/0",
+    "before": "Auric Bar 5·Core of Calamity 1을 하드모드 모루에서 제단 제작 → Ashes of Calamity 소지 후 우클릭. 첫 처치 후 재 5(Ashes of Annihilation)·15(Ashes of Calamity)로 제단에서 Ceremonial Urn 제작 가능. 두 최종 보스 순서 자유.",
+    "after": "Brimstone Slag 30·Auric Bar 5·Core of Calamity 1로 하드모드 모루에서 제단 제작 → Ashes of Calamity 소지 후 우클릭. 첫 처치 후 재 5·15로 제단에서 Ceremonial Urn 제작 가능. 두 최종 보스 순서 자유."
+  },
+  {
+    "location": "normal/5/3/0/detail",
+    "before": [
+      "소환 비용과 재도전 판단",
+      "제단 제작에 오릭 주괴 5개를 남기고 클론의 재를 준비합니다. 첫 승리 이후 반복 도전을 할 경우에만 Urn을 제작하세요. 최종 장비용 Ashes of Annihilation과 Urn용 5개를 분리해 보관합니다."
+    ],
+    "after": [
+      "소환 비용과 재도전 판단",
+      "Brimstone Slag 30개·오릭 주괴 5개·Core of Calamity 1개를 제단용으로 남깁니다. 첫 승리 후 반복 도전할 때만 Urn을 제작하고 최종 장비용 재와 분리하세요."
+    ]
+  },
+  {
+    "location": "advanced/5/2/0|준비 물품 및 선행 조건",
+    "before": {
+      "type": "table",
+      "title": "준비 물품 및 선행 조건",
+      "columns": [
+        "항목",
+        "확보 기준",
+        "우선도"
+      ],
+      "rows": [
+        [
+          "제단",
+          "Auric Bar 5·Core of Calamity 1",
+          "하드모드 모루"
+        ],
+        [
+          "소환",
+          "Ashes of Calamity",
+          "첫 처치 전"
+        ],
+        [
+          "아레나",
+          "Ruler 경계 미리보기, 제한된 이동 공간",
+          "권장"
+        ],
+        [
+          "이동",
+          "짧은 방향 전환·대시·비행",
+          "과잉 이동 방지"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "준비 물품 및 선행 조건",
+      "columns": [
+        "항목",
+        "확보 기준",
+        "우선도"
+      ],
+      "rows": [
+        [
+          "제단",
+          "Brimstone Slag 30·Auric Bar 5·Core of Calamity 1",
+          "하드모드 모루"
+        ],
+        [
+          "소환",
+          "Ashes of Calamity",
+          "첫 처치 전"
+        ],
+        [
+          "아레나",
+          "Ruler 경계 미리보기, 제한된 이동 공간",
+          "권장"
+        ],
+        [
+          "이동",
+          "짧은 방향 전환·대시·비행",
+          "과잉 이동 방지"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "advanced/5/0/2|첫 최종 보스 소환 투자 비교",
+    "before": {
+      "type": "table",
+      "title": "첫 최종 보스 소환 투자 비교",
+      "columns": [
+        "경로",
+        "오릭 주괴",
+        "추가 핵심 준비"
+      ],
+      "rows": [
+        [
+          "Exo Mechs",
+          "5",
+          "냉각 셀, 해독 8,200셀 중 남은 수량"
+        ],
+        [
+          "Supreme Witch, Calamitas",
+          "5",
+          "Core of Calamity 1, Ashes of Calamity"
+        ],
+        [
+          "두 소환 장치 모두",
+          "10",
+          "광석 100 + 야론 조각 2; 다른 재료 별도"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "첫 최종 보스 소환 투자 비교",
+      "columns": [
+        "경로",
+        "오릭 주괴",
+        "추가 핵심 준비"
+      ],
+      "rows": [
+        [
+          "Exo Mechs",
+          "5",
+          "냉각 셀, 해독 8,200셀 중 남은 수량"
+        ],
+        [
+          "Supreme Witch, Calamitas",
+          "5",
+          "Brimstone Slag 30, Core of Calamity 1, Ashes of Calamity"
+        ],
+        [
+          "두 소환 장치 모두",
+          "10",
+          "광석 100 + 야론 조각 2; 다른 재료 별도"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "beginner/5/12/1|제작 경로",
+    "before": {
+      "type": "table",
+      "title": "제작 경로",
+      "columns": [
+        "재료",
+        "선행 처치",
+        "활용"
+      ],
+      "rows": [
+        [
+          "Miracle Matter",
+          "엑소 메카",
+          "직업별 엑소 제작 무기"
+        ],
+        [
+          "Shadowspec Bar",
+          "엑소 메카 + 칼라미타스",
+          "Demonshade 및 최상위 제작 후보"
+        ]
+      ],
+      "links": true
+    },
+    "after": {
+      "type": "table",
+      "title": "제작 경로",
+      "columns": [
+        "재료",
+        "선행 처치",
+        "활용"
+      ],
+      "rows": [
+        [
+          "Miracle Matter",
+          "엑소 메카",
+          "직업별 엑소 제작 무기"
+        ],
+        [
+          "Shadowspec Bar",
+          "엑소 메카 + 칼라미타스",
+          "Auric Bar 1 + Exo Prism 1 + Ashes of Annihilation 1 → Shadowspec Bar 1"
+        ]
+      ],
+      "links": true
+    }
+  },
+  {
+    "location": "beginner/5/12/1",
+    "after": {
+      "type": "note",
+      "title": "Miracle Matter 등록법",
+      "text": "Auric Bar 5, Exo Prism 5, Life Alloy 1, Ascendant Spirit Essence 1, 천체 파편 4종·Meld Blob 각 3, Core of Calamity 1. Draedon's Forge에서 1개 제작합니다."
+    }
+  },
+  {
+    "location": "mini-catalog",
+    "after": "구 Elderberry 문맥만 Tainted Cloudberry로 연결. 독립 Elderberry는 바닐라 항목 유지."
+  }
+]
