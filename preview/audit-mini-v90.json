@@ -1,0 +1,325 @@
+{
+  "version": 90,
+  "base": "V89",
+  "scope": "mini catalog context and choice navigation",
+  "syntax": [
+    "mini-catalog-v90.js",
+    "guide-step-dialog-v90.js",
+    "loader.js"
+  ],
+  "resolverTests": [
+    {
+      "s": "지하 황금 상자에서 헤르메스 부츠",
+      "term": "황금 상자",
+      "expected": "Terraria/items/306",
+      "pass": true
+    },
+    {
+      "s": "설원 상자에서 플러리 부츠를 찾으세요",
+      "term": "설원 상자",
+      "expected": "Terraria/items/681",
+      "pass": true
+    },
+    {
+      "s": "플러리 부츠 / 설원 상자",
+      "term": "설원 상자",
+      "expected": "Terraria/items/681",
+      "pass": true
+    },
+    {
+      "s": "진홍지대에서 벌집과 지렁이를 상대합니다",
+      "term": "벌집",
+      "expected": "CalamityMod/PerforatorHive",
+      "pass": true
+    },
+    {
+      "s": "퍼포레이터 벌집과 지렁이를 동시에 때리는",
+      "term": "벌집",
+      "expected": "CalamityMod/PerforatorHive",
+      "pass": true
+    },
+    {
+      "s": "사막의 무법자 처치 이후",
+      "term": "사막의 무법자",
+      "expected": "CalamityMod/DesertScourgeHead",
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 또는 월 오브 플레시 처치 후",
+      "term": "크툴루의 눈",
+      "expected": "Terraria/npcs/4",
+      "pass": true
+    },
+    {
+      "s": "파괴자 소환",
+      "term": "파괴자",
+      "expected": "Terraria/npcs/134",
+      "pass": true
+    },
+    {
+      "s": "돌 계열 블록 5개",
+      "term": "돌",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "s": "소용돌이 기둥 파편 이후",
+      "term": "소용돌이",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "s": "모루를 제작합니다",
+      "term": "모루",
+      "expected": "preserve",
+      "pass": true
+    },
+    {
+      "s": "Victide 방어구",
+      "term": "Victide 방어구",
+      "expected": "preserve",
+      "pass": true
+    },
+    {
+      "s": "황금 상자",
+      "term": "황금 상자",
+      "expected": "preserve",
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 트로피",
+      "term": "크툴루의 눈",
+      "expected": "preserve",
+      "pass": true
+    }
+  ],
+  "missingIdFallback": "pass",
+  "ambiguousV89Review": [
+    {
+      "location": "beginner/0/3/2",
+      "text": "모루",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "beginner/0/3/2/detail",
+      "text": "돌",
+      "handling": "suppress false match in group/world-feature context"
+    },
+    {
+      "location": "beginner/1/0/1",
+      "text": "황금 상자",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/1/0/1",
+      "text": "설원 상자",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/1/1/2",
+      "text": "울프럼 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/1/1/2",
+      "text": "울프럼 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/1/6/1",
+      "text": "사막 방랑자 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/2/1/2/detail",
+      "text": "스태티젤 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/2/3/1",
+      "text": "Victide 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/2/3/2",
+      "text": "사막의 무법자",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/2/5/1",
+      "text": "크툴루의 눈",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/2/9/2",
+      "text": "벌집",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/2/10/1",
+      "text": "Aerospec 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/2/11/2",
+      "text": "벌 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "미스릴",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "오리칼쿰",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "아다만타이트",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "beginner/3/0/1",
+      "text": "티타늄",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "beginner/3/1/3",
+      "text": "Spider armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/3/1/4",
+      "text": "Titan Heart 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/3/9/1",
+      "text": "파괴자",
+      "handling": "context-aware resolution, retain ambiguous fallback"
+    },
+    {
+      "location": "beginner/3/11/2",
+      "text": "Daedalus 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/3/13/1",
+      "text": "신성 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/3/16/1",
+      "text": "Reaver armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/0/1",
+      "text": "Stardust 방어구",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/0/1",
+      "text": "Empyrean 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/7/1",
+      "text": "Tarragon armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/13/0",
+      "text": "Bloodflare armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/17/0",
+      "text": "God Slayer armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/4/17/0",
+      "text": "Silva armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "beginner/5/12/2",
+      "text": "Demonshade armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "normal/1/1/4",
+      "text": "사막 방랑자 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "normal/2/0/1/detail",
+      "text": "Victide 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "normal/3/0/0",
+      "text": "팔라듐",
+      "handling": "preserve alternatives; context requires separate review"
+    },
+    {
+      "location": "normal/3/2/1",
+      "text": "Daedalus 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "normal/4/3/2",
+      "text": "Silva 세트",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/3/0/1",
+      "text": "Titan Heart armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Beetle armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Shroomite armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "소용돌이",
+      "handling": "suppress false match in group/world-feature context"
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Spectre armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/3/3/1",
+      "text": "Astral armor",
+      "handling": "preserve armor component choices"
+    },
+    {
+      "location": "advanced/5/3/1",
+      "text": "Gem Tech armor",
+      "handling": "preserve armor component choices"
+    }
+  ],
+  "sources": [
+    "https://terraria.wiki.gg/wiki/Frozen_Chest",
+    "https://terraria.wiki.gg/wiki/Gold_Chest",
+    "https://terraria.wiki.gg/wiki/Biome_Chests",
+    "https://terraria.wiki.gg/wiki/Golden_furniture"
+  ],
+  "limitations": [
+    "Resolver tests use explicit fixture IDs and actual function source, not complete catalog or browser DOM.",
+    "Choice-list restoration, escape, backdrop and responsive layout changed but require browser testing.",
+    "All previous data files retained. V89 audit counts are not new V90 full-runtime results."
+  ]
+}
