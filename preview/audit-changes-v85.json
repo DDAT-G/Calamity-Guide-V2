@@ -1,0 +1,477 @@
+{
+  "scope": "chapter 3",
+  "evidence": [
+    "https://calamitymod.wiki.gg/wiki/Acid_Rain",
+    "https://calamitymod.wiki.gg/wiki/Caustic_Tear",
+    "https://calamitymod.wiki.gg/wiki/Recipes/Water",
+    "https://calamitymod.wiki.gg/wiki/Aerialite_Ore",
+    "https://calamitymod.wiki.gg/wiki/Disenchanted_Aerialite_Ore",
+    "https://calamitymod.wiki.gg/wiki/Aero_Slime",
+    "https://calamitymod.wiki.gg/wiki/Space",
+    "https://calamitymod.wiki.gg/wiki/2.2.2",
+    "https://calamitymod.wiki.gg/wiki/Sea_Remains",
+    "https://calamitymod.wiki.gg/wiki/Ancient_Treasure_Chest",
+    "https://calamitymod.wiki.gg/wiki/Abyss",
+    "https://calamitymod.wiki.gg/wiki/History:Statigel_armor",
+    "https://calamitymod.wiki.gg/wiki/Recipes/Solidifier",
+    "https://calamitymod.wiki.gg/wiki/Jelly-Charged_Battery",
+    "https://calamitymod.wiki.gg/wiki/Overloaded_Sludge",
+    "https://calamitymod.wiki.gg/wiki/Guide:Mod_progression",
+    "https://terraria.wiki.gg/wiki/Golden_Key",
+    "https://terraria.wiki.gg/wiki/Dungeon_Slime",
+    "https://terraria.wiki.gg/wiki/Shadow_Key",
+    "https://terraria.wiki.gg/wiki/Hellstone_Bar",
+    "https://terraria.wiki.gg/wiki/Recipes/Hellforge",
+    "https://terraria.wiki.gg/wiki/Obsidian",
+    "https://terraria.wiki.gg/wiki/Solidifier",
+    "https://terraria.wiki.gg/wiki/King_Slime"
+  ],
+  "edits": [
+    {
+      "type": "body",
+      "key": "beginner/2/5/1",
+      "before": "크툴루의 눈 처치 후 산성비가 자연 발생할 수 있습니다. Caustic Tear로 시작할 수도 있습니다. 이벤트 적을 처치하고 진행률을 채우세요.",
+      "after": "크툴루의 눈 또는 월 오브 플레시 처치 후 산성비가 자연 발생할 수 있습니다. 첫 단계는 크툴루의 눈 이후에 도전하기 좋습니다. Caustic Tear로 직접 시작할 수도 있지만 제작에 Sulphuric Scale이 필요하므로 아직 재료가 없다면 자연 발생을 기다리거나 다음 보스로 진행하세요."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/5/1",
+      "before": [
+        "이벤트 시작",
+        "크툴루의 눈 이후 자연 발생하는 산성비를 이용합니다. Caustic Tear가 이미 있다면 사용할 수 있지만 첫 이벤트 전부터 이벤트 재료를 찾느라 시간을 낭비하지 마세요."
+      ],
+      "after": [
+        "첫 이벤트와 재도전 구분",
+        "유황 바다에 산성비가 시작되면 안전한 발판 위에서 이벤트 적을 잡으세요. Sulphuric Scale을 얻은 뒤에는 Caustic Tear 제작법을 확인해 다음 이벤트를 준비할 수 있습니다. 처음부터 이벤트 소환 아이템 제작만 기다리느라 진행을 멈출 필요는 없습니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/9/3",
+      "before": "하이브 마인드 또는 퍼포레이터 처치 후 비활성 창공석이 활성화됩니다. 채광력 65% 이상 곡괭이를 사용하며, 광석 3개로 화로에서 창공석 주괴 1개를 만듭니다.",
+      "after": "하이브 마인드 또는 퍼포레이터 처치 후 공중섬의 비활성 창공석이 활성화됩니다. 채광력 65% 이상 곡괭이로 캐고 화로에서 광석 3개를 주괴 1개로 제련합니다. 이때부터 우주에 등장하는 Aero Slime도 창공석 광석을 드롭합니다."
+    },
+    {
+      "type": "structured",
+      "key": "beginner/2/9/3|주의",
+      "before": {
+        "type": "note",
+        "title": "주의",
+        "text": "비활성 광석을 먼저 캐려고 하지 않습니다."
+      },
+      "after": {
+        "type": "note",
+        "title": "주의",
+        "text": "보스 처치 이전에는 비활성 광석을 캐려고 하지 마세요. 처치 후에는 공중섬 채광 또는 우주의 Aero Slime 사냥으로 광석을 얻을 수 있습니다. 65%는 광석 채굴에 필요한 채광력이며 슬라임 드롭을 받기 위한 조건은 아닙니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/10/0",
+      "before": "중력 물약이나 밧줄, 발판을 이용해 공중섬을 찾습니다. 구름 안의 창공석은 악몽의 곡괭이(65%) 또는 사신의 곡괭이(70%)로 캐세요.",
+      "after": "중력 물약이나 밧줄·발판으로 공중섬을 찾습니다. 활성 창공석을 악몽 또는 사신의 곡괭이로 채광하세요. 섬의 광석이 부족하면 보스 처치 후 우주에 등장하는 Aero Slime을 사냥하는 경로도 있습니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/10/0",
+      "before": [
+        "채광 조건 확인",
+        "월드에 맞는 악몽의 곡괭이(65%) 또는 사신의 곡괭이(70%)를 사용합니다. 하이브 마인드 또는 퍼포레이터 처치 전에 비활성 창공석을 캐려고 하지 않습니다."
+      ],
+      "after": [
+        "공중섬 원정과 대체 파밍",
+        "먼저 필요한 주괴 수를 계산하세요. 무기 하나에 주괴 10개가 필요하다면 광석 30개가 목표입니다. 안전하게 접근할 수 있는 섬의 광석을 먼저 캐고, 부족한 양은 우주의 Aero Slime 드롭으로 채울 수 있습니다. 귀환 수단과 비행·착지 공간을 확보하세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/13/3",
+      "before": "던전에서 황금 열쇠로 잠긴 황금 상자를 열고 그림자 열쇠를 얻으세요. 지옥 그림자 상자에 사용합니다. 심연 고대 상자는 스켈레트론 처치가 해금 조건입니다. 의류상 입주 후 Counter Scarf 구매도 가능하므로 대시 장신구를 비교하세요.",
+      "after": "스켈레트론 처치 후 던전에서 황금 열쇠를 모아 잠긴 황금 상자를 엽니다. 던전 슬라임은 황금 열쇠를 확정 드롭합니다. 상자에서 그림자 열쇠를 얻으면 지옥 그림자 상자를 반복 개봉할 수 있습니다. 심연 고대 상자는 별도로 스켈레트론 처치가 해금 조건입니다. 의류상 Counter Scarf도 대시 후보입니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/13/3",
+      "before": [
+        "보상",
+        "Counter Scarf는 의류상이 기본 20골드에 판매하는 대시 장신구입니다. 크툴루의 방패와 중복 착용하여 대시를 강화할 수는 없습니다. 던전과 심연 파밍은 필요한 보상에 따라 선택하세요."
+      ],
+      "after": [
+        "세 상자의 개봉 조건",
+        "황금 상자는 황금 열쇠를 하나씩 소모하므로 던전 슬라임을 발견하면 잡아 두세요. 그림자 열쇠는 소모되지 않으므로 하나를 보관해 지옥의 여러 그림자 상자를 열 수 있습니다. 심연 고대 상자는 스켈레트론 처치 여부로 해금됩니다. 대시가 필요하다면 의류상 Counter Scarf도 비교하세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/14/0",
+      "before": "스켈레트론을 처치해야 심연의 고대 보물 상자를 열 수 있습니다. 유황 바다 아래 상층만 목표로 탐험하세요. 지옥 그림자 상자와 개봉 조건을 혼동하지 마세요.",
+      "after": "심연 상층의 고대 보물 상자는 스켈레트론 처치 전에는 덩굴로 덮여 있고 열 수 없습니다. 처치 후에는 그림자 열쇠 없이 개봉할 수 있습니다. 지옥의 잠긴 그림자 상자와 별개입니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/14/0",
+      "before": [
+        "상자 해금",
+        "스켈레트론을 처치한 후 심연의 고대 보물 상자를 찾습니다. 지옥 그림자 상자와 개봉 조건을 혼동하지 마세요."
+      ],
+      "after": [
+        "심연 상자와 지옥 상자 구분",
+        "유황 바다 아래 심연 상층의 고대 보물 상자를 목표로 합니다. 스켈레트론을 이미 잡았다면 그림자 열쇠를 먼저 얻기 위해 던전을 반복할 필요는 없습니다. 반대로 지옥 그림자 상자를 열 계획이라면 그림자 열쇠를 가져가세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/15/1",
+      "before": "지옥에서 지옥 화로를 찾아 지옥석과 흑요석으로 지옥석 주괴를 만들고 필요 장비를 제작합니다.",
+      "after": "지하세계의 지옥 화로에서 지옥석 3개와 흑요석 1개를 주괴 1개로 제련합니다. 필요한 장비의 주괴 수를 확인한 뒤 채광량을 계산하세요."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/15/1",
+      "before": [
+        "화로 확보",
+        "지옥 건물의 지옥 화로 근처에서 지옥석과 흑요석으로 주괴를 만듭니다. 필요한 장비의 레시피를 확인하고 그만큼만 채광합니다."
+      ],
+      "after": [
+        "제련 수량 계산",
+        "예를 들어 주괴 10개가 목표라면 지옥석 30개와 흑요석 10개를 준비합니다. 흑요석은 물과 용암이 만나는 곳에서 생성되므로 용암에 직접 들어가지 않고 안전하게 확보하세요. 지옥 화로 주변에서 제련합니다."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/1/2",
+      "before": "슬라임 갈고리와 슬라임 탈것은 이동 보상 후보입니다. 슬라임 제작대도 보관하세요. 나중에 스태티젤 장비 제작에 필요합니다.",
+      "after": "킹 슬라임의 슬라임 갈고리와 탈것은 이동 후보입니다. 확정 보상인 슬라임 제작대(Solidifier)는 스태티젤 장비를 만들 계획이라면 보관하세요. 킹 슬라임은 주요 진행 자체의 필수 보스는 아닙니다."
+    },
+    {
+      "type": "detail",
+      "key": "beginner/2/1/2",
+      "before": [
+        "보상 보관",
+        "슬라임 제작대는 거점에 설치하거나 보관합니다. 이동 보상은 기존 장신구와 비교하고 필요 없다면 반복 처치는 생략하세요."
+      ],
+      "after": [
+        "제작대와 선택 보상",
+        "슬라임 제작대를 거점에 설치하거나 보관합니다. 스태티젤 방어구를 만들지 않는다면 이동 보상이 필요할 때만 킹 슬라임을 도전해도 됩니다. 스태티젤을 만들 경우에는 슬라임 제작대 확보를 잊지 마세요."
+      ]
+    },
+    {
+      "type": "body",
+      "key": "beginner/2/17/0",
+      "before": "정제된 젤과 Blighted Gel로 스태티젤 세트를 제작합니다. 킹 슬라임이 드롭하는 슬라임 제작대를 확보하세요. 소환 직업은 Jelly-Charged Battery에 정제된 젤 10개가 추가로 필요하므로 제작량을 따로 계산합니다.",
+      "after": "스태티젤 방어구에는 정제된 젤·Blighted Gel과 슬라임 제작대(Solidifier)가 필요합니다. 2.1.0 이후 Static Refiner를 방어구 제작대로 요구하지 않습니다. 소환은 Jelly-Charged Battery용 정제된 젤 10개를 별도 계산하세요."
+    },
+    {
+      "type": "structured",
+      "key": "beginner/2/17/0|제작 목표",
+      "before": {
+        "type": "table",
+        "title": "제작 목표",
+        "columns": [
+          "장비",
+          "선행 조건",
+          "선택 기준"
+        ],
+        "rows": [
+          [
+            "Statigel 세트",
+            "정제된 젤·Blighted Gel, 슬라임 제작대",
+            "직업별 머리 하나"
+          ],
+          [
+            "Jelly-Charged Battery",
+            "Voltaic Jelly·Wulfrum Battery·정제된 젤 10 등",
+            "소환 직업"
+          ],
+          [
+            "무기",
+            "각 무기의 등록 제작법",
+            "현재 화력 부족 시"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "제작 목표",
+        "columns": [
+          "장비",
+          "선행 조건",
+          "선택 기준"
+        ],
+        "rows": [
+          [
+            "Statigel 세트",
+            "정제된 젤·Blighted Gel, 슬라임 제작대(Solidifier)",
+            "직업별 머리 하나"
+          ],
+          [
+            "Jelly-Charged Battery",
+            "Voltaic Jelly·Wulfrum Battery·정제된 젤 10 등",
+            "소환 직업"
+          ],
+          [
+            "무기",
+            "각 무기의 등록 제작법",
+            "현재 화력 부족 시"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "beginner/2/17/0",
+      "after": {
+        "type": "note",
+        "title": "제작대 버전 확인",
+        "text": "2.1.0 이후 스태티젤 방어구는 Solidifier에서 제작합니다. 옛 공략의 Static Refiner 요구 조건을 그대로 따라갈 필요가 없습니다. 킹 슬라임을 생략했다면 방어구 제작에 필요한 시점에 처치해 확보하세요."
+      }
+    },
+    {
+      "type": "body",
+      "key": "normal/2/1/1",
+      "before": "65% 곡괭이 + 창공석 광석 3→주괴 1. Wind Blade/Galeforce/Tradewinds/Feather Knife/Turbulance 각 주괴 10, Skyline Wings 주괴 10·깃털 5. 소환은 Dank Staff 등 보유 드롭 비교. 방어구 별도 계산.",
+      "after": "창공석 해금 후 65% 곡괭이 채광 또는 우주의 Aero Slime 사냥. 광석 3→주괴 1. Wind Blade/Galeforce/Tradewinds/Feather Knife/Turbulance 각 주괴 10, Skyline Wings 주괴 10·깃털 5. 소환은 Dank Staff 등 보유 드롭 비교. 방어구 별도."
+    },
+    {
+      "type": "structured-add",
+      "key": "normal/2/1/1",
+      "after": {
+        "type": "note",
+        "title": "파밍 경로 전환",
+        "text": "공중섬 채광량이 부족하면 해금 후 우주의 Aero Slime을 사냥하세요. 장비 하나에 필요한 광석 30개를 기준으로 파밍 종료점을 정합니다."
+      }
+    },
+    {
+      "type": "body",
+      "key": "normal/2/2/0",
+      "before": "여왕벌/디어클롭스 선택 → 스켈레트론(밤) → 던전 장비와 그림자 열쇠 확보. 심연 상층 고대 상자와 지옥 그림자 상자는 필요 장비에 따라 각각 선택합니다.",
+      "after": "여왕벌/디어클롭스 선택 → 스켈레트론(밤) → 던전 장비. 지옥 그림자 상자를 목표로 할 때만 그림자 열쇠 확보. 심연 고대 상자는 스켈레트론 처치로 별도 해금되므로 그림자 열쇠가 필요하지 않습니다."
+    },
+    {
+      "type": "detail",
+      "key": "normal/2/2/0",
+      "before": [
+        "탐험 분기",
+        "스켈레트론 후 던전에서 그림자 열쇠를 얻으면 지옥 상자를 열 수 있습니다. 심연 상자는 스켈레트론 처치로 별도 해금됩니다. 두 원정을 무조건 모두 완료할 필요는 없습니다."
+      ],
+      "after": [
+        "원정 분리",
+        "심연 무기만 목표라면 스켈레트론 처치 직후 심연 상층으로 가도 됩니다. 지옥 그림자 상자가 목표라면 던전 슬라임의 황금 열쇠로 던전 상자를 열어 그림자 열쇠를 확보하세요. 그림자 열쇠 하나로 여러 지옥 상자를 엽니다."
+      ]
+    },
+    {
+      "type": "structured",
+      "key": "normal/2/3/0|생략",
+      "before": {
+        "type": "note",
+        "title": "생략",
+        "text": "현재 이동과 화력으로 월 오브 플레시를 충분히 잡을 수 있다면 모든 장비 제작을 강제하지 않습니다."
+      },
+      "after": {
+        "type": "note",
+        "title": "생략",
+        "text": "스태티젤 방어구를 선택하면 슬라임 제작대(Solidifier)가 필요합니다. 슬라임 갓의 영구 강화만 목표라면 해당 제작대를 먼저 얻을 필요는 없습니다. 기존 세팅으로 월 오브 플레시를 충분히 잡을 수 있다면 장비 제작은 생략할 수 있습니다."
+      }
+    },
+    {
+      "type": "structured",
+      "key": "advanced/2/1/0|준비 물품 및 선행 조건",
+      "before": {
+        "type": "table",
+        "title": "준비 물품 및 선행 조건",
+        "columns": [
+          "항목",
+          "확보 기준",
+          "우선도"
+        ],
+        "rows": [
+          [
+            "최초 소환",
+            "Hive Tumor 또는 Perforator Cyst",
+            "필수 경로"
+          ],
+          [
+            "채광",
+            "악성 보스 처치 + 65% 이상 곡괭이",
+            "창공석 목표 시"
+          ],
+          [
+            "공중섬",
+            "창공석 및 하피 깃털",
+            "세트 제작 시"
+          ],
+          [
+            "스켈레트론",
+            "밤, 이동 공간, 주력 무기",
+            "던전 해금"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "준비 물품 및 선행 조건",
+        "columns": [
+          "항목",
+          "확보 기준",
+          "우선도"
+        ],
+        "rows": [
+          [
+            "최초 소환",
+            "Hive Tumor 또는 Perforator Cyst",
+            "필수 경로"
+          ],
+          [
+            "채광",
+            "악성 보스 처치 후 채광 65% 이상 또는 우주 Aero Slime 드롭",
+            "창공석 목표 시"
+          ],
+          [
+            "공중섬",
+            "창공석 및 하피 깃털",
+            "세트 제작 시"
+          ],
+          [
+            "스켈레트론",
+            "밤, 이동 공간, 주력 무기",
+            "던전 해금"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/2/1/1",
+      "after": {
+        "type": "table",
+        "title": "창공석 파밍 경로 선택",
+        "columns": [
+          "경로",
+          "선행 조건",
+          "투자 판단"
+        ],
+        "rows": [
+          [
+            "공중섬 채광",
+            "악성 칼라미티 보스 처치·65% 곡괭이",
+            "발견한 섬의 광석을 먼저 회수"
+          ],
+          [
+            "Aero Slime",
+            "악성 칼라미티 보스 처치·우주",
+            "섬 광석 부족 시 대체; 실제 처치 속도 비교"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured",
+      "key": "advanced/2/2/0|준비 물품 및 선행 조건",
+      "before": {
+        "type": "table",
+        "title": "준비 물품 및 선행 조건",
+        "columns": [
+          "항목",
+          "확보 기준",
+          "우선도"
+        ],
+        "rows": [
+          [
+            "지옥",
+            "끊김 없는 일방향 전투 통로",
+            "필수 전투 준비"
+          ],
+          [
+            "소환",
+            "가이드 생존 + 가이드 부두 인형",
+            "소환 조건"
+          ],
+          [
+            "슬라임 갓",
+            "Blighted Gel 40·악성 블록 40, 제단",
+            "선택 성장"
+          ],
+          [
+            "제작대",
+            "슬라임 제작대, 지옥 화로",
+            "목표 장비에 따라"
+          ]
+        ],
+        "links": true
+      },
+      "after": {
+        "type": "table",
+        "title": "준비 물품 및 선행 조건",
+        "columns": [
+          "항목",
+          "확보 기준",
+          "우선도"
+        ],
+        "rows": [
+          [
+            "지옥",
+            "끊김 없는 일방향 전투 통로",
+            "필수 전투 준비"
+          ],
+          [
+            "소환",
+            "가이드 생존 + 가이드 부두 인형",
+            "소환 조건"
+          ],
+          [
+            "슬라임 갓",
+            "Blighted Gel 40·악성 블록 40, 제단",
+            "선택 성장"
+          ],
+          [
+            "제작대",
+            "Solidifier(스태티젤 방어구), 지옥 화로(지옥석 주괴)",
+            "목표 장비별로만 확보"
+          ]
+        ],
+        "links": true
+      }
+    },
+    {
+      "type": "structured-add",
+      "key": "advanced/2/2/2",
+      "after": {
+        "type": "table",
+        "title": "하드모드 전 마지막 파밍 결정",
+        "columns": [
+          "필요한 기능",
+          "파밍 경로",
+          "생략 판단"
+        ],
+        "rows": [
+          [
+            "지옥 상자 무기",
+            "던전 그림자 열쇠 → 지옥 상자",
+            "현 무기 충분 시 생략"
+          ],
+          [
+            "심연 상층 무기",
+            "스켈레트론 처치 → 고대 상자",
+            "그림자 열쇠 파밍 불필요"
+          ],
+          [
+            "스태티젤 방어구",
+            "슬라임 갓 재료 + Solidifier",
+            "기존 방어구로 생존 가능 시 생략"
+          ],
+          [
+            "영구 아드레날린 강화",
+            "리벤전스·데스 슬라임 갓 보상",
+            "장비 교체와 독립 평가"
+          ]
+        ],
+        "links": true
+      }
+    }
+  ]
+}
