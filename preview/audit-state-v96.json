@@ -4,9 +4,10 @@
   "scope": "browser history capture and stored state validation",
   "navigationCases": 13,
   "libraryCases": 3,
-  "eventCases": 2,
+  "eventCases": 3,
   "limitations": [
-    "Actual helper functions tested with fixture catalog and simulated microtask queue; not a browser.",
+    "Actual helper functions tested with fixture catalog and simulated deferred-task queue; not a browser.",
     "Native back/forward, reload, storage denial and DOM event integration not manually exercised."
-  ]
+  ],
+  "scheduler": "Capture phase schedules a later task rather than a microtask; stale tasks canceled on popstate/restore."
 }
