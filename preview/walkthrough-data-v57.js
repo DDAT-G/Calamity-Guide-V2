@@ -4008,7 +4008,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "제작대",
-       "text": "Draedon's Forge의 등록 제작법을 열어 필요한 재료를 확보하세요. 기존 Cosmic Anvil과 혼동하지 않습니다."
+       "text": "Draedon's Forge는 엑소 메카 처치 후부터 제작 가능합니다. 공식 진행 문서는 Exo Prism과 Ancient Manipulator, Cosmic Anvil, 하드모드 제련로, Tinkerer's Workshop을 합치는 경로를 안내합니다. 개별 문서의 제작 이력과 현재 등록 제작법을 구분하여 필요한 재료를 확인하세요. 두 최종 보스를 모두 잡기 전에도 제작대 자체는 준비할 수 있습니다."
       },
       {
        "label": "합성",
@@ -4058,7 +4058,8 @@ const walkthroughModesV52 = {
       "https://calamitymod.wiki.gg/wiki/Draedon%27s_Forge",
       "https://calamitymod.wiki.gg/wiki/Demonshade_armor",
       "https://calamitymod.wiki.gg/wiki/Draconic_Destruction",
-      "https://calamitymod.wiki.gg/wiki/Dance_of_Light"
+      "https://calamitymod.wiki.gg/wiki/Dance_of_Light",
+      "https://calamitymod.wiki.gg/wiki/Guide:Mod_progression"
      ]
     },
     {
@@ -5256,7 +5257,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "제작",
-       "text": "Draedon's Forge → Exo Prism + Ashes of Annihilation + Auric Bar로 Shadowspec Bar → 직업별 최종 무기/Demonshade 후보."
+       "text": "엑소 메카 후 Draedon's Forge 제작 가능. 두 최종 보스의 Exo Prism + Ashes of Annihilation + Auric Bar로 Shadowspec Bar → 최종 무기/Demonshade 후보."
       },
       {
        "label": "선택",
