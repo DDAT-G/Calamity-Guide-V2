@@ -1,0 +1,36 @@
+/* V99: scoped reading and accessibility fixes, preserving existing theme. */
+.guide-sr-v99{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important}
+body .walk-dialog-v64 .walk-dialog-head-v64,body .mini-catalog-v54 .mini-head-v54{position:relative;top:auto;max-width:none;margin:0;z-index:auto}
+body .walk-dialog-v64 .walk-dialog-head-v64>div:first-child{min-width:0;flex:1 1 auto}
+body .walk-dialog-v64 .walk-dialog-head-v64 h2,body .walk-dialog-v64 .walk-dialog-scroll-v64 h3,body .walk-dialog-v64 .walk-block-v69,body .walk-card-v64 h3{overflow-wrap:anywhere;min-width:0}
+body .walk-dialog-v64 .walk-step-status-v65{flex:none}
+body .walk-dialog-v64 .walk-dialog-scroll-v64:focus-visible,body .walk-dialog-v64 .walk-table-wrap-v69:focus-visible,body .walk-dialog-v64 h3:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+body .walk-dialog-v64 .walk-table-wrap-v69{max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin}
+body .walk-dialog-v64 .walk-table-v69 th,body .walk-dialog-v64 .walk-table-v69 td{overflow-wrap:anywhere}
+body .walk-dialog-v64 .walk-pagination-v64{min-width:0;max-width:100%}
+body .walk-dialog-v64 .walk-dialog-foot-v64>button{white-space:normal;overflow-wrap:anywhere;min-width:0}
+body .walk-visual-ref-v64,body .walk-ingredient-v64>div,body .walk-ref-list-line-v71{min-width:0;max-width:100%}
+body .walk-visual-ref-v64 span:last-child,body .mini-catalog-v54 .mini-material-v54{min-width:0;overflow-wrap:anywhere}
+#detail .hero>div:last-child,#detail .part-head>strong,#detail .ingredient>.link,#detail .link{min-width:0;max-width:100%;overflow-wrap:anywhere;white-space:normal}
+#detail .ingredient .qty{flex:none;white-space:nowrap}
+#detail .section>summary{gap:8px;overflow-wrap:anywhere}
+#detail .section>summary::after{flex:none}
+#view-catalog .results .result strong{max-width:100%}
+#view-catalog .catalog-header h1{white-space:normal;overflow-wrap:anywhere}
+@media(max-width:700px){
+ body .walk-dialog-v64 .walk-dialog-head-v64{flex-wrap:nowrap}
+ body .walk-dialog-v64 .walk-dialog-foot-v64{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+ body .walk-dialog-v64 .walk-dialog-foot-v64>button:first-child{grid-column:1;grid-row:1}
+ body .walk-dialog-v64 .walk-dialog-foot-v64>button:last-child{grid-column:2;grid-row:1}
+ body .walk-dialog-v64 .walk-pagination-v64{grid-column:1/-1;grid-row:2;justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-inline:contain;padding:3px 2px}
+ body .walk-dialog-v64 .walk-pagination-v64 button{flex:none;min-width:34px;min-height:34px}
+ body .walk-dialog-v64 .walk-step-rail-v65 button{min-height:34px}
+ #view-catalog .toolbar input{font-size:16px}
+ #view-search input,#homeQuery{font-size:16px}
+ #detail .hero{gap:10px}
+ #detail .hero .sprite{width:clamp(52px,20vw,86px);height:clamp(52px,20vw,86px)}
+ #detail .stats{grid-template-columns:repeat(auto-fit,minmax(min(100%,100px),1fr))}
+ #detail .stat strong{overflow-wrap:anywhere}
+}
+@media(max-height:360px){body .walk-dialog-v64 .walk-dialog-head-v64 h2{font-size:17px}body .walk-dialog-v64 .walk-dialog-head-v64 small{margin-bottom:0}body .walk-dialog-v64 .walk-dialog-scroll-v64{padding:8px 12px}body .walk-dialog-v64 .walk-dialog-foot-v64{padding:4px 8px}}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}

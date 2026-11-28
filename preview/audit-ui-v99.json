@@ -1,0 +1,12 @@
+{
+  "version": 99,
+  "base": "V98",
+  "scope": "reader keyboard focus, page announcements, mobile menu and responsive layout",
+  "focusCases": 6,
+  "arrowCases": 9,
+  "limitations": [
+    "Actual helper functions tested with simulated inputs, not DOM focus or full browser layout.",
+    "Deployed website DNS unavailable from container; CSS and mobile behavior require live verification.",
+    "No source catalog or walkthrough data edits."
+  ]
+}
