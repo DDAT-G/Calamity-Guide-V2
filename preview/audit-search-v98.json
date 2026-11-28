@@ -1,0 +1,95 @@
+{
+  "version": 98,
+  "base": "V97",
+  "scope": "shared search rank, normalized names, exact child targets, bounded query cache",
+  "searchCases": [
+    {
+      "t": "items",
+      "q": "구리 검",
+      "actual": [
+        "Terraria/items/1",
+        "Terraria/items/3"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "Copper Sword",
+      "actual": [
+        "Terraria/items/1",
+        "Terraria/items/3"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "COPPER",
+      "actual": [
+        "Terraria/items/1",
+        "Terraria/items/2",
+        "Terraria/items/3"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "Night's Edge",
+      "actual": [
+        "CalamityMod/NightsEdge"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "Dimension‑Tearing Disk",
+      "actual": [
+        "CalamityMod/Disk"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "terraria/items/1",
+      "actual": [
+        "Terraria/items/1"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "구 리 검",
+      "actual": [
+        "Terraria/items/1",
+        "Terraria/items/3"
+      ]
+    },
+    {
+      "t": "npcs",
+      "q": "시험 꼬리",
+      "actual": [
+        "CalamityMod/Head"
+      ]
+    },
+    {
+      "t": "npcs",
+      "q": "CalamityMod/Tail",
+      "actual": [
+        "CalamityMod/Head"
+      ]
+    },
+    {
+      "t": "npcs",
+      "q": "Test Boss",
+      "actual": [
+        "CalamityMod/Head"
+      ]
+    },
+    {
+      "t": "items",
+      "q": "does not exist",
+      "actual": []
+    }
+  ],
+  "childTargetTests": 3,
+  "cacheTests": 2,
+  "browseTests": 1,
+  "limitations": [
+    "Actual search engine tested with fixture data, not entire catalog.",
+    "No measured browser speedup; repeated ranking work removed by cache, and redundant matching in UI renderer removed.",
+    "No deployed browser or IME integration testing."
+  ]
+}
