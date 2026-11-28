@@ -1,0 +1,202 @@
+{
+  "version": 93,
+  "base": "V92",
+  "scope": "cross-step encounter names, shorthand, material identity",
+  "npcCount": 42,
+  "tests": [
+    {
+      "s": "장비 전환을 중심으로 진행",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "문 로드를 처치하고 후반 장비를 준비했다.",
+      "actual": [
+        [
+          "문 로드",
+          "Terraria/npcs/396"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 이후에 도전하기 좋습니다.",
+      "actual": [
+        [
+          "크툴루의 눈",
+          "Terraria/npcs/4"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "크툴루의 눈 트로피",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "스켈레트론 처치 후 던전",
+      "actual": [
+        [
+          "스켈레트론",
+          "Terraria/npcs/35"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "기계 보스 파괴자 준비",
+      "actual": [
+        [
+          "파괴자",
+          "Terraria/npcs/134"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "골렘 조각상",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "골렘 처치 이후",
+      "actual": [
+        [
+          "골렘",
+          "Terraria/npcs/245"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "빛/밤의 영혼을 확보",
+      "actual": [
+        [
+          "빛",
+          "light"
+        ],
+        [
+          "밤의 영혼",
+          "night"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "철피부·재생·신속 물약을 챙깁니다.",
+      "actual": [
+        [
+          "철피부",
+          "iron"
+        ],
+        [
+          "재생",
+          "regen"
+        ],
+        [
+          "신속 물약",
+          "swift"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "금/백금 활과",
+      "actual": [
+        [
+          "금",
+          "gold"
+        ],
+        [
+          "백금 활",
+          "plat"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "금/백금 활짝",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "나무 4개와 돌 20개",
+      "actual": [
+        [
+          "나무",
+          "wood"
+        ],
+        [
+          "돌",
+          "stone"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "나무 밑동을 베세요.",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "발판 3칸 정도",
+      "actual": [],
+      "pass": true
+    },
+    {
+      "s": "깃털 5개",
+      "actual": [
+        [
+          "깃털",
+          "feather"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "생명 수정에는",
+      "actual": [
+        [
+          "생명 수정",
+          "life"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "생명 수정에서도",
+      "actual": [
+        [
+          "생명 수정",
+          "life"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "Celestial Tracers",
+      "actual": [
+        [
+          "Celestial Tracers",
+          "moonwalk"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "s": "스켈레트론 프라임 소환",
+      "actual": [
+        [
+          "스켈레트론 프라임",
+          "Terraria/npcs/127"
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Actual matcher tested with fixture catalog, not full catalog or browser.",
+    "NPC IDs verified in guide refs; catalog presence checked at runtime."
+  ]
+}
