@@ -1,0 +1,64 @@
+{
+  "version": 91,
+  "base": "V90",
+  "scope": "catalog round-trip reader state, browser history snapshots, explicit ore labels",
+  "syntax": [
+    "preview/ui-v43-return-v91.js",
+    "preview/mini-catalog-v91.js",
+    "preview/guide-structured-v91.js",
+    "preview/guide-step-dialog-v91.js",
+    "preview/history-v91.js",
+    "preview/loader.js"
+  ],
+  "pageRoundTrips": 601,
+  "nestedReferenceRoundTrip": "pass",
+  "invalidStateTests": 8,
+  "closedDialogCapture": "pass",
+  "rowChanges": [
+    {
+      "key": "beginner/3/0/1",
+      "row": 0,
+      "before": "코발트·팔라듐",
+      "after": "코발트 광석·팔라듐 광석"
+    },
+    {
+      "key": "beginner/3/0/1",
+      "row": 1,
+      "before": "미스릴·오리칼쿰",
+      "after": "미스릴 광석·오리칼쿰 광석"
+    },
+    {
+      "key": "beginner/3/0/1",
+      "row": 2,
+      "before": "아다만타이트·티타늄",
+      "after": "아다만타이트 광석·티타늄 광석"
+    },
+    {
+      "key": "normal/3/0/0",
+      "row": 0,
+      "before": "코발트·팔라듐",
+      "after": "코발트 광석·팔라듐 광석"
+    },
+    {
+      "key": "normal/3/0/0",
+      "row": 1,
+      "before": "미스릴·오리칼쿰",
+      "after": "미스릴 광석·오리칼쿰 광석"
+    },
+    {
+      "key": "normal/3/0/0",
+      "row": 2,
+      "before": "아다만타이트·티타늄",
+      "after": "아다만타이트 광석·티타늄 광석"
+    }
+  ],
+  "ambiguities": {
+    "anvil": "retain Iron Anvil and Lead Anvil as legitimate alternatives",
+    "oreLabels": "five V89 remaining ore ambiguities addressed by explicit ore names in both unlock tables"
+  },
+  "limitations": [
+    "Tests run actual state/page functions with real guide data and stub DOM values, not browser UI.",
+    "Page counts computed from source refs without catalog-existence filtering (V89 audit recorded zero invalid guide refs); not a fresh full catalog validation.",
+    "Live browser back/forward, focus, modal scroll and GitHub Pages deploy not tested."
+  ]
+}
