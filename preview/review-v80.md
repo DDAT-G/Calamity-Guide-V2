@@ -1,0 +1,7 @@
+# V80 통합 검수 1차
+- 전체 143 STEP / 454 본문 주제 / 구조화 128 페이지 / 215 미니 공략 앵커 / 277 원본 참조를 구조 검증. 명시적 도감 참조 762개(중복 포함)는 아직 실제 카탈로그 대조 전.
+- 본문/표/표제/전략 12개 수정, 원본 연결 13개 보강. Celestial Onion 마스터 예외(2.1.0), Providence 제목과 강화 지역 조건(2.2.0), Sacred Strawberry/곡괭이 명칭, 폴터가스트 무기 추가 후 남은 문구 정리. 출처: https://calamitymod.wiki.gg/wiki/2.1.0 ; https://calamitymod.wiki.gg/wiki/History:Moon_Lord ; https://calamitymod.wiki.gg/wiki/History:Celestial_Onion ; https://calamitymod.wiki.gg/wiki/Celestial_Onion ; https://calamitymod.wiki.gg/wiki/Providence ; https://calamitymod.wiki.gg/wiki/2.2.0 ; https://calamitymod.wiki.gg/wiki/Sacred_Strawberry ; https://calamitymod.wiki.gg/wiki/Aerialite_Ore ; https://calamitymod.wiki.gg/wiki/2.2.2 ; https://calamitymod.wiki.gg/wiki/Moon_Walkers ; https://calamitymod.wiki.gg/wiki/Void_Striders ; https://calamitymod.wiki.gg/wiki/Miracle_Matter ; https://calamitymod.wiki.gg/wiki/Core_of_Calamity. 개별 문서/변경 이력 검색 결과 대조. 일부 일반 가이드의 Celestial Onion 설명과 패치 기록이 충돌해 구체적인 변경 기록과 드롭 표 우선.
+- 9쌍의 신구 명칭 호환 별칭 및 사신 곡괭이 별칭, 후반 방어구 별칭 추가. 가짜 ID를 생성하지 않으며 정확한 이름이 단일 항목으로 해석될 때만 호환 별칭 연결. 5개 합성 카탈로그 테스트 통과(실제 도감 검증 아님).
+- 구조화 본문/목록/주의의 미니 도감 연결 범위 확장, 참조 원본 열람 중 바깥 클릭 시 복귀하도록 수정. 실제 UI 미검증.
+- 상세 데이터는 1~3장만 존재하며 심화의 구형 상세는 의도적으로 사용하지 않음. 기존 뉴비/일반 상세 주제 136, 실제 구조화 페이지에 의해 대체되지 않은 상세 102. 상세 미작성 후보는 audit-coverage-v80.json 참조.
+- catalog-data.json 18,074,128 bytes, 실제 환경 다운로드 DNS 실패로 원본 데이터 대조 불가. 브라우저 콘솔 guideAuditV80()으로 검사 가능하나 실행 결과는 미확인. 구문/구조/합성 검사와 실제 브라우저, 실제 게임 검증은 별개. 전체 사실 검수 완료 아님.
