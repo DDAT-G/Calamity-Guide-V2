@@ -2553,7 +2553,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "광석",
-       "text": "문 로드 이후 하늘에 생성되는 Exodium Cluster와 지하의 Luminite 계열 재료를 찾습니다. 엑소디엄 채광에는 충분한 곡괭이 채광력이 필요하므로 도감의 조건을 먼저 확인하세요."
+       "text": "문 로드 이후 하늘의 소행성(Planetoid)에 함께 생성되는 Exodium Cluster와 Luminite를 찾습니다. 엑소디엄 채광에는 충분한 곡괭이 채광력이 필요하므로 도감의 조건을 먼저 확인하세요."
       },
       {
        "label": "제작",
@@ -2695,7 +2695,7 @@ const walkthroughModesV52 = {
       "https://calamitymod.wiki.gg/wiki/Dragonfolly",
       "https://calamitymod.wiki.gg/wiki/Exotic_Pheromones",
       "https://calamitymod.wiki.gg/wiki/Effulgent_Feather",
-      "https://calamitymod.wiki.gg/wiki/Dragon_Egg"
+      "https://calamitymod.wiki.gg/wiki/Blessed_Phoenix_Egg"
      ]
     },
     {
@@ -2799,7 +2799,7 @@ const walkthroughModesV52 = {
       },
       {
        "label": "영구 강화",
-       "text": "Divine Geode를 사용하는 Elderberry 등 영구 강화 후보의 사용 조건도 확인합니다."
+       "text": "Divine Geode 8개와 생명 열매 1개를 사용하는 Tainted Cloudberry(구 Elderberry) 등 영구 강화 후보의 사용 조건도 확인합니다."
       }
      ],
      "refs": [
@@ -2845,7 +2845,7 @@ const walkthroughModesV52 = {
       },
       {
        "label": "소환",
-       "text": "Rune of Kos를 제작하거나 획득해 각 보스의 지정 환경에서 사용합니다. 도감에서 해당 소환 아이템의 사용 및 제작 조건을 확인하세요."
+       "text": "프로비던스 최초 처치 보상인 Mark of Providence(구 Rune of Kos)를 얻어 각 보스의 지정 환경에서 사용합니다. 도감에서 해당 소환 아이템의 사용 및 제작 조건을 확인하세요."
       }
      ],
      "refs": [
@@ -2867,7 +2867,7 @@ const walkthroughModesV52 = {
       ]
      ],
      "sources": [
-      "https://calamitymod.wiki.gg/wiki/Rune_of_Kos",
+      "https://calamitymod.wiki.gg/wiki/Mark_of_Providence",
       "https://calamitymod.wiki.gg/wiki/Guide:Mod_progression",
       "https://calamitymod.wiki.gg/wiki/Sentinels_of_the_Devourer"
      ]
@@ -2877,7 +2877,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "Rune of Kos를 우주에서 사용합니다. 구름 위에 충분한 발판과 좌우 비행 공간을 확보하세요."
+       "text": "Mark of Providence를 우주에서 사용합니다. 구름 위에 충분한 발판과 좌우 비행 공간을 확보하세요."
       },
       {
        "label": "전투",
@@ -2917,7 +2917,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "던전에서 Rune of Kos를 사용합니다. 발판을 설치할 넓은 공간을 마련하고 던전 지형을 유지하세요."
+       "text": "던전에서 Mark of Providence를 사용합니다. 발판을 설치할 넓은 공간을 마련하고 던전 지형을 유지하세요."
       },
       {
        "label": "전투",
@@ -2957,7 +2957,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "지하세계에서 Rune of Kos를 사용합니다. 이전 월 오브 플레시 통로를 활용할 수 있으나 위아래 이동 공간도 확보하세요."
+       "text": "지하세계에서 Mark of Providence를 사용합니다. 이전 월 오브 플레시 통로를 활용할 수 있으나 위아래 이동 공간도 확보하세요."
       },
       {
        "label": "전투",
@@ -2983,8 +2983,8 @@ const walkthroughModesV52 = {
       ]
      ],
      "sources": [
-      "https://calamitymod.wiki.gg/wiki/Signus,_Envoy_of_the_Devourer",
-      "https://calamitymod.wiki.gg/wiki/Guide:Signus,_Envoy_of_the_Devourer_strategies",
+      "https://calamitymod.wiki.gg/wiki/Signus",
+      "https://calamitymod.wiki.gg/wiki/Guide:Signus_strategies",
       "https://calamitymod.wiki.gg/wiki/Twisting_Nether"
      ]
     },
@@ -2993,7 +2993,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "문 로드 이후 던전의 Phantom Spirit 관련 재료로 Necroplasmic Beacon을 준비하세요. 던전 내 적 처치로 자연 등장할 수도 있으므로 파밍 전 전투 공간을 점검합니다."
+       "text": "문 로드 이후 던전의 Phantom Spirit 관련 재료로 Necroplasmic Beacon을 준비하세요. 최초 처치 전 던전의 Phantom Spirit 30마리를 처치하면 자연 등장하므로 파밍 전 전투 공간을 점검합니다."
       },
       {
        "label": "아레나",
@@ -3132,7 +3132,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "Cosmic Worm을 제작하세요. 세 센티널의 재료와 현재 버전의 추가 재료 조건을 미니 도감에서 확인합니다."
+       "text": "Cosmic Worm을 제작하세요. 세 센티널의 드롭을 쓰는 제작법과 별도의 대체 제작법이 있습니다. 세 보스 처치는 권장 경로이지 소환의 절대 조건은 아닙니다. 실제 제작 재료는 미니 도감에서 확인하세요."
       },
       {
        "label": "장비",
@@ -3219,6 +3219,10 @@ const walkthroughModesV52 = {
        "text": "Cosmilite Bar를 확보합니다. God Slayer armor(근접·원거리·로그 계열) 및 Silva armor(마법·소환 계열) 등 자신의 직업에 맞는 방어구의 등록 제작법을 확인하세요."
       },
       {
+       "label": "제작대",
+       "text": "Cosmic Anvil을 먼저 제작하세요. Cosmilite Bar 10개와 루미나이트 주괴, Exodium Cluster, 하드모드 모루가 필요한 상위 제작대입니다. 정확한 나머지 수량은 미니 도감에서 확인하세요."
+      },
+      {
        "label": "호박달",
        "text": "신들의 포식자 이후 강화된 호박달 적을 잡아 Nightmare Fuel을 모읍니다. 이벤트 소환 아이템 Pumpkin Moon Medallion을 밤에 사용합니다."
       },
@@ -3229,6 +3233,10 @@ const walkthroughModesV52 = {
       {
        "label": "일식",
        "text": "Solar Eclipse의 강화된 적에서 Darksun Fragment를 얻습니다. Solar Tablet을 낮에 사용하는 경로를 확인하고 후반 제작에 필요한 만큼 확보하세요."
+      },
+      {
+       "label": "합성 재료",
+       "text": "Necroplasm과 Nightmare Fuel, Endothermic Energy, Darksun Fragment를 합쳐 Ascendant Spirit Essence를 제작합니다. 특히 Silva 방어구 등 상위 장비에 쓰이므로 필요한 수량을 먼저 계산하세요."
       }
      ],
      "refs": [
@@ -3247,6 +3255,18 @@ const walkthroughModesV52 = {
       [
        "items",
        "CalamityMod/DarksunFragment"
+      ],
+      [
+       "items",
+       "CalamityMod/CosmicAnvil"
+      ],
+      [
+       "items",
+       "CalamityMod/AscendantSpiritEssence"
+      ],
+      [
+       "items",
+       "CalamityMod/Necroplasm"
       ]
      ],
      "sources": [
@@ -3255,7 +3275,9 @@ const walkthroughModesV52 = {
       "https://calamitymod.wiki.gg/wiki/Endothermic_Energy",
       "https://calamitymod.wiki.gg/wiki/Darksun_Fragment",
       "https://calamitymod.wiki.gg/wiki/God_Slayer_armor",
-      "https://calamitymod.wiki.gg/wiki/Silva_armor"
+      "https://calamitymod.wiki.gg/wiki/Silva_armor",
+      "https://calamitymod.wiki.gg/wiki/Cosmic_Anvil",
+      "https://calamitymod.wiki.gg/wiki/Ascendant_Spirit_Essence"
      ]
     },
     {
@@ -3267,7 +3289,7 @@ const walkthroughModesV52 = {
       },
       {
        "label": "장비 후보",
-       "text": "근접는 The Enforcer, 원거리는 S.D.F.M.G., 마법은 Dark Spark, 소환은 Staff of the Mechworm, 로그는 Cosmic Kunai 같은 신들의 포식자 이후 후보를 등록 제작법으로 비교합니다. 이름만 보고 최적 세팅으로 고정하지 마세요."
+       "text": "근접은 The Enforcer, 원거리는 S.D.F.M.G., 마법은 Dark Spark, 소환은 Staff of the Mechworm, 로그는 Scourge of the Cosmos 같은 신들의 포식자 이후 후보를 등록 제작법으로 비교합니다. 이름만 보고 최적 세팅으로 고정하지 마세요."
       },
       {
        "label": "이동",
@@ -3275,7 +3297,7 @@ const walkthroughModesV52 = {
       },
       {
        "label": "영구 강화",
-       "text": "해당 시점에 확보한 Miracle Fruit, Elderberry, Dragonfruit 등은 각각 처치·제작 조건이 다릅니다. 아직 야론 이후 조건을 요구하는 아이템은 다음 단계로 미루세요."
+       "text": "해당 시점에 확보한 Miracle Fruit, Tainted Cloudberry, Dragonfruit 등은 각각 처치·제작 조건이 다릅니다. 아직 야론 이후 조건을 요구하는 아이템은 다음 단계로 미루세요."
       }
      ],
      "refs": [
@@ -3313,7 +3335,7 @@ const walkthroughModesV52 = {
       ],
       [
        "items",
-       "CalamityMod/CosmicKunai"
+       "CalamityMod/ScourgeoftheCosmos"
       ]
      ],
      "sources": [
@@ -3328,7 +3350,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "소환",
-       "text": "Effulgent Feather 등 필요한 재료로 Dragon Egg를 제작하고 정글에서 사용합니다. 앞서 드래곤폴리를 처치하지 않았다면 깃털부터 확보하세요."
+       "text": "Effulgent Feather 등 필요한 재료로 Blessed Phoenix Egg를 제작하고 정글에서 사용합니다. 앞서 드래곤폴리를 처치하지 않았다면 정글에 등장하는 Draconic Swarmer의 깃털 드롭도 확인하세요. 보스 처치만이 유일한 획득 경로는 아닙니다."
       },
       {
        "label": "아레나",
@@ -3359,7 +3381,7 @@ const walkthroughModesV52 = {
      ],
      "sources": [
       "https://calamitymod.wiki.gg/wiki/Yharon,_Dragon_of_Rebirth",
-      "https://calamitymod.wiki.gg/wiki/Dragon_Egg",
+      "https://calamitymod.wiki.gg/wiki/Blessed_Phoenix_Egg",
       "https://calamitymod.wiki.gg/wiki/Guide:Yharon,_Dragon_of_Rebirth_strategies"
      ]
     },
@@ -4120,7 +4142,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "루트",
-       "text": "Rune of Kos: 우주 Storm Weaver(Armored Shell), 던전 Ceaseless Void(Dark Plasma), 지하세계 Signus(Twisting Nether). 순서는 선택."
+       "text": "Mark of Providence: 우주 Storm Weaver(Armored Shell), 던전 Ceaseless Void(Dark Plasma), 지하세계 Signus(Twisting Nether). 순서는 선택."
       },
       {
        "label": "전환",
@@ -4171,7 +4193,7 @@ const walkthroughModesV52 = {
      ],
      "sources": [
       "https://calamitymod.wiki.gg/wiki/Guide:Mod_progression",
-      "https://calamitymod.wiki.gg/wiki/Rune_of_Kos",
+      "https://calamitymod.wiki.gg/wiki/Mark_of_Providence",
       "https://calamitymod.wiki.gg/wiki/Polterghast",
       "https://calamitymod.wiki.gg/wiki/Bloodflare_armor"
      ]
@@ -4216,6 +4238,10 @@ const walkthroughModesV52 = {
      "title": "신들의 포식자 → 이벤트 강화",
      "lines": [
       {
+       "label": "제작대",
+       "text": "Cosmic Anvil 우선 제작(Cosmilite·루미나이트·Exodium·하드모드 모루). 이벤트 3종 재료와 Necroplasm으로 Ascendant Spirit Essence 확보."
+      },
+      {
        "label": "전환",
        "text": "Cosmilite Bar 확보 → 강화 호박달(Nightmare Fuel), 서리달(Endothermic Energy), 일식(Darksun Fragment). 필요한 재료만 파밍."
       },
@@ -4240,6 +4266,14 @@ const walkthroughModesV52 = {
       [
        "items",
        "CalamityMod/DarksunFragment"
+      ],
+      [
+       "items",
+       "CalamityMod/CosmicAnvil"
+      ],
+      [
+       "items",
+       "CalamityMod/AscendantSpiritEssence"
       ]
      ],
      "sources": [
@@ -4247,7 +4281,9 @@ const walkthroughModesV52 = {
       "https://calamitymod.wiki.gg/wiki/Silva_armor",
       "https://calamitymod.wiki.gg/wiki/Nightmare_Fuel",
       "https://calamitymod.wiki.gg/wiki/Endothermic_Energy",
-      "https://calamitymod.wiki.gg/wiki/Darksun_Fragment"
+      "https://calamitymod.wiki.gg/wiki/Darksun_Fragment",
+      "https://calamitymod.wiki.gg/wiki/Cosmic_Anvil",
+      "https://calamitymod.wiki.gg/wiki/Ascendant_Spirit_Essence"
      ]
     },
     {
@@ -4255,7 +4291,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "루트",
-       "text": "드래곤폴리 깃털 확보 → Dragon Egg → 정글 야론. 불기둥 경계를 유지하며 돌진 회피."
+       "text": "드래곤폴리 깃털 확보 → Blessed Phoenix Egg → 정글 야론. 불기둥 경계를 유지하며 돌진 회피."
       },
       {
        "label": "보상",
@@ -4293,7 +4329,7 @@ const walkthroughModesV52 = {
       ]
      ],
      "sources": [
-      "https://calamitymod.wiki.gg/wiki/Dragon_Egg",
+      "https://calamitymod.wiki.gg/wiki/Blessed_Phoenix_Egg",
       "https://calamitymod.wiki.gg/wiki/Yharon,_Dragon_of_Rebirth",
       "https://calamitymod.wiki.gg/wiki/Auric_Ore",
       "https://calamitymod.wiki.gg/wiki/Auric_Tesla_armor"
@@ -5064,7 +5100,7 @@ const walkthroughModesV52 = {
      "sources": [
       "https://calamitymod.wiki.gg/wiki/Storm_Weaver",
       "https://calamitymod.wiki.gg/wiki/Ceaseless_Void",
-      "https://calamitymod.wiki.gg/wiki/Signus,_Envoy_of_the_Devourer",
+      "https://calamitymod.wiki.gg/wiki/Signus",
       "https://calamitymod.wiki.gg/wiki/Cosmic_Worm"
      ]
     },
@@ -5149,6 +5185,10 @@ const walkthroughModesV52 = {
      "title": "이벤트 재료를 한 번에 확보",
      "lines": [
       {
+       "label": "제작 게이트",
+       "text": "Cosmic Anvil을 먼저 제작하고 Necroplasm과 이벤트 3종 재료로 Ascendant Spirit Essence의 필요량을 계산합니다. 얼음 연구소 설계도는 이 시점 무기와 마지막 코드브레이커 부품 제작 조건에 연결되므로 미리 해독하세요."
+      },
+      {
        "label": "핵심",
        "text": "Cosmilite Bar와 Nightmare Fuel·Endothermic Energy·Darksun Fragment를 목표 제작법에서 역산합니다. 자신의 직업 세트 외 모든 방어구를 제작할 필요는 없습니다."
       },
@@ -5177,6 +5217,14 @@ const walkthroughModesV52 = {
       [
        "items",
        "CalamityMod/DarksunFragment"
+      ],
+      [
+       "items",
+       "CalamityMod/CosmicAnvil"
+      ],
+      [
+       "items",
+       "CalamityMod/AscendantSpiritEssence"
       ]
      ],
      "sources": [
@@ -5184,7 +5232,10 @@ const walkthroughModesV52 = {
       "https://calamitymod.wiki.gg/wiki/Endothermic_Energy",
       "https://calamitymod.wiki.gg/wiki/Darksun_Fragment",
       "https://calamitymod.wiki.gg/wiki/God_Slayer_armor",
-      "https://calamitymod.wiki.gg/wiki/Silva_armor"
+      "https://calamitymod.wiki.gg/wiki/Silva_armor",
+      "https://calamitymod.wiki.gg/wiki/Cosmic_Anvil",
+      "https://calamitymod.wiki.gg/wiki/Ascendant_Spirit_Essence",
+      "https://calamitymod.wiki.gg/wiki/Schematics"
      ]
     },
     {
@@ -5192,7 +5243,7 @@ const walkthroughModesV52 = {
      "lines": [
       {
        "label": "핵심",
-       "text": "Dragon Egg에 필요한 드래곤폴리 깃털은 미리 확보합니다. 야론의 불기둥 경계 안에서 돌진과 회오리를 피할 수 있는 이동 루트를 설계합니다."
+       "text": "Blessed Phoenix Egg에 필요한 드래곤폴리 깃털은 미리 확보합니다. 야론의 불기둥 경계 안에서 돌진과 회오리를 피할 수 있는 이동 루트를 설계합니다."
       },
       {
        "label": "플러스",
@@ -5226,7 +5277,7 @@ const walkthroughModesV52 = {
       ]
      ],
      "sources": [
-      "https://calamitymod.wiki.gg/wiki/Dragon_Egg",
+      "https://calamitymod.wiki.gg/wiki/Blessed_Phoenix_Egg",
       "https://calamitymod.wiki.gg/wiki/Guide:Yharon,_Dragon_of_Rebirth_strategies",
       "https://calamitymod.wiki.gg/wiki/Auric_Tesla_armor",
       "https://calamitymod.wiki.gg/wiki/Codebreaker"
